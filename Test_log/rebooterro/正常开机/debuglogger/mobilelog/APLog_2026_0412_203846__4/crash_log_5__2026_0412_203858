@@ -1,0 +1,174 @@
+----- timezone:Asia/Shanghai
+04-09 21:24:59.465139  1094  1094 I libpq_sec: mtk-brm-commit-id:3a7a81928019e2c2884564de8136ef5c132a9319
+04-09 21:24:59.465229  1094  1094 I libpq_sec: mtk-brm-change-id:I2e3266c61a50a95016bccffab850a5933cba054a
+04-09 21:24:59.465237  1094  1094 I libpq_sec: mtk-brm-merge-id:none
+04-09 21:24:59.509950  1101  1101 I libpq_sec: mtk-brm-commit-id:3a7a81928019e2c2884564de8136ef5c132a9319
+04-09 21:24:59.510067  1101  1101 I libpq_sec: mtk-brm-change-id:I2e3266c61a50a95016bccffab850a5933cba054a
+04-09 21:24:59.510069  1101  1101 I libpq_sec: mtk-brm-merge-id:none
+04-09 21:24:59.588720  1184  1184 I liboemcrypto: mtk-brm-commit-id:32db255f42d64c180b220b8efcc0ee9b73b45871
+04-09 21:24:59.588746  1184  1184 I liboemcrypto: mtk-brm-change-id:I022f85d785bea367c866ebdf9ed80d50f5bb1935
+04-09 21:24:59.588748  1184  1184 I liboemcrypto: mtk-brm-merge-id:none
+04-09 21:24:59.642161  1204  1256 I meow_lib: mtk-brm-commit-id:962082e1e4356af1338f45918d485fd23d3670f0
+04-09 21:24:59.642180  1204  1256 I meow_lib: mtk-brm-change-id:If068939027f00f06617d718e482f11c4b1c45d65
+04-09 21:24:59.642184  1204  1256 I meow_lib: mtk-brm-merge-id:none
+04-09 21:24:59.656018  1204  1256 I libged  : mtk-brm-commit-id:7205373f368e098bcc2132e511e1342d234d66e2
+04-09 21:24:59.656039  1204  1256 I libged  : mtk-brm-change-id:Ied7171944d3651e5d5c7ba6fda12c4c6eb16d0c5
+04-09 21:24:59.656041  1204  1256 I libged  : mtk-brm-merge-id:none
+04-09 21:24:59.661816  1204  1256 I libGLES_mali: mtk-brm-commit-id:9ea7edd980ca21e34fc0846327c12680d7e8b38e
+04-09 21:24:59.661924  1204  1256 I libGLES_mali: mtk-brm-change-id:I6175e84c5de2cbf989352314eee54d427423dcec
+04-09 21:24:59.661929  1204  1256 I libGLES_mali: mtk-brm-merge-id:0292f733c3  813c9ab08c
+04-09 21:24:59.671551  1261  1261 I libmtkgpuserv: mtk-brm-commit-id:b83511144d367cf0c0949644956c4c26e1532e0a
+04-09 21:24:59.671696  1261  1261 I libmtkgpuserv: mtk-brm-change-id:Idb505e10690a43a4d03f3d0c1fe2915e5dd30b59
+04-09 21:24:59.671700  1261  1261 I libmtkgpuserv: mtk-brm-merge-id:none
+04-09 21:24:59.671735  1261  1261 I libmtkgpuserv: mtk-brm-commit-id:b83511144d367cf0c0949644956c4c26e1532e0a
+04-09 21:24:59.671738  1261  1261 I libmtkgpuserv: mtk-brm-change-id:Idb505e10690a43a4d03f3d0c1fe2915e5dd30b59
+04-09 21:24:59.671740  1261  1261 I libmtkgpuserv: mtk-brm-merge-id:none
+04-09 21:24:59.671746  1261  1261 I libmtkgpuserv: mtk-brm-commit-id:b83511144d367cf0c0949644956c4c26e1532e0a
+04-09 21:24:59.671749  1261  1261 I libmtkgpuserv: mtk-brm-change-id:Idb505e10690a43a4d03f3d0c1fe2915e5dd30b59
+04-09 21:24:59.671751  1261  1261 I libmtkgpuserv: mtk-brm-merge-id:none
+04-09 21:24:59.827540  1328  1328 I libneuralnetworks_sl_driver: mtk-brm-commit-id:5bb03bc675f0fcbaa7f8164b05a8b0bee4526c56
+04-09 21:24:59.827653  1328  1328 I libneuralnetworks_sl_driver: mtk-brm-change-id:Iff1dc01f1d3b421941653c06c6def9786b5d6737
+04-09 21:24:59.827656  1328  1328 I libneuralnetworks_sl_driver: mtk-brm-merge-id:none
+04-09 21:24:59.828003  1328  1328 I neuralnetworks_shim: mtk-brm-commit-id:25a38658d8fcdbb20664f319d3ecf9d75fd3654c
+04-09 21:24:59.828020  1328  1328 I neuralnetworks_shim: mtk-brm-change-id:I98bca291cad1df955fc3a2dd4a672c689604df9b
+04-09 21:24:59.828022  1328  1328 I neuralnetworks_shim: mtk-brm-merge-id:none
+04-09 21:24:59.859791  1343  1343 I thermal_core: mtk-brm-commit-id:d1481691dccf8f9d489f90ed1d7a782372b32d8a
+04-09 21:24:59.859923  1343  1343 I thermal_core: mtk-brm-change-id:Iacd392282d3ebbd55177101ff35e66840aafe5c3
+04-09 21:24:59.859927  1343  1343 I thermal_core: mtk-brm-merge-id:none
+04-09 21:24:59.887987  1325  1325 I libimsma_adapt: mtk-brm-commit-id:86b746c21fd235c214611f3344cf70649e895fd7
+04-09 21:24:59.888123  1325  1325 I libimsma_adapt: mtk-brm-change-id:I44c926fb2a62b0816d0a8d12e3957bca373f1721
+04-09 21:24:59.888126  1325  1325 I libimsma_adapt: mtk-brm-merge-id:none
+04-09 21:24:59.962244  1399  1399 I emdlogger: mtk-brm-commit-id:9d634ad4aaec05afd61a48cc390c2f3e7ba213ba
+04-09 21:24:59.962346  1399  1399 I emdlogger: mtk-brm-change-id:I95f7f5b11ef3b8f02e5bc26abd93bf70033f9e48
+04-09 21:24:59.962350  1399  1399 I emdlogger: mtk-brm-merge-id:none
+04-09 21:25:00.027016  1437  1437 I libpq_sec: mtk-brm-commit-id:3a7a81928019e2c2884564de8136ef5c132a9319
+04-09 21:25:00.027147  1437  1437 I libpq_sec: mtk-brm-change-id:I2e3266c61a50a95016bccffab850a5933cba054a
+04-09 21:25:00.027150  1437  1437 I libpq_sec: mtk-brm-merge-id:none
+04-09 21:25:00.052149  1459  1459 I jxnosfastswitch: mtk-brm-commit-id:a9750a6186f97c4b4d9157d16657c3fa7f26622c
+04-09 21:25:00.052255  1459  1459 I jxnosfastswitch: mtk-brm-change-id:I97f9ab22f53fb5d299565021c94de143bb2dc814
+04-09 21:25:00.052258  1459  1459 I jxnosfastswitch: mtk-brm-merge-id:none
+04-09 21:25:00.063072  1450  1450 I libpq_sec: mtk-brm-commit-id:3a7a81928019e2c2884564de8136ef5c132a9319
+04-09 21:25:00.063183  1450  1450 I libpq_sec: mtk-brm-change-id:I2e3266c61a50a95016bccffab850a5933cba054a
+04-09 21:25:00.063188  1450  1450 I libpq_sec: mtk-brm-merge-id:none
+04-09 21:25:00.497605  1629  1655 I meow_lib: mtk-brm-commit-id:962082e1e4356af1338f45918d485fd23d3670f0
+04-09 21:25:00.497631  1629  1655 I meow_lib: mtk-brm-change-id:If068939027f00f06617d718e482f11c4b1c45d65
+04-09 21:25:00.497633  1629  1655 I meow_lib: mtk-brm-merge-id:none
+04-09 21:25:00.906322  1080  1080 I meow_lib: mtk-brm-commit-id:962082e1e4356af1338f45918d485fd23d3670f0
+04-09 21:25:00.906374  1080  1080 I meow_lib: mtk-brm-change-id:If068939027f00f06617d718e482f11c4b1c45d65
+04-09 21:25:00.906378  1080  1080 I meow_lib: mtk-brm-merge-id:none
+04-09 21:25:01.184842  1416  1416 I libpq_sec: mtk-brm-commit-id:3a7a81928019e2c2884564de8136ef5c132a9319
+04-09 21:25:01.184873  1416  1416 I libpq_sec: mtk-brm-change-id:I2e3266c61a50a95016bccffab850a5933cba054a
+04-09 21:25:01.184879  1416  1416 I libpq_sec: mtk-brm-merge-id:none
+04-09 21:25:09.058565  4009  4009 I thermal_core: mtk-brm-commit-id:25784be39c26668cc76e97ef71cbdeb10bcc5dce
+04-09 21:25:09.058675  4009  4009 I thermal_core: mtk-brm-change-id:I57f0cbd2fde7ffbc3b064f8c6a2f425a4c6b5e28
+04-09 21:25:09.058678  4009  4009 I thermal_core: mtk-brm-merge-id:none
+04-09 21:25:14.626637  6235  6235 E AndroidRuntime: FATAL EXCEPTION: main
+04-09 21:25:14.626637  6235  6235 E AndroidRuntime: Process: com.transsion.tranfacmode, PID: 6235
+04-09 21:25:14.626637  6235  6235 E AndroidRuntime: java.lang.RuntimeException: Unable to create application com.transsion.tranfacmode.TranfacModeApplication: java.lang.IllegalStateException: A migration from 3 to 2 was required but not found. Please provide the necessary Migration path via RoomDatabase.Builder.addMigration(...) or allow for destructive migrations via one of the RoomDatabase.Builder.fallbackToDestructiveMigration* functions.
+04-09 21:25:14.626637  6235  6235 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:8075)
+04-09 21:25:14.626637  6235  6235 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+04-09 21:25:14.626637  6235  6235 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2674)
+04-09 21:25:14.626637  6235  6235 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+04-09 21:25:14.626637  6235  6235 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:327)
+04-09 21:25:14.626637  6235  6235 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:431)
+04-09 21:25:14.626637  6235  6235 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9329)
+04-09 21:25:14.626637  6235  6235 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-09 21:25:14.626637  6235  6235 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:629)
+04-09 21:25:14.626637  6235  6235 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1024)
+04-09 21:25:14.626637  6235  6235 E AndroidRuntime: Caused by: java.lang.IllegalStateException: A migration from 3 to 2 was required but not found. Please provide the necessary Migration path via RoomDatabase.Builder.addMigration(...) or allow for destructive migrations via one of the RoomDatabase.Builder.fallbackToDestructiveMigration* functions.
+04-09 21:25:14.626637  6235  6235 E AndroidRuntime: 	at androidx.room.BaseRoomConnectionManager.onMigrate(Unknown Source:150)
+04-09 21:25:14.626637  6235  6235 E AndroidRuntime: 	at androidx.room.RoomConnectionManager$SupportOpenHelperCallback.onUpgrade(Unknown Source:12)
+04-09 21:25:14.626637  6235  6235 E AndroidRuntime: 	at androidx.room.RoomConnectionManager$SupportOpenHelperCallback.onDowngrade(Unknown Source:5)
+04-09 21:25:14.626637  6235  6235 E AndroidRuntime: 	at androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper$OpenHelper.onDowngrade(Unknown Source:14)
+04-09 21:25:14.626637  6235  6235 E AndroidRuntime: 	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:435)
+04-09 21:25:14.626637  6235  6235 E AndroidRuntime: 	at android.database.sqlite.SQLiteOpenHelper.getWritableDatabase(SQLiteOpenHelper.java:336)
+04-09 21:25:14.626637  6235  6235 E AndroidRuntime: 	at androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper$OpenHelper.getWritableOrReadableDatabase(Unknown Source:2)
+04-09 21:25:14.626637  6235  6235 E AndroidRuntime: 	at androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper$OpenHelper.innerGetDatabase(Unknown Source:60)
+04-09 21:25:14.626637  6235  6235 E AndroidRuntime: 	at androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper$OpenHelper.getSupportDatabase(Unknown Source:23)
+04-09 21:25:14.626637  6235  6235 E AndroidRuntime: 	at androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper.getWritableDatabase(Unknown Source:5)
+04-09 21:25:14.626637  6235  6235 E AndroidRuntime: 	at com.transsion.tranfacmode.TranfacModeApplication.onCreate(Unknown Source:70)
+04-09 21:25:14.626637  6235  6235 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1385)
+04-09 21:25:14.626637  6235  6235 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:8069)
+04-09 21:25:14.626637  6235  6235 E AndroidRuntime: 	... 9 more
+04-10 11:13:09.216340  2422  2553 E AndroidRuntime: FATAL EXCEPTION: usf_hotspot
+04-10 11:13:09.216340  2422  2553 E AndroidRuntime: Process: com.transsion.usf, PID: 2422
+04-10 11:13:09.216340  2422  2553 E AndroidRuntime: java.lang.RuntimeException: java.lang.SecurityException: The permission level is not satisfied
+04-10 11:13:09.216340  2422  2553 E AndroidRuntime: 	at com.transsion.usf.policy.hotspot.TranHotSpotWithPocketModePolicy.registerPocketMode(Unknown Source:64)
+04-10 11:13:09.216340  2422  2553 E AndroidRuntime: 	at com.transsion.usf.policy.hotspot.TranHotSpotWithPocketModePolicy.access$600(Unknown Source:0)
+04-10 11:13:09.216340  2422  2553 E AndroidRuntime: 	at com.transsion.usf.policy.hotspot.TranHotSpotWithPocketModePolicy$HotSpotWithPocketModeHandler.handleMessage(Unknown Source:14)
+04-10 11:13:09.216340  2422  2553 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+04-10 11:13:09.216340  2422  2553 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:327)
+04-10 11:13:09.216340  2422  2553 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:431)
+04-10 11:13:09.216340  2422  2553 E AndroidRuntime: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+04-10 11:13:09.216340  2422  2553 E AndroidRuntime: Caused by: java.lang.SecurityException: The permission level is not satisfied
+04-10 11:13:09.216340  2422  2553 E AndroidRuntime: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3356)
+04-10 11:13:09.216340  2422  2553 E AndroidRuntime: 	at android.os.Parcel.createException(Parcel.java:3340)
+04-10 11:13:09.216340  2422  2553 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:3323)
+04-10 11:13:09.216340  2422  2553 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:3265)
+04-10 11:13:09.216340  2422  2553 E AndroidRuntime: 	at com.transsion.hubsdk.os.ITranPowerManager$Stub$Proxy.registerPocketModeListener(ITranPowerManager.java:847)
+04-10 11:13:09.216340  2422  2553 E AndroidRuntime: 	at Tranusf.jm0.a(Unknown Source:18)
+04-10 11:13:09.216340  2422  2553 E AndroidRuntime: 	at Tranusf.pi0.b(Unknown Source:22)
+04-10 11:13:09.216340  2422  2553 E AndroidRuntime: 	at com.transsion.usf.policy.hotspot.TranHotSpotWithPocketModePolicy.registerPocketMode(Unknown Source:31)
+04-10 11:13:09.216340  2422  2553 E AndroidRuntime: 	... 6 more
+04-10 11:13:09.216340  2422  2553 E AndroidRuntime: Caused by: android.os.RemoteException: Remote stack trace:
+04-10 11:13:09.216340  2422  2553 E AndroidRuntime: 	at com.transsion.hubcore.server.os.TranPowerManagerService$BinderService.registerPocketModeListener(TranPowerManagerService.java:373)
+04-10 11:13:09.216340  2422  2553 E AndroidRuntime: 	at com.transsion.hubsdk.os.ITranPowerManager$Stub.onTransact(ITranPowerManager.java:446)
+04-10 11:13:09.216340  2422  2553 E AndroidRuntime: 	at android.os.Binder.execTransactInternal(Binder.java:1446)
+04-10 11:13:09.216340  2422  2553 E AndroidRuntime: 	at android.os.Binder.execTransact(Binder.java:1381)
+04-10 11:13:09.216340  2422  2553 E AndroidRuntime: 
+04-12 20:35:50.951521 12290 12290 E AndroidRuntime: FATAL EXCEPTION: main
+04-12 20:35:50.951521 12290 12290 E AndroidRuntime: Process: com.transsion.tranfacmode, PID: 12290
+04-12 20:35:50.951521 12290 12290 E AndroidRuntime: java.lang.RuntimeException: Unable to create application com.transsion.tranfacmode.TranfacModeApplication: java.lang.IllegalStateException: A migration from 3 to 2 was required but not found. Please provide the necessary Migration path via RoomDatabase.Builder.addMigration(...) or allow for destructive migrations via one of the RoomDatabase.Builder.fallbackToDestructiveMigration* functions.
+04-12 20:35:50.951521 12290 12290 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:8075)
+04-12 20:35:50.951521 12290 12290 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+04-12 20:35:50.951521 12290 12290 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2674)
+04-12 20:35:50.951521 12290 12290 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+04-12 20:35:50.951521 12290 12290 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:327)
+04-12 20:35:50.951521 12290 12290 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:431)
+04-12 20:35:50.951521 12290 12290 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9329)
+04-12 20:35:50.951521 12290 12290 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-12 20:35:50.951521 12290 12290 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:629)
+04-12 20:35:50.951521 12290 12290 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1024)
+04-12 20:35:50.951521 12290 12290 E AndroidRuntime: Caused by: java.lang.IllegalStateException: A migration from 3 to 2 was required but not found. Please provide the necessary Migration path via RoomDatabase.Builder.addMigration(...) or allow for destructive migrations via one of the RoomDatabase.Builder.fallbackToDestructiveMigration* functions.
+04-12 20:35:50.951521 12290 12290 E AndroidRuntime: 	at androidx.room.BaseRoomConnectionManager.onMigrate(Unknown Source:150)
+04-12 20:35:50.951521 12290 12290 E AndroidRuntime: 	at androidx.room.RoomConnectionManager$SupportOpenHelperCallback.onUpgrade(Unknown Source:12)
+04-12 20:35:50.951521 12290 12290 E AndroidRuntime: 	at androidx.room.RoomConnectionManager$SupportOpenHelperCallback.onDowngrade(Unknown Source:5)
+04-12 20:35:50.951521 12290 12290 E AndroidRuntime: 	at androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper$OpenHelper.onDowngrade(Unknown Source:14)
+04-12 20:35:50.951521 12290 12290 E AndroidRuntime: 	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:435)
+04-12 20:35:50.951521 12290 12290 E AndroidRuntime: 	at android.database.sqlite.SQLiteOpenHelper.getWritableDatabase(SQLiteOpenHelper.java:336)
+04-12 20:35:50.951521 12290 12290 E AndroidRuntime: 	at androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper$OpenHelper.getWritableOrReadableDatabase(Unknown Source:2)
+04-12 20:35:50.951521 12290 12290 E AndroidRuntime: 	at androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper$OpenHelper.innerGetDatabase(Unknown Source:60)
+04-12 20:35:50.951521 12290 12290 E AndroidRuntime: 	at androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper$OpenHelper.getSupportDatabase(Unknown Source:23)
+04-12 20:35:50.951521 12290 12290 E AndroidRuntime: 	at androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper.getWritableDatabase(Unknown Source:5)
+04-12 20:35:50.951521 12290 12290 E AndroidRuntime: 	at com.transsion.tranfacmode.TranfacModeApplication.onCreate(Unknown Source:70)
+04-12 20:35:50.951521 12290 12290 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1385)
+04-12 20:35:50.951521 12290 12290 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:8069)
+04-12 20:35:50.951521 12290 12290 E AndroidRuntime: 	... 9 more
+04-12 20:35:56.185650 12632 12632 E AndroidRuntime: FATAL EXCEPTION: main
+04-12 20:35:56.185650 12632 12632 E AndroidRuntime: Process: com.transsion.tranfacmode, PID: 12632
+04-12 20:35:56.185650 12632 12632 E AndroidRuntime: java.lang.RuntimeException: Unable to create application com.transsion.tranfacmode.TranfacModeApplication: java.lang.IllegalStateException: A migration from 3 to 2 was required but not found. Please provide the necessary Migration path via RoomDatabase.Builder.addMigration(...) or allow for destructive migrations via one of the RoomDatabase.Builder.fallbackToDestructiveMigration* functions.
+04-12 20:35:56.185650 12632 12632 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:8075)
+04-12 20:35:56.185650 12632 12632 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+04-12 20:35:56.185650 12632 12632 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2674)
+04-12 20:35:56.185650 12632 12632 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+04-12 20:35:56.185650 12632 12632 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:327)
+04-12 20:35:56.185650 12632 12632 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:431)
+04-12 20:35:56.185650 12632 12632 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9329)
+04-12 20:35:56.185650 12632 12632 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-12 20:35:56.185650 12632 12632 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:629)
+04-12 20:35:56.185650 12632 12632 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1024)
+04-12 20:35:56.185650 12632 12632 E AndroidRuntime: Caused by: java.lang.IllegalStateException: A migration from 3 to 2 was required but not found. Please provide the necessary Migration path via RoomDatabase.Builder.addMigration(...) or allow for destructive migrations via one of the RoomDatabase.Builder.fallbackToDestructiveMigration* functions.
+04-12 20:35:56.185650 12632 12632 E AndroidRuntime: 	at androidx.room.BaseRoomConnectionManager.onMigrate(Unknown Source:150)
+04-12 20:35:56.185650 12632 12632 E AndroidRuntime: 	at androidx.room.RoomConnectionManager$SupportOpenHelperCallback.onUpgrade(Unknown Source:12)
+04-12 20:35:56.185650 12632 12632 E AndroidRuntime: 	at androidx.room.RoomConnectionManager$SupportOpenHelperCallback.onDowngrade(Unknown Source:5)
+04-12 20:35:56.185650 12632 12632 E AndroidRuntime: 	at androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper$OpenHelper.onDowngrade(Unknown Source:14)
+04-12 20:35:56.185650 12632 12632 E AndroidRuntime: 	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:435)
+04-12 20:35:56.185650 12632 12632 E AndroidRuntime: 	at android.database.sqlite.SQLiteOpenHelper.getWritableDatabase(SQLiteOpenHelper.java:336)
+04-12 20:35:56.185650 12632 12632 E AndroidRuntime: 	at androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper$OpenHelper.getWritableOrReadableDatabase(Unknown Source:2)
+04-12 20:35:56.185650 12632 12632 E AndroidRuntime: 	at androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper$OpenHelper.innerGetDatabase(Unknown Source:60)
+04-12 20:35:56.185650 12632 12632 E AndroidRuntime: 	at androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper$OpenHelper.getSupportDatabase(Unknown Source:23)
+04-12 20:35:56.185650 12632 12632 E AndroidRuntime: 	at androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper.getWritableDatabase(Unknown Source:5)
+04-12 20:35:56.185650 12632 12632 E AndroidRuntime: 	at com.transsion.tranfacmode.TranfacModeApplication.onCreate(Unknown Source:70)
+04-12 20:35:56.185650 12632 12632 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1385)
+04-12 20:35:56.185650 12632 12632 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:8069)
+04-12 20:35:56.185650 12632 12632 E AndroidRuntime: 	... 9 more

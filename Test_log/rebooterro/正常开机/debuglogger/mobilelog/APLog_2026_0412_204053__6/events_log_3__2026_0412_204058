@@ -1,0 +1,568 @@
+----- timezone:Asia/Shanghai
+04-12 20:40:47.694153  1688  4450 I dvm_lock_sample: [system_server,1,binder:1688_1C,20,ContentProviderHelper.java,207,android.app.ContentProviderHolder com.android.server.am.ContentProviderHelper.getContentProviderImpl(android.app.IApplicationThread, java.lang.String, android.os.IBinder, int, java.lang.String, java.lang.String, boolean, int),,0,null,4]
+04-12 20:40:47.756484  1688  3032 I am_uid_running: 10173
+04-12 20:40:47.777847  1688  1871 I am_proc_start: [0,5890,10173,com.android.settings.intelligence,content provider,{com.android.settings.intelligence/com.transsion.settings.intelligence.init.InitContentProvider},caller=com.android.settings/1000]
+04-12 20:40:47.780095  4390  4390 I viewroot_draw_event: [VRI[SmartPanel_handleView],Not drawing due to not visible. Reason=View.GONE]
+04-12 20:40:47.808803  1688  3321 I am_proc_bound: [0,5890,com.android.settings.intelligence]
+04-12 20:40:47.818831  1688  4406 I am_uid_active: 10221
+04-12 20:40:47.824109  1688  1991 I dvm_lock_sample: [system_server,1,appscheduling.default,19,JobSchedulerService.java,3501,void com.android.server.job.JobSchedulerService$JobHandler.handleMessage(android.os.Message),QuotaController.java,2289,boolean com.android.server.job.controllers.QuotaController$Timer.isActive(),3]
+04-12 20:40:47.916083  1688  2926 I service_manager_stats: [100,8,6550]
+04-12 20:40:47.937699  1688  2002 I commit_sys_config_file: [settings-2-0,3]
+04-12 20:40:47.946727  1688  1870 I am_wtf  : [0,1688,system_server,-1,ActivityManager,Sending non-protected broadcast android.intent.action.UPDATE_CT_LOGS from system uid 1000 pkg android]
+04-12 20:40:47.960553  1688  1870 I am_wtf  : [0,1688,system_server,-1,ActivityManager,Sending non-protected broadcast com.transsion.location.action.TRAVEL_MODE_STATISTICS from system uid 1000 pkg android]
+04-12 20:40:48.004304  1688  4406 I am_proc_start: [0,5934,1000,com.transsion.tabe,service,{com.transsion.tabe/com.transsion.tabe.services.TabeMainService},caller=system/1000]
+04-12 20:40:48.005588  1688  4406 I am_proc_bound: [0,5934,com.transsion.tabe]
+04-12 20:40:48.016534  1688  4258 I dvm_lock_sample: [system_server,1,binder:1688_14,31,AlarmManagerService.java,3025,void com.android.server.alarm.AlarmManagerService$4.remove(android.app.PendingIntent, android.app.IAlarmListener),-,4770,void com.android.server.alarm.AlarmManagerService$AlarmThread.run(),6]
+04-12 20:40:48.016893  1688  1955 I dvm_lock_sample: [system_server,1,binder:1688_5,106,AlarmManagerService.java,3025,void com.android.server.alarm.AlarmManagerService$4.remove(android.app.PendingIntent, android.app.IAlarmListener),-,4770,void com.android.server.alarm.AlarmManagerService$AlarmThread.run(),21]
+04-12 20:40:48.019649  1688  4294 I am_uid_active: 10173
+04-12 20:40:48.054624  1688  4450 I dvm_lock_sample: [system_server,0,binder:1688_1C,12,ActivityManagerService.java,15340,void com.android.server.am.ActivityManagerService.serviceDoneExecuting(android.os.IBinder, int, int, int, android.content.Intent),,0,null,2]
+04-12 20:40:48.063521  1688  2140 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,1775997648982]
+04-12 20:40:48.063592  1688  2140 I netstats_wifi_sample: [112954,36307,220,248,110797,35838,203,244,1775997648982]
+04-12 20:40:48.101200  1688  1871 I am_proc_start: [0,5960,1000,com.transsion.succ,service,{com.transsion.succ/com.transsion.succ.services.SuccMainService},caller=system/1000]
+04-12 20:40:48.114710  1688  4793 I am_proc_bound: [0,5960,com.transsion.succ]
+04-12 20:40:48.128000  5934  5934 I auditd  : type=1400 audit(0.0:657): avc:  denied  { map } for  comm=".transsion.tabe" path="/dev/__properties__/u:object_r:vendor_irtx_prop:s0" dev="tmpfs" ino=614 scontext=u:r:system_app:s0 tcontext=u:object_r:vendor_irtx_prop:s0 tclass=file permissive=0
+04-12 20:40:48.128000  5960  5960 I auditd  : type=1400 audit(0.0:658): avc:  denied  { read write } for  comm="re-initialized>" name="ensignal" dev="tmpfs" ino=2080 scontext=u:r:system_app:s0 tcontext=u:object_r:ensignal_device:s0 tclass=chr_file permissive=0
+04-12 20:40:48.128000  5934  5934 I auditd  : type=1400 audit(0.0:659): avc:  denied  { read } for  comm=".transsion.tabe" name="u:object_r:qemu_hw_prop:s0" dev="tmpfs" ino=396 scontext=u:r:system_app:s0 tcontext=u:object_r:qemu_hw_prop:s0 tclass=file permissive=0
+04-12 20:40:48.136995  1688  1688 I dvm_lock_sample: [system_server,1,main,23,ContentProviderHelper.java,207,android.app.ContentProviderHolder com.android.server.am.ContentProviderHelper.getContentProviderImpl(android.app.IApplicationThread, java.lang.String, android.os.IBinder, int, java.lang.String, java.lang.String, boolean, int),ActivityManagerService.java,15284,int com.android.server.am.ActivityManagerService.bindServiceInstance(android.app.IApplicationThread, android.os.IBinder, android.content.Intent, java.lang.String, android.app.IServiceConnection, long, java.lang.String, boolean, int, java.lang.String, android.app.IApplicationThread, java.lang.String, int),4]
+04-12 20:40:48.154791  1688  1821 I commit_sys_config_file: [notification-policy,18]
+04-12 20:40:48.177813  5960  5960 I service_manager_slow: [10,particular_feature]
+04-12 20:40:48.208000  5960  5960 I auditd  : type=1400 audit(0.0:660): avc:  denied  { map } for  comm=".transsion.succ" path="/dev/__properties__/u:object_r:vendor_irtx_prop:s0" dev="tmpfs" ino=614 scontext=u:r:system_app:s0 tcontext=u:object_r:vendor_irtx_prop:s0 tclass=file permissive=0
+04-12 20:40:48.208000  5960  5960 I auditd  : type=1400 audit(0.0:661): avc:  denied  { read } for  comm=".transsion.succ" name="u:object_r:qemu_hw_prop:s0" dev="tmpfs" ino=396 scontext=u:r:system_app:s0 tcontext=u:object_r:qemu_hw_prop:s0 tclass=file permissive=0
+04-12 20:40:48.218053  1688  1870 I am_uid_running: 10109
+04-12 20:40:48.222511  1688  1954 I dvm_lock_sample: [system_server,1,binder:1688_4,6,ActivityManagerService.java,15319,void com.android.server.am.ActivityManagerService.publishService(android.os.IBinder, android.content.Intent, android.os.IBinder),,0,null,1]
+04-12 20:40:48.285238  1688  4286 I am_proc_start: [0,6010,10109,com.android.imsserviceentitlement,broadcast,{com.android.imsserviceentitlement/com.android.imsserviceentitlement.ImsEntitlementReceiver},caller=com.android.phone/1001,action = android.telephony.action.CARRIER_CONFIG_CHANGED]
+04-12 20:40:48.287477  1688  4286 I am_proc_bound: [0,6010,com.android.imsserviceentitlement]
+04-12 20:40:48.323665  1688  2926 I am_uid_active: 10274
+04-12 20:40:48.338707  1688  1871 I am_proc_start: [0,6034,10232,com.google.android.gms.unstable,service,{com.google.android.gms/com.google.android.gms.droidguard.DroidGuardService},caller=com.google.android.gms/10232]
+04-12 20:40:48.353800  1688  1954 I am_proc_bound: [0,6034,com.google.android.gms.unstable]
+04-12 20:40:48.384293  1688  4793 I dvm_lock_sample: [system_server,1,binder:1688_1F,16,BroadcastController.java,532,android.content.Intent com.android.server.am.BroadcastController.registerReceiverWithFeatureTraced(android.app.IApplicationThread, java.lang.String, java.lang.String, java.lang.String, android.content.IIntentReceiver, android.content.IntentFilter, java.lang.String, int, int),,0,null,3]
+04-12 20:40:48.394995  1688  4294 I pm_critical_info: setEnabledSettings callingUid = 10221 callingPid = 5850 packageName = com.android.vending componentName = null callingPackage= com.google.android.partnersetup newState = 1 userId = 0 flags = 1
+04-12 20:40:48.397182  1688  4450 I pm_critical_info: setEnabledSettings callingUid = 10221 callingPid = 5850 packageName = com.google.android.apps.maps componentName = null callingPackage= com.google.android.partnersetup newState = 1 userId = 0 flags = 1
+04-12 20:40:48.400628  1688  4793 I pm_critical_info: setEnabledSettings callingUid = 10221 callingPid = 5850 packageName = com.google.android.videos componentName = null callingPackage= com.google.android.partnersetup newState = 2 userId = 0 flags = 0
+04-12 20:40:48.403411  1688  1801 I pm_critical_info: setEnabledSettings callingUid = 10221 callingPid = 5850 packageName = com.google.android.youtube componentName = null callingPackage= com.google.android.partnersetup newState = 1 userId = 0 flags = 1
+04-12 20:40:48.465936  1688  4294 I dvm_lock_sample: [system_server,1,binder:1688_17,21,ActivityManagerService.java,15283,int com.android.server.am.ActivityManagerService.bindServiceInstance(android.app.IApplicationThread, android.os.IBinder, android.content.Intent, java.lang.String, android.app.IServiceConnection, long, java.lang.String, boolean, int, java.lang.String, android.app.IApplicationThread, java.lang.String, int),,0,null,4]
+04-12 20:40:48.480380  1688  4294 I am_uid_active: 10109
+04-12 20:40:48.490765  2369  5696 I dvm_lock_sample: [com.google.android.gms.persisten,0,highpool[17],10,Parcel.java,5304,android.os.Parcelable$Creator android.os.Parcel.readParcelableCreatorInternal(java.lang.ClassLoader, java.lang.Class),-,5314,android.os.Parcelable$Creator android.os.Parcel.readParcelableCreatorInternal(java.lang.ClassLoader, java.lang.Class),2]
+04-12 20:40:48.499307  1688  1871 I am_proc_start: [0,6098,1000,com.transsion.statisticalsales,broadcast,{com.transsion.statisticalsales/com.transsion.statisticalsales.receiver.SimReceiver},caller=com.android.phone/1001,action = android.telephony.action.SIM_CARD_STATE_CHANGED]
+04-12 20:40:48.510620  3867  5845 I gms_unknown: 47122
+04-12 20:40:48.517922  1688  1801 I am_proc_bound: [0,6098,com.transsion.statisticalsales]
+04-12 20:40:48.622985  1688  2224 I sync    : [com.google.android.gms.chromesync,0,3,-1543423057]
+04-12 20:40:48.655816  1688  2224 I sync    : [com.google.android.gms.chromesync,1,3,-1543423057]
+04-12 20:40:48.663936  1688  1821 I commit_sys_config_file: [jobs,1]
+04-12 20:40:48.665005  1688  1821 I commit_sys_config_file: [jobs,1]
+04-12 20:40:48.739285  1688  1801 I am_proc_died: [0,6098,com.transsion.statisticalsales,0,11]
+04-12 20:40:48.759261  1688  1871 I am_proc_start: [0,6193,1000,com.transsion.statisticalsales,broadcast,{com.transsion.statisticalsales/com.transsion.statisticalsales.receiver.SimReceiver},caller=com.android.phone/1001,action = android.telephony.action.SIM_CARD_STATE_CHANGED]
+04-12 20:40:48.792460  1688  2282 I am_proc_bound: [0,6193,com.transsion.statisticalsales]
+04-12 20:40:48.797651  4914  6163 I dvm_lock_sample: [com.google.android.googlequickse,0,Measurement Worker,20,MessageQueue.java,1804,void android.os.MessageQueue.removeMessagesLegacy(android.os.Handler, java.lang.Runnable, java.lang.Object),-,1391,boolean android.os.MessageQueue.enqueueMessageLegacy(android.os.Message, long),4]
+04-12 20:40:48.807842  1688  2926 I dvm_lock_sample: [system_server,1,binder:1688_F,13,ActivityManagerService.java,15048,android.content.ComponentName com.android.server.am.ActivityManagerService.startService(android.app.IApplicationThread, android.content.Intent, java.lang.String, boolean, java.lang.String, java.lang.String, int, boolean, int, java.lang.String, java.lang.String),,0,null,2]
+04-12 20:40:48.883099  1688  1871 I am_proc_start: [0,3886,1000,com.transsion.overlaysuw,broadcast,{com.transsion.overlaysuw/com.transsion.overlaysuw.OtaUpdateReceiver},action = android.intent.action.LOCKED_BOOT_COMPLETED]
+04-12 20:40:48.908377  1688  2926 I am_proc_bound: [0,3886,com.transsion.overlaysuw]
+04-12 20:40:48.965810  1688  1955 I am_proc_died: [0,6193,com.transsion.statisticalsales,0,11]
+04-12 20:40:48.976096  1688  1955 I am_uid_idle: 10160
+04-12 20:40:49.016435  1688  1870 I am_uid_running: 10178
+04-12 20:40:49.031129  1688  1871 I am_proc_start: [0,5194,10178,com.transsion.deskclock,broadcast,{com.transsion.deskclock/com.transsion.deskclock.AlarmInitReceiver},action = android.intent.action.LOCKED_BOOT_COMPLETED]
+04-12 20:40:49.044428  1688  2926 I am_proc_bound: [0,5194,com.transsion.deskclock]
+04-12 20:40:49.078609  1688  2224 I sync    : [com.google.android.location.reporting,1,0,-1543423057]
+04-12 20:40:49.086514  1688  1870 I am_uid_active: 10194
+04-12 20:40:49.090269  1688  1821 I commit_sys_config_file: [notification-policy,3]
+04-12 20:40:49.137857  1688  4450 I pm_critical_info: setEnabledSettings callingUid = 10232 callingPid = 3867 packageName = com.google.android.gms.supervision componentName = null callingPackage= com.google.android.gms newState = 2 userId = 0 flags = 0
+04-12 20:40:49.158197  1688  2002 I commit_sys_config_file: [settings-1-0,2]
+04-12 20:40:49.241647  1688  1954 I dvm_lock_sample: [system_server,1,binder:1688_4,17,ContentProviderHelper.java,207,android.app.ContentProviderHolder com.android.server.am.ContentProviderHelper.getContentProviderImpl(android.app.IApplicationThread, java.lang.String, android.os.IBinder, int, java.lang.String, java.lang.String, boolean, int),,0,null,3]
+04-12 20:40:49.261150  1688  4406 I am_uid_active: 10178
+04-12 20:40:49.276591  1688  1820 I dvm_lock_sample: [system_server,1,android.ui,13,ActivityManagerService.java,17319,void com.android.server.am.ActivityManagerService.pushTempAllowlist(),,0,null,2]
+04-12 20:40:49.280984  1688  2164 I notification_enqueue: [10233,4914,com.google.android.googlequicksearchbox,0,-1543423057::SUMMARY::ct,0,Notification(channel=74 shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=GROUP_SUMMARY color=0x00000000 groupKey=-1543423057::SUMMARY::ct vis=PRIVATE publicVersion=Notification(channel=null shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=0 color=0x00000000 vis=PRIVATE)),0,1]
+04-12 20:40:49.281094  1688  4406 I dvm_lock_sample: [system_server,1,binder:1688_1A,10,ActivityManagerService.java,15319,void com.android.server.am.ActivityManagerService.publishService(android.os.IBinder, android.content.Intent, android.os.IBinder),,0,null,2]
+04-12 20:40:49.329382  1688  1870 I am_uid_running: 10230
+04-12 20:40:49.334179  1688  1871 I am_proc_start: [0,5200,10230,com.google.android.apps.wellbeing,broadcast,{com.google.android.apps.wellbeing/com.google.android.apps.wellbeing.common.receiver.coalescedreceivers.LockedBootCompletedCoalescedBroadcast_Receiver},action = android.intent.action.LOCKED_BOOT_COMPLETED]
+04-12 20:40:49.364124  1688  2164 I notification_enqueue: [10233,4914,com.google.android.googlequicksearchbox,0,-1543423057::a:snotification:[0x34ebef72c09aa412,stories.f,NOTIFICATION],0,Notification(channel=74 shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONLY_ALERT_ONCE color=0x00000000 groupKey=-1543423057::SUMMARY::ct actions=2 vis=PRIVATE),0,1]
+04-12 20:40:49.374162  1688  4793 I am_proc_bound: [0,5200,com.google.android.apps.wellbeing]
+04-12 20:40:49.379385  1688  1870 I am_wtf  : [0,1688,system_server,-1,JobScheduler.JobStatus,App com.transsion.deskclock became active but still in NEVER bucket]
+04-12 20:40:49.380000  5200  5200 I auditd  : type=1400 audit(0.0:687): avc:  denied  { read write } for  comm="re-initialized>" name="ensignal" dev="tmpfs" ino=2080 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:ensignal_device:s0 tclass=chr_file permissive=0 app=com.google.android.apps.wellbeing
+04-12 20:40:49.380000  5200  5200 I auditd  : type=1400 audit(0.0:688): avc:  denied  { read write } for  comm="re-initialized>" name="ensignal" dev="tmpfs" ino=2080 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:ensignal_device:s0 tclass=chr_file permissive=0 app=com.google.android.apps.wellbeing
+04-12 20:40:49.403240  1688  2729 I am_uid_running: 10256
+04-12 20:40:49.462076  1688  1955 I am_proc_start: [0,6412,10256,com.rlk.weathers,service,{com.rlk.weathers/com.transsion.apiinvoke.ipc.connect.CommonRouterApiService},caller=com.transsion.kolun.aiservice/1000]
+04-12 20:40:49.465686  1688  1955 I am_proc_bound: [0,6412,com.rlk.weathers]
+04-12 20:40:49.472000  6412  6412 I auditd  : type=1400 audit(0.0:689): avc:  denied  { read write } for  comm="re-initialized>" name="ensignal" dev="tmpfs" ino=2080 scontext=u:r:untrusted_app:s0:c0,c257,c512,c768 tcontext=u:object_r:ensignal_device:s0 tclass=chr_file permissive=0 app=com.rlk.weathers
+04-12 20:40:49.472000  6412  6412 I auditd  : type=1400 audit(0.0:690): avc:  denied  { read write } for  comm="re-initialized>" name="ensignal" dev="tmpfs" ino=2080 scontext=u:r:untrusted_app:s0:c0,c257,c512,c768 tcontext=u:object_r:ensignal_device:s0 tclass=chr_file permissive=0 app=com.rlk.weathers
+04-12 20:40:49.476000  6412  6412 I auditd  : type=1400 audit(0.0:691): avc:  denied  { search } for  comm="binder:6412_2" name="/" dev="sdc87" ino=2 scontext=u:r:untrusted_app:s0:c0,c257,c512,c768 tcontext=u:object_r:tranfs_file:s0 tclass=dir permissive=0 app=com.rlk.weathers
+04-12 20:40:49.482994  1688  2164 I sysui_multi_action: [757,199,758,1,759,16,793,229,794,0,795,229,796,0,797,-1543423057::SUMMARY::ct,806,com.google.android.googlequicksearchbox,857,74,858,2,946,-1543423057::SUMMARY::ct,947,1,1500,229,1688,1]
+04-12 20:40:49.483033  1688  2164 I notification_alert: [0|com.google.android.googlequicksearchbox|0|-1543423057::SUMMARY::ct|10233,0,0,0,2,0]
+04-12 20:40:49.521681  1688  3032 I am_uid_active: 10230
+04-12 20:40:49.522908  1688  1870 I am_uid_running: 10102
+04-12 20:40:49.540148  1688  2002 I commit_sys_config_file: [settings-0-0,1]
+04-12 20:40:49.562371  1688  1821 I commit_sys_config_file: [notification-policy,22]
+04-12 20:40:49.569449  1688  1871 I am_proc_start: [0,6377,10102,com.android.traceur,broadcast,{com.android.traceur/com.android.traceur.Receiver},action = android.intent.action.BOOT_COMPLETED]
+04-12 20:40:49.571556  1688  2282 I am_proc_bound: [0,6377,com.android.traceur]
+04-12 20:40:49.571573  1688  2164 I sysui_multi_action: [757,1501,758,1,793,240,794,0,795,240,796,0,797,-1543423057::a:snotification:[0x34ebef72c09aa412,stories.f,NOTIFICATION],806,com.google.android.googlequicksearchbox,857,74,858,2,946,-1543423057::SUMMARY::ct,947,0,1500,0,1688,1,1745,680407814]
+04-12 20:40:49.571596  1688  2164 I sysui_multi_action: [757,804,799,note_interruptive,801,0,802,1]
+04-12 20:40:49.573160  1688  2164 I sysui_multi_action: [757,199,758,1,759,16,793,243,794,0,795,243,796,0,797,-1543423057::a:snotification:[0x34ebef72c09aa412,stories.f,NOTIFICATION],806,com.google.android.googlequicksearchbox,857,74,858,2,946,-1543423057::SUMMARY::ct,947,0,1500,3,1688,1,1745,680407814]
+04-12 20:40:49.573476  1688  2164 I notification_alert: [0|com.google.android.googlequicksearchbox|0|-1543423057::a:snotification:[0x34ebef72c09aa412,stories.f,NOTIFICATION]|10233,0,0,0,2,0]
+04-12 20:40:49.578616  1688  1955 I am_uid_running: 10281
+04-12 20:40:49.597806  1688  1870 I am_uid_active: 10256
+04-12 20:40:49.644274  1688  1871 I am_proc_start: [0,6480,10281,com.google.android.rkpdapp,service,{com.google.android.rkpdapp/com.android.rkpdapp.service.RemoteProvisioningService},caller=system/1000]
+04-12 20:40:49.662171  1688  2282 I dvm_lock_sample: [system_server,1,binder:1688_8,37,ActivityManagerService.java,15283,int com.android.server.am.ActivityManagerService.bindServiceInstance(android.app.IApplicationThread, android.os.IBinder, android.content.Intent, java.lang.String, android.app.IServiceConnection, long, java.lang.String, boolean, int, java.lang.String, android.app.IApplicationThread, java.lang.String, int),,0,null,7]
+04-12 20:40:49.673276  1688  2926 I am_proc_bound: [0,6480,com.google.android.rkpdapp]
+04-12 20:40:49.705732  1688  2002 I commit_sys_config_file: [settings-1-0,10]
+04-12 20:40:49.729096  1688  4294 I am_uid_active: 10102
+04-12 20:40:49.733124  1688  4793 I dvm_lock_sample: [system_server,1,binder:1688_1F,5,BroadcastController.java,532,android.content.Intent com.android.server.am.BroadcastController.registerReceiverWithFeatureTraced(android.app.IApplicationThread, java.lang.String, java.lang.String, java.lang.String, android.content.IIntentReceiver, android.content.IntentFilter, java.lang.String, int, int),,0,null,1]
+04-12 20:40:49.806177  1688  1871 I am_proc_start: [0,6456,1000,com.autotest.factory_reset_stress,broadcast,{com.autotest.factory_reset_stress/com.autotest.factory_reset_stress.MainReceiver},action = android.intent.action.BOOT_COMPLETED]
+04-12 20:40:49.817950  1688  4793 I am_proc_bound: [0,6456,com.autotest.factory_reset_stress]
+04-12 20:40:49.828827  1688  1801 I am_uid_active: 10281
+04-12 20:40:49.913579  1688  1870 I am_uid_running: 10220
+04-12 20:40:49.934731  1688  1871 I am_proc_start: [0,6552,10220,com.google.android.onetimeinitializer,broadcast,{com.google.android.onetimeinitializer/com.google.android.onetimeinitializer.OneTimeInitializerReceiver},action = android.intent.action.BOOT_COMPLETED]
+04-12 20:40:49.935536  2369  4888 I dvm_lock_sample: [com.google.android.gms.persisten,0,lowpool[6],119,:com.google.android.gms@261233035@26.12.33 (260400-892550550),11,int faie.b(faeu),-,25,void faie.h(int),23]
+04-12 20:40:49.957164  1688  4406 I dvm_lock_sample: [system_server,1,binder:1688_1A,13,ActivityManagerService.java,15283,int com.android.server.am.ActivityManagerService.bindServiceInstance(android.app.IApplicationThread, android.os.IBinder, android.content.Intent, java.lang.String, android.app.IServiceConnection, long, java.lang.String, boolean, int, java.lang.String, android.app.IApplicationThread, java.lang.String, int),,0,null,2]
+04-12 20:40:49.974090  1688  4406 I am_uid_running: 99000
+04-12 20:40:49.983086  1688  1870 I am_wtf  : [0,1688,system_server,-1,JobScheduler.JobStatus,App com.google.android.apps.wellbeing became active but still in NEVER bucket]
+04-12 20:40:49.993720  1688  1870 I am_wtf  : [0,1688,system_server,-1,JobScheduler.JobStatus,App com.google.android.apps.wellbeing became active but still in NEVER bucket]
+04-12 20:40:49.998465  1688  1801 I am_proc_bound: [0,6552,com.google.android.onetimeinitializer]
+04-12 20:40:50.012685  1688  1870 I am_wtf  : [0,1688,system_server,-1,JobScheduler.JobStatus,App com.google.android.apps.wellbeing became active but still in NEVER bucket]
+04-12 20:40:50.015712  1688  1870 I am_wtf  : [0,1688,system_server,-1,JobScheduler.JobStatus,App com.google.android.apps.wellbeing became active but still in NEVER bucket]
+04-12 20:40:50.018709  1688  1871 I am_proc_start: [0,6637,99000,com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0,,{com.google.android.googlequicksearchbox/org.chromium.content.app.SandboxedProcessService0:0}]
+04-12 20:40:50.023102  1688  1870 I am_wtf  : [0,1688,system_server,-1,JobScheduler.JobStatus,App com.google.android.apps.wellbeing became active but still in NEVER bucket]
+04-12 20:40:50.038057  1688  4294 I am_proc_bound: [0,6637,com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0]
+04-12 20:40:50.059218  6034  6208 I dvm_lock_sample: [com.google.android.gms.unstable,1,binder:6034_4,114,:com.google.android.gms@261233035@26.12.33 (260400-892550550),25,org.chromium.net.ExperimentalCronetEngine com.google.android.gms.common.app.BaseApplicationContext.getRealCronetEngine(),-,64,org.chromium.net.ExperimentalCronetEngine com.google.android.gms.common.app.BaseApplicationContext.getRealCronetEngine(),22]
+04-12 20:40:50.059723  1688  2224 I sync    : [com.google.android.gms.reminders,0,0,-1543423057]
+04-12 20:40:50.083669  1688  3321 I am_uid_active: 10220
+04-12 20:40:50.087620  1688  1870 I am_uid_running: 10133
+04-12 20:40:50.096178  1688  1871 I am_proc_start: [0,6615,10133,com.scorpio.securitycom,broadcast,{com.scorpio.securitycom/com.scorpio.receive.StaticReceiver},action = android.intent.action.BOOT_COMPLETED]
+04-12 20:40:50.124873  1688  4258 I am_proc_bound: [0,6615,com.scorpio.securitycom]
+04-12 20:40:50.156990  2369  5515 I dvm_lock_sample: [com.google.android.gms.persisten,0,highpool[5],36,:com.google.android.gms@261233035@26.12.33 (260400-892550550),3,void birn.execute(java.lang.Runnable),-,12,void birn.execute(java.lang.Runnable),7]
+04-12 20:40:50.165988  1688  2224 I sync    : [com.google.android.gms.reminders,1,0,-1543423057]
+04-12 20:40:50.209269  1688  2164 I notification_enqueue: [10232,2369,com.google.android.gms,1000,a:GMSCORE_STORE_RENDERER:11be35c183260000:107718207925398475592,0,Notification(channel=com.google.android.gms.notifications::SECURITY_ALERTS shortcut=null contentView=null vibrate=null sound=null tick defaults=0 flags=LOCAL_ONLY color=0x00000000 actions=1 vis=PRIVATE publicVersion=Notification(channel=null shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=0 color=0x00000000 vis=PRIVATE)),0,1]
+04-12 20:40:50.210092  1688  1870 I am_wtf  : [0,1688,system_server,-1,JobScheduler.JobStatus,App com.google.android.apps.wellbeing became active but still in NEVER bucket]
+04-12 20:40:50.219738  3867  4975 I gms_unknown: [5,0,0]
+04-12 20:40:50.225830  3867  4975 I gms_unknown: [CheckinTask:SentRequest,31033]
+04-12 20:40:50.275877  1688  4454 I am_uid_active: 10133
+04-12 20:40:50.278507  1688  1870 I am_uid_running: 10111
+04-12 20:40:50.290321  1688  1871 I am_proc_start: [0,6686,10111,com.transsion.dualapp,broadcast,{com.transsion.dualapp/com.transsion.dualapp.BootReceiver},action = android.intent.action.BOOT_COMPLETED]
+04-12 20:40:50.356579  1688  2733 I am_proc_bound: [0,6686,com.transsion.dualapp]
+04-12 20:40:50.360933  1688  1821 I commit_sys_config_file: [notification-policy,2]
+04-12 20:40:50.375491  1688  3322 I am_uid_running: 10255
+04-12 20:40:50.392386  1688  1871 I am_proc_start: [0,6786,10255,com.google.android.webview:webview_service,service,{com.google.android.webview/org.chromium.android_webview.services.ComponentsProviderService},caller=com.google.android.googlequicksearchbox:googleapp/10233]
+04-12 20:40:50.411327  1688  1801 I am_proc_bound: [0,6786,com.google.android.webview:webview_service]
+04-12 20:40:50.411613  1688  2164 I sysui_multi_action: [757,1501,758,1,793,224,794,0,795,224,796,1000,797,a:GMSCORE_STORE_RENDERER:11be35c183260000:107718207925398475592,806,com.google.android.gms,857,com.google.android.gms.noti-9e60d696,858,3,947,0,1500,0,1688,1,1745,2098068913]
+04-12 20:40:50.411627  1688  2164 I sysui_multi_action: [757,804,799,note_interruptive,801,0,802,1]
+04-12 20:40:50.412003  1688  2164 I sysui_multi_action: [757,199,758,1,759,32784,793,224,794,0,795,224,796,1000,797,a:GMSCORE_STORE_RENDERER:11be35c183260000:107718207925398475592,806,com.google.android.gms,857,com.google.android.gms.noti-9e60d696,858,3,947,0,1500,0,1688,1,1745,2098068913]
+04-12 20:40:50.412016  1688  2164 I notification_alert: [0|com.google.android.gms|1000|a:GMSCORE_STORE_RENDERER:11be35c183260000:107718207925398475592|10232,0,0,0,2,32768]
+04-12 20:40:50.420000  6786  6786 I auditd  : type=1400 audit(0.0:714): avc:  denied  { search } for  comm="binder:6786_2" name="/" dev="sdc87" ino=2 scontext=u:r:untrusted_app:s0:c255,c256,c512,c768 tcontext=u:object_r:tranfs_file:s0 tclass=dir permissive=0 app=com.google.android.webview
+04-12 20:40:50.452056  1688  3321 I am_uid_running: 10264
+04-12 20:40:50.538023  1688  4294 I am_proc_died: [0,6456,com.autotest.factory_reset_stress,905,19]
+04-12 20:40:50.546795  1688  1871 I am_proc_start: [0,6822,10264,com.google.android.adservices.api,service,{com.google.android.adservices.api/com.android.adservices.measurement.MeasurementService},caller=com.google.android.googlequicksearchbox:googleapp/10233]
+04-12 20:40:50.557155  1688  1954 I dvm_lock_sample: [system_server,1,binder:1688_4,94,ActivityManagerService.java,15319,void com.android.server.am.ActivityManagerService.publishService(android.os.IBinder, android.content.Intent, android.os.IBinder),,0,null,18]
+04-12 20:40:50.560450  1688  2733 I am_proc_bound: [0,6822,com.google.android.adservices.api]
+04-12 20:40:50.568000  6822  6822 I auditd  : type=1400 audit(0.0:715): avc:  denied  { read write } for  comm="re-initialized>" name="ensignal" dev="tmpfs" ino=2080 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:ensignal_device:s0 tclass=chr_file permissive=0 app=com.google.android.adservices.api
+04-12 20:40:50.568000  6822  6822 I auditd  : type=1400 audit(0.0:716): avc:  denied  { read write } for  comm="re-initialized>" name="ensignal" dev="tmpfs" ino=2080 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:ensignal_device:s0 tclass=chr_file permissive=0 app=com.google.android.adservices.api
+04-12 20:40:50.577971  1688  1870 I dvm_lock_sample: [system_server,1,ActivityManager,48,BroadcastQueueImpl.java,493,void com.android.server.am.BroadcastQueueImpl.updateRunningList(),,0,null,9]
+04-12 20:40:50.581945  1688  1870 I am_wtf  : [0,1688,system_server,-1,JobScheduler.JobStatus,App com.google.android.apps.wellbeing became active but still in NEVER bucket]
+04-12 20:40:50.624513  1688  4406 I dvm_lock_sample: [system_server,1,binder:1688_1A,37,ActivityManagerService.java,15283,int com.android.server.am.ActivityManagerService.bindServiceInstance(android.app.IApplicationThread, android.os.IBinder, android.content.Intent, java.lang.String, android.app.IServiceConnection, long, java.lang.String, boolean, int, java.lang.String, android.app.IApplicationThread, java.lang.String, int),,0,null,7]
+04-12 20:40:50.635737  1688  4454 I am_uid_active: 10111
+04-12 20:40:50.628000  1098  1098 I auditd  : type=1400 audit(0.0:717): avc:  denied  { getattr } for  comm="vendor.mediatek" path="/proc/2698" dev="proc" ino=42949 scontext=u:r:mtk_hal_power:s0 tcontext=u:r:platform_app:s0:c512,c768 tclass=dir permissive=0
+04-12 20:40:50.628000  1098  1098 I auditd  : type=1400 audit(0.0:718): avc:  denied  { search } for  comm="vendor.mediatek" name="2698" dev="proc" ino=42949 scontext=u:r:mtk_hal_power:s0 tcontext=u:r:platform_app:s0:c512,c768 tclass=dir permissive=0
+04-12 20:40:50.662608  1688  4406 I dvm_lock_sample: [system_server,0,binder:1688_1A,15,ActivityManagerService.java,15305,boolean com.android.server.am.ActivityManagerService.unbindService(android.app.IServiceConnection),,0,null,3]
+04-12 20:40:50.671432  1688  1871 I am_proc_start: [0,6747,1000,com.transsion.tranfacmode,broadcast,{com.transsion.tranfacmode/com.transsion.tranfacmode.receiver.boot.BootReceiver},action = android.intent.action.BOOT_COMPLETED]
+04-12 20:40:50.676778  1688  2002 I commit_sys_config_file: [settings-0-0,7]
+04-12 20:40:50.707880  1688  1801 I am_proc_bound: [0,6747,com.transsion.tranfacmode]
+04-12 20:40:50.815411  2369  5696 I dvm_lock_sample: [com.google.android.gms.persisten,1,highpool[17],44,:com.google.android.gms@261233035@26.12.33 (260400-892550550),3,void birn.execute(java.lang.Runnable),-,12,void birn.execute(java.lang.Runnable),8]
+04-12 20:40:50.831032  2698  2939 I jank_cuj_events_end_request: [14,1775997650830879000,31638192309,31638192309]
+04-12 20:40:50.994216  1688  2277 I thermal_changed: [SKIN,3,40.063999,1,0]
+04-12 20:40:51.055268  1688  1821 I commit_sys_config_file: [jobs,1]
+04-12 20:40:51.071449  3867  4975 I gms_unknown: [CheckinTask:ReceivedResponse,31878]
+04-12 20:40:51.076410  1688  2164 I notification_enqueue: [10232,2369,com.google.android.gms,1000,a:GMSCORE_STORE_RENDERER:0b135afdc4360000:107718207925398475592,0,Notification(channel=com.google.android.gms.notifications::SECURITY_ALERTS shortcut=null contentView=null vibrate=null sound=null tick defaults=0 flags=LOCAL_ONLY|SILENT color=0x00000000 actions=1 vis=PRIVATE publicVersion=Notification(channel=null shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=0 color=0x00000000 vis=PRIVATE)),0,1]
+04-12 20:40:51.082565  1688  1870 I am_wtf  : [0,1688,system_server,-1,JobScheduler.JobStatus,App com.google.android.apps.wellbeing became active but still in NEVER bucket]
+04-12 20:40:51.204549  3867  4975 I gms_unknown: [6,0,0,0,0]
+04-12 20:40:51.206556  3867  4975 I gms_unknown: [5,0,0]
+04-12 20:40:51.206631  3867  4975 I gms_unknown: 119
+04-12 20:40:51.223808  1688  2164 I notification_cancel_all: [1000,1688,com.google.android.gms,0,0,0,20,NULL]
+04-12 20:40:51.224667  1688  2164 I notification_cancel_all: [1000,1688,com.google.android.gms,0,0,0,20,NULL]
+04-12 20:40:51.225410  3867  4975 I gms_unknown: 24
+04-12 20:40:51.225459  3867  4975 I gms_unknown: [CheckinTask:duration,2682]
+04-12 20:40:51.230854  1688  2164 I notification_cancel_all: [1000,1688,com.google.android.gms,0,0,0,20,NULL]
+04-12 20:40:51.231080  1688  1821 I commit_sys_config_file: [notification-policy,2]
+04-12 20:40:51.233147  1688  1816 I am_uid_running: 10144
+04-12 20:40:51.248985  1688  2164 I notification_cancel_all: [1000,1688,com.google.android.gms,0,0,0,20,NULL]
+04-12 20:40:51.249030  1688  2164 I notification_cancel_all: [1000,1688,com.google.android.gms,0,0,0,20,NULL]
+04-12 20:40:51.251006  1688  1871 I am_proc_start: [0,6965,10144,com.transsion.trancare,service,{com.transsion.trancare/com.transsion.trancare.MainService},caller=system/1000]
+04-12 20:40:51.259646  1688  1870 I am_wtf  : [0,1688,system_server,-1,JobScheduler.JobStatus,App com.google.android.apps.wellbeing became active but still in NEVER bucket]
+04-12 20:40:51.279121  1688  2164 I sysui_multi_action: [757,1501,758,1,793,219,794,0,795,219,796,1000,797,a:GMSCORE_STORE_RENDERER:0b135afdc4360000:107718207925398475592,806,com.google.android.gms,857,com.google.android.gms.noti-9e60d696,858,3,947,0,1500,0,1688,1,1745,2098068913]
+04-12 20:40:51.279176  1688  2164 I sysui_multi_action: [757,804,799,note_interruptive,801,0,802,1]
+04-12 20:40:51.284681  1688  4399 I am_proc_bound: [0,6965,com.transsion.trancare]
+04-12 20:40:51.292252  1688  2164 I notification_autogrouped: 0|com.google.android.gms|1000|a:GMSCORE_STORE_RENDERER:11be35c183260000:107718207925398475592|10232
+04-12 20:40:51.292309  1688  2164 I notification_autogrouped: 0|com.google.android.gms|1000|a:GMSCORE_STORE_RENDERER:0b135afdc4360000:107718207925398475592|10232
+04-12 20:40:51.292383  1688  2164 I notification_adjusted: [0|com.google.android.gms|1000|a:GMSCORE_STORE_RENDERER:0b135afdc4360000:107718207925398475592|10232,key_group_key,0|com.google.android.gms|g:Aggregate_AlertingSection]
+04-12 20:40:51.292752  1688  2164 I sysui_multi_action: [757,199,758,1,759,2064,793,233,794,0,795,233,796,1000,797,a:GMSCORE_STORE_RENDERER:0b135afdc4360000:107718207925398475592,806,com.google.android.gms,857,com.google.android.gms.noti-9e60d696,858,3,946,0|com.google.android.gms|g:-1d40d8e2,947,0,1500,14,1688,1,1745,2098068913]
+04-12 20:40:51.292787  1688  2164 I notification_alert: [0|com.google.android.gms|1000|a:GMSCORE_STORE_RENDERER:0b135afdc4360000:107718207925398475592|10232,0,0,0,2,2048]
+04-12 20:40:51.300729  1688  2164 I notification_enqueue: [10232,2369,com.google.android.gms,0,0|com.google.android.gms|g:Aggregate_AlertingSection,0,Notification(channel=com.google.android.gms.notifications::SECURITY_ALERTS shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=LOCAL_ONLY|GROUP_SUMMARY|AUTOGROUP_SUMMARY color=0x00000000 groupKey=0|com.google.android.gms|g:Aggregate_AlertingSection vis=PRIVATE),0,0]
+04-12 20:40:51.301981  1688  2162 I notification_adjusted: [0|com.google.android.gms|1000|a:GMSCORE_STORE_RENDERER:11be35c183260000:107718207925398475592|10232,key_group_key,0|com.google.android.gms|g:Aggregate_AlertingSection]
+04-12 20:40:51.328024  1688  2905 I dvm_lock_sample: [system_server,0,binder:1688_D,6,ActivityManagerService.java,15340,void com.android.server.am.ActivityManagerService.serviceDoneExecuting(android.os.IBinder, int, int, int, android.content.Intent),,0,null,1]
+04-12 20:40:51.340347  1688  2277 I am_crash: [6747,0,com.transsion.tranfacmode,549994053,java.lang.IllegalStateException,A migration from 3 to 2 was required but not found. Please provide the necessary Migration path via RoomDatabase.Builder.addMigration(...) or allow for destructive migrations via one of the RoomDatabase.Builder.fallbackToDestructiveMigration* functions.,NULL,150,0]
+04-12 20:40:51.356244  1688  2732 I am_uid_active: 10144
+04-12 20:40:51.361356  1688  2905 I pm_critical_info: setEnabledSettings callingUid = 10221 callingPid = 5850 packageName = com.android.vending componentName = null callingPackage= com.google.android.partnersetup newState = 1 userId = 0 flags = 1
+04-12 20:40:51.362824  1688  2905 I pm_critical_info: setEnabledSettings callingUid = 10221 callingPid = 5850 packageName = com.google.android.apps.maps componentName = null callingPackage= com.google.android.partnersetup newState = 1 userId = 0 flags = 1
+04-12 20:40:51.364404  1688  2729 I pm_critical_info: setEnabledSettings callingUid = 10221 callingPid = 5850 packageName = com.google.android.videos componentName = null callingPackage= com.google.android.partnersetup newState = 2 userId = 0 flags = 0
+04-12 20:40:51.369331  1688  4258 I pm_critical_info: setEnabledSettings callingUid = 10221 callingPid = 5850 packageName = com.google.android.youtube componentName = null callingPackage= com.google.android.partnersetup newState = 1 userId = 0 flags = 1
+04-12 20:40:51.376938  1688  2277 I sysui_multi_action: [757,316,758,4,759,-1]
+04-12 20:40:51.414174  1688  1870 I am_uid_running: 10139
+04-12 20:40:51.447467  1688  1870 I am_wtf  : [0,1688,system_server,-1,JobScheduler.JobStatus,App com.google.android.apps.wellbeing became active but still in NEVER bucket]
+04-12 20:40:51.455444  1688  2905 I am_proc_died: [0,6747,com.transsion.tranfacmode,0,19]
+04-12 20:40:51.456672  1688  1871 I am_proc_start: [0,6893,10139,com.sh.smart.caller,broadcast,{com.sh.smart.caller/com.android.dialer.app.calllog.CallLogReceiver},action = android.intent.action.BOOT_COMPLETED]
+04-12 20:40:51.470014  1688  4294 I am_proc_bound: [0,6893,com.sh.smart.caller]
+04-12 20:40:51.476000  6893  6893 I auditd  : type=1400 audit(0.0:757): avc:  denied  { read write } for  comm="re-initialized>" name="ensignal" dev="tmpfs" ino=2080 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:ensignal_device:s0 tclass=chr_file permissive=0 app=com.sh.smart.caller
+04-12 20:40:51.476000  6893  6893 I auditd  : type=1400 audit(0.0:758): avc:  denied  { read write } for  comm="re-initialized>" name="ensignal" dev="tmpfs" ino=2080 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:ensignal_device:s0 tclass=chr_file permissive=0 app=com.sh.smart.caller
+04-12 20:40:51.503360  1688  2164 I sysui_multi_action: [757,199,758,1,759,1040,793,215,794,0,795,215,796,0,797,0|com.google.android.gms|g:Aggregate_AlertingSection,806,com.google.android.gms,857,com.google.android.gms.noti-9e60d696,858,3,946,0|com.google.android.gms|g:-1d40d8e2,947,1,1500,215,1688,1]
+04-12 20:40:51.503474  1688  2164 I notification_alert: [0|com.google.android.gms|0|0|com.google.android.gms|g:Aggregate_AlertingSection|10232|0|com.google.android.gms|g:Aggregate_AlertingSection,0,0,0,2,1024]
+04-12 20:40:51.528052  1688  1870 I am_wtf  : [0,1688,system_server,-1,ActivityManager,Sending non-protected broadcast com.transsion.log.ATHENA_STATE_CHANGED from system 1688:system/1000 pkg android]
+04-12 20:40:51.533635  1688  1870 I am_wtf  : [0,1688,system_server,-1,JobScheduler.JobStatus,App com.google.android.apps.wellbeing became active but still in NEVER bucket]
+04-12 20:40:51.534039  2369  5696 I dvm_lock_sample: [com.google.android.gms.persisten,1,highpool[17],25,:com.google.android.gms@261233035@26.12.33 (260400-892550550),3,void birn.execute(java.lang.Runnable),-,12,void birn.execute(java.lang.Runnable),5]
+04-12 20:40:51.570564  1688  4399 I power_sleep_requested: 0
+04-12 20:40:51.572468  1688  4292 I sysui_multi_action: [757,127,758,2]
+04-12 20:40:51.572514  1688  4292 I notification_panel_hidden: 
+04-12 20:40:51.580890  2698  2939 I jank_cuj_events_begin_request: [24,1775997651580246000,32387559078,32387559078,MISSING_CLOCK_ID]
+04-12 20:40:51.590445  1688  2224 I sync    : [com.google.android.gms.chromesync,0,3,-1543423057]
+04-12 20:40:51.632000  7044  7044 I auditd  : type=1400 audit(0.0:759): avc:  denied  { read } for  comm="aee_dumpstate_v" path="/dev/RT_Monitor" dev="tmpfs" ino=1417 scontext=u:r:dumpstate:s0 tcontext=u:object_r:RT_Monitor_device:s0 tclass=chr_file permissive=0
+04-12 20:40:51.673523  1688  4450 I dvm_lock_sample: [system_server,1,binder:1688_1C,48,ActivityManagerService.java,15305,boolean com.android.server.am.ActivityManagerService.unbindService(android.app.IServiceConnection),,0,null,9]
+04-12 20:40:51.695773  1688  1901 I sysui_multi_action: [757,1696,758,6,759,0]
+04-12 20:40:51.726921  1688  1953 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,1775997652646]
+04-12 20:40:51.727070  1688  1953 I netstats_wifi_sample: [968101,333095,1442,1447,920191,330009,1376,1436,1775997652646]
+04-12 20:40:51.738372  1688  2002 I commit_sys_config_file: [settings-1-0,14]
+04-12 20:40:51.752408  1688  4450 I dvm_lock_sample: [system_server,1,binder:1688_1C,45,BroadcastController.java,532,android.content.Intent com.android.server.am.BroadcastController.registerReceiverWithFeatureTraced(android.app.IApplicationThread, java.lang.String, java.lang.String, java.lang.String, android.content.IIntentReceiver, android.content.IntentFilter, java.lang.String, int, int),,0,null,9]
+04-12 20:40:51.778570  1688  2164 I notification_cancel_all: [1000,1688,com.sh.smart.caller,0,0,0,20,NULL]
+04-12 20:40:51.778542  1688  2905 I sysui_multi_action: [757,856,758,2,806,com.sh.smart.caller,857,summary_notification,858,4]
+04-12 20:40:51.792438  1688  4454 I dvm_lock_sample: [system_server,1,binder:1688_1D,79,ActivityManagerService.java,15319,void com.android.server.am.ActivityManagerService.publishService(android.os.IBinder, android.content.Intent, android.os.IBinder),,0,null,15]
+04-12 20:40:51.848364  1688  2905 I sysui_multi_action: [757,856,758,2,806,com.sh.smart.caller,857,DEFAULT_CHANNEL,858,3]
+04-12 20:40:51.852035  1688  2164 I notification_cancel_all: [1000,1688,com.sh.smart.caller,0,0,0,20,NULL]
+04-12 20:40:51.888267  1688  2224 I sync    : [com.google.android.gms.chromesync,1,3,-1543423057]
+04-12 20:40:51.890272  1688  1870 I am_wtf  : [0,1688,system_server,-1,JobScheduler.JobStatus,App com.google.android.apps.wellbeing became active but still in NEVER bucket]
+04-12 20:40:51.891661  1688  4406 I sysui_multi_action: [757,856,758,1,806,com.sh.smart.caller,857,summary_notification,858,4]
+04-12 20:40:51.900000  6893  6893 I auditd  : type=1400 audit(0.0:760): avc:  denied  { read } for  comm="sh.smart.caller" name="u:object_r:vendor_irtx_prop:s0" dev="tmpfs" ino=614 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:vendor_irtx_prop:s0 tclass=file permissive=0 app=com.sh.smart.caller
+04-12 20:40:51.900000  6893  6893 I auditd  : type=1400 audit(0.0:761): avc:  denied  { read } for  comm="sh.smart.caller" name="u:object_r:qemu_hw_prop:s0" dev="tmpfs" ino=396 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:qemu_hw_prop:s0 tclass=file permissive=0 app=com.sh.smart.caller
+04-12 20:40:51.936353  1688  3321 I dvm_lock_sample: [system_server,1,binder:1688_11,16,ActivityManagerService.java,15048,android.content.ComponentName com.android.server.am.ActivityManagerService.startService(android.app.IApplicationThread, android.content.Intent, java.lang.String, boolean, java.lang.String, java.lang.String, int, boolean, int, java.lang.String, java.lang.String),,0,null,3]
+04-12 20:40:52.021451  1688  3321 I am_uid_active: 10139
+04-12 20:40:52.037525  1688  1870 I am_uid_running: 10212
+04-12 20:40:52.047402  1688  1821 I commit_sys_config_file: [notification-policy,17]
+04-12 20:40:52.076007  1688  1871 I am_proc_start: [0,7001,10212,com.google.android.projection.gearhead:shared,broadcast,{com.google.android.projection.gearhead/com.google.android.apps.auto.wireless.bluetooth.WifiBluetoothReceiver},action = android.intent.action.BOOT_COMPLETED]
+04-12 20:40:52.084615  2698  2939 I jank_cuj_events_end_request: [24,1775997652083708000,32891020924,32891021155]
+04-12 20:40:52.144055  1688  2233 I screen_toggled: 0
+04-12 20:40:52.144836  1688  2233 I sysui_multi_action: [757,804,799,screen_timeout,801,30,802,1]
+04-12 20:40:52.147989  1688  1820 I dvm_lock_sample: [system_server,1,android.ui,40,ActivityManagerService.java,15048,android.content.ComponentName com.android.server.am.ActivityManagerService.startService(android.app.IApplicationThread, android.content.Intent, java.lang.String, boolean, java.lang.String, java.lang.String, int, boolean, int, java.lang.String, java.lang.String),,0,null,8]
+04-12 20:40:52.153800  1688  2233 I sysui_multi_action: [757,1594,758,4,759,-2147483648,1359,12560]
+04-12 20:40:52.153864  1688  2233 I sysui_multi_action: [757,198,758,2,759,3,1359,583,1695,2]
+04-12 20:40:52.153876  1688  2233 I power_screen_state: [0,3,0,0,583]
+04-12 20:40:52.153899  1688  2233 I power_screen_broadcast_send: 1
+04-12 20:40:52.155707  1688  2282 I am_proc_bound: [0,7001,com.google.android.projection.gearhead:shared]
+04-12 20:40:52.187216  2698  2939 I jank_cuj_events_cancel_request: [5,1775997652187105000,32994417847,32994418078]
+04-12 20:40:52.203049  1688  3322 I dvm_lock_sample: [system_server,1,binder:1688_12,74,BroadcastController.java,532,android.content.Intent com.android.server.am.BroadcastController.registerReceiverWithFeatureTraced(android.app.IApplicationThread, java.lang.String, java.lang.String, java.lang.String, android.content.IIntentReceiver, android.content.IntentFilter, java.lang.String, int, int),,0,null,14]
+04-12 20:40:52.206118  2698  2698 I viewroot_draw_event: [VRI[NotificationShade],Not drawing due to screen off]
+04-12 20:40:52.207972  1688  1953 I dvm_lock_sample: [system_server,0,binder:1688_3,71,ContentProviderHelper.java,985,void com.android.server.am.ContentProviderHelper.removeContentProvider(android.os.IBinder, boolean),,0,null,14]
+04-12 20:40:52.221646  1688  4399 I dvm_lock_sample: [system_server,1,binder:1688_18,100,ContentProviderHelper.java,207,android.app.ContentProviderHolder com.android.server.am.ContentProviderHelper.getContentProviderImpl(android.app.IApplicationThread, java.lang.String, android.os.IBinder, int, java.lang.String, java.lang.String, boolean, int),,0,null,20]
+04-12 20:40:52.222931  1688  4399 I am_uid_running: 10112
+04-12 20:40:52.225597  1688  4450 I dvm_lock_sample: [system_server,1,binder:1688_1C,41,BroadcastController.java,532,android.content.Intent com.android.server.am.BroadcastController.registerReceiverWithFeatureTraced(android.app.IApplicationThread, java.lang.String, java.lang.String, java.lang.String, android.content.IIntentReceiver, android.content.IntentFilter, java.lang.String, int, int),,0,null,8]
+04-12 20:40:52.269770  1688  2729 I dvm_lock_sample: [system_server,1,binder:1688_A,34,ActivityManagerService.java,15128,boolean com.android.server.am.ActivityManagerService.stopServiceToken(android.content.ComponentName, android.os.IBinder, int),,0,null,6]
+04-12 20:40:52.287361  1688  3322 I dvm_lock_sample: [system_server,1,binder:1688_12,51,BroadcastController.java,759,int com.android.server.am.BroadcastController.broadcastIntentWithFeature(android.app.IApplicationThread, java.lang.String, android.content.Intent, java.lang.String, android.content.IIntentReceiver, int, java.lang.String, android.os.Bundle, java.lang.String[], java.lang.String[], java.lang.String[], int, android.os.Bundle, boolean, boolean, int),,0,null,10]
+04-12 20:40:52.288679  1688  1955 I dvm_lock_sample: [system_server,1,binder:1688_5,71,BroadcastController.java,694,void com.android.server.am.BroadcastController.unregisterReceiverTraced(android.content.IIntentReceiver),,0,null,14]
+04-12 20:40:52.289246  1688  1870 I dvm_lock_sample: [system_server,1,ActivityManager,67,BroadcastQueueImpl.java,493,void com.android.server.am.BroadcastQueueImpl.updateRunningList(),,0,null,13]
+04-12 20:40:52.299316  1688  1871 I am_proc_start: [0,7140,10112,com.transsion.aicore.main,content provider,{com.transsion.aicore.main/com.transsion.aicore.main.provider.MmProvider},caller=com.sh.smart.caller/10139]
+04-12 20:40:52.319431  1688  4454 I dvm_lock_sample: [system_server,0,binder:1688_1D,30,ActivityManagerService.java,15340,void com.android.server.am.ActivityManagerService.serviceDoneExecuting(android.os.IBinder, int, int, int, android.content.Intent),,0,null,6]
+04-12 20:40:52.328991  1688  4449 I am_proc_bound: [0,7140,com.transsion.aicore.main]
+04-12 20:40:52.455724  1688  2926 I sysui_multi_action: [757,856,758,1,806,com.sh.smart.caller,857,DEFAULT_CHANNEL,858,3]
+04-12 20:40:52.468008  1688  4406 I am_uid_active: 10212
+04-12 20:40:52.496092  1688  2164 I notification_cancel_all: [1000,1688,com.google.android.projection.gearhead,0,0,0,20,NULL]
+04-12 20:40:52.496142  1688  2164 I notification_cancel_all: [1000,1688,com.google.android.projection.gearhead,0,0,0,20,NULL]
+04-12 20:40:52.496294  1688  2164 I notification_cancel_all: [1000,1688,com.google.android.projection.gearhead,0,0,0,20,NULL]
+04-12 20:40:52.525050  1688  1870 I am_uid_running: 10152
+04-12 20:40:52.544000  6893  6893 I auditd  : type=1400 audit(0.0:779): avc:  denied  { read } for  comm=4F6E65494420576F726B6572 name="u:object_r:vendor_security_patch_level_prop:s0" dev="tmpfs" ino=888 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:vendor_security_patch_level_prop:s0 tclass=file permissive=0 app=com.sh.smart.caller
+04-12 20:40:52.582300  1688  1688 I battery_saving_stats: [0,1,0,13599,7000,0,13599,7000,0]
+04-12 20:40:52.595794  1688  1871 I am_proc_start: [0,7098,10152,com.debug.loggerui,broadcast,{com.debug.loggerui/com.debug.loggerui.framework.LogReceiver},action = android.intent.action.BOOT_COMPLETED]
+04-12 20:40:52.627794  1688  5439 I dvm_lock_sample: [system_server,1,Thread-52,25,BroadcastController.java,532,android.content.Intent com.android.server.am.BroadcastController.registerReceiverWithFeatureTraced(android.app.IApplicationThread, java.lang.String, java.lang.String, java.lang.String, android.content.IIntentReceiver, android.content.IntentFilter, java.lang.String, int, int),,0,null,5]
+04-12 20:40:52.640501  1688  3322 I am_proc_bound: [0,7098,com.debug.loggerui]
+04-12 20:40:52.656000  7098  7098 I auditd  : type=1400 audit(0.0:780): avc:  denied  { read write } for  comm="re-initialized>" name="ensignal" dev="tmpfs" ino=2080 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:ensignal_device:s0 tclass=chr_file permissive=0 app=com.debug.loggerui
+04-12 20:40:52.656000  7098  7098 I auditd  : type=1400 audit(0.0:781): avc:  denied  { read write } for  comm="re-initialized>" name="ensignal" dev="tmpfs" ino=2080 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:ensignal_device:s0 tclass=chr_file permissive=0 app=com.debug.loggerui
+04-12 20:40:52.669768  1688  4449 I dvm_lock_sample: [system_server,1,binder:1688_1B,8,BroadcastController.java,532,android.content.Intent com.android.server.am.BroadcastController.registerReceiverWithFeatureTraced(android.app.IApplicationThread, java.lang.String, java.lang.String, java.lang.String, android.content.IIntentReceiver, android.content.IntentFilter, java.lang.String, int, int),BroadcastQueueImpl.java,495,void com.android.server.am.BroadcastQueueImpl.updateRunningList(),1]
+04-12 20:40:52.694827  1688  4406 I am_uid_active: 10152
+04-12 20:40:52.710341  1688  1821 I commit_sys_config_file: [notification-policy,3]
+04-12 20:40:52.717757  1688  1870 I am_uid_running: 10077
+04-12 20:40:52.725179  1688  1871 I am_proc_start: [0,7195,10077,com.android.devicediagnostics,broadcast,{com.android.devicediagnostics/com.android.devicediagnostics.BootCompleteReceiver},action = android.intent.action.BOOT_COMPLETED]
+04-12 20:40:52.764519  1688  3322 I am_foreground_service_start: [0,com.debug.loggerui/.framework.DebugLoggerUIService,0,BACKGROUND_FGS_PERMISSION,36,36,0,0,0,1,UNKNOWN,1073741824]
+04-12 20:40:52.798509  1688  2302 I am_uid_running: 10276
+04-12 20:40:52.805162  1688  2442 I am_proc_bound: [0,7195,com.android.devicediagnostics]
+04-12 20:40:52.812000  7195  7195 I auditd  : type=1400 audit(0.0:782): avc:  denied  { read write } for  comm="re-initialized>" name="ensignal" dev="tmpfs" ino=2080 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:ensignal_device:s0 tclass=chr_file permissive=0 app=com.android.devicediagnostics
+04-12 20:40:52.812000  7195  7195 I auditd  : type=1400 audit(0.0:783): avc:  denied  { read write } for  comm="re-initialized>" name="ensignal" dev="tmpfs" ino=2080 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:ensignal_device:s0 tclass=chr_file permissive=0 app=com.android.devicediagnostics
+04-12 20:40:52.811669  1688  2203 I dvm_lock_sample: [system_server,0,shortcut,34,ResourcesManager.java,1225,android.content.res.Resources android.app.ResourcesManager.createResources(android.content.res.ResourcesKey, java.lang.ClassLoader, android.app.ResourcesManager$ApkAssetsSupplier),,0,null,6]
+04-12 20:40:52.830304  1688  4454 I dvm_lock_sample: [system_server,0,binder:1688_1D,65,ActivityManagerService.java,1700,void com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied(),,0,null,13]
+04-12 20:40:52.839321  1688  4454 I am_proc_died: [0,5034,com.transsion.audiosmartconnect,0,11]
+04-12 20:40:52.853244  1688  1801 I dvm_lock_sample: [system_server,1,binder:1688_2,62,ActivityManagerService.java,15283,int com.android.server.am.ActivityManagerService.bindServiceInstance(android.app.IApplicationThread, android.os.IBinder, android.content.Intent, java.lang.String, android.app.IServiceConnection, long, java.lang.String, boolean, int, java.lang.String, android.app.IApplicationThread, java.lang.String, int),,0,null,12]
+04-12 20:40:52.862563  1688  1871 I am_proc_start: [0,7279,10276,com.google.android.permissioncontroller,service,{com.google.android.permissioncontroller/com.android.permissioncontroller.permission.service.PermissionControllerServiceImpl},caller=system/1000]
+04-12 20:40:52.876807  1688  3629 I am_proc_bound: [0,7279,com.google.android.permissioncontroller]
+04-12 20:40:52.891204  1688  1870 I am_uid_active: 10276
+04-12 20:40:52.904652  1688  2733 I am_uid_active: 10077
+04-12 20:40:52.906070  1688  2194 I dvm_lock_sample: [system_server,1,MediaRouterServiceThread,30,ActivityManagerService.java,15305,boolean com.android.server.am.ActivityManagerService.unbindService(android.app.IServiceConnection),,0,null,6]
+04-12 20:40:52.922183  1688  1870 I am_uid_running: 10081
+04-12 20:40:52.947789  1688  1871 I am_proc_start: [0,7237,10081,com.android.managedprovisioning,broadcast,{com.android.managedprovisioning/com.android.managedprovisioning.BootReminder},action = android.intent.action.BOOT_COMPLETED]
+04-12 20:40:52.958481  1688  4294 I dvm_lock_sample: [system_server,1,binder:1688_17,9,BroadcastController.java,532,android.content.Intent com.android.server.am.BroadcastController.registerReceiverWithFeatureTraced(android.app.IApplicationThread, java.lang.String, java.lang.String, java.lang.String, android.content.IIntentReceiver, android.content.IntentFilter, java.lang.String, int, int),ProcessList.java,2306,void com.android.server.am.ProcessList.lambda$handleProcessStart$1(com.android.server.am.ProcessRecord, java.lang.String, int[], int, int, int, java.lang.String, java.lang.String, java.lang.String, long),1]
+04-12 20:40:52.958930  1688  4635 I am_proc_bound: [0,7237,com.android.managedprovisioning]
+04-12 20:40:52.966113  1688  2002 I commit_sys_config_file: [settings-0-0,2]
+04-12 20:40:53.034993  1688  4635 I am_uid_active: 10081
+04-12 20:40:53.039472  1688  1870 I am_uid_running: 10082
+04-12 20:40:53.074643  1688  1871 I am_proc_start: [0,7326,10082,com.android.providers.calendar,broadcast,{com.android.providers.calendar/com.android.providers.calendar.CalendarReceiver},action = android.intent.action.BOOT_COMPLETED]
+04-12 20:40:53.076489  1688  4258 I am_proc_bound: [0,7326,com.android.providers.calendar]
+04-12 20:40:53.089321  1688  1819 I power_screen_broadcast_done: [0,935,1]
+04-12 20:40:53.127933  1688  2733 I am_uid_active: 10082
+04-12 20:40:53.143206  1688  1870 I am_uid_running: 10254
+04-12 20:40:53.153542  1688  1871 I am_proc_start: [0,7365,10254,com.google.android.apps.tachyon,broadcast,{com.google.android.apps.tachyon/com.google.android.apps.tachyon.common.applifecycle.BootReceiver},action = android.intent.action.BOOT_COMPLETED]
+04-12 20:40:53.195076  1688  4635 I am_proc_bound: [0,7365,com.google.android.apps.tachyon]
+04-12 20:40:53.436597  1688  4635 I am_uid_active: 10254
+04-12 20:40:53.440116  1688  1870 I am_uid_running: 10213
+04-12 20:40:53.471107  1688  1801 I am_proc_start: [0,7441,10213,com.google.android.configupdater,broadcast,{com.google.android.configupdater/com.google.android.configupdater.MainReceiver},action = android.intent.action.BOOT_COMPLETED]
+04-12 20:40:53.472499  1688  1801 I am_proc_bound: [0,7441,com.google.android.configupdater]
+04-12 20:40:53.498302  1688  1821 I commit_sys_config_file: [jobs,2]
+04-12 20:40:53.504336  1688  3629 I dvm_lock_sample: [system_server,0,binder:1688_13,6,ContentProviderHelper.java,985,void com.android.server.am.ContentProviderHelper.removeContentProvider(android.os.IBinder, boolean),,0,null,1]
+04-12 20:40:53.511032  1688  1955 I am_uid_active: 10213
+04-12 20:40:53.516499  1688  1870 I am_uid_running: 10243
+04-12 20:40:53.524186  1688  1871 I am_proc_start: [0,7545,10212,com.google.android.projection.gearhead:provider,content provider,{com.google.android.projection.gearhead/com.google.android.apps.auto.components.projectionstate.ProjectionStateProvider},caller=com.google.android.apps.tachyon/10254]
+04-12 20:40:53.535194  1688  4258 I am_proc_bound: [0,7545,com.google.android.projection.gearhead:provider]
+04-12 20:40:53.561823  1688  2442 I am_proc_start: [0,7523,10243,com.google.android.inputmethod.latin,broadcast,{com.google.android.inputmethod.latin/androidx.work.impl.background.systemalarm.RescheduleReceiver},action = android.intent.action.BOOT_COMPLETED]
+04-12 20:40:53.563827  1688  2442 I am_proc_bound: [0,7523,com.google.android.inputmethod.latin]
+04-12 20:40:53.564000  7523  7523 I auditd  : type=1400 audit(0.0:803): avc:  denied  { read write } for  comm="re-initialized>" name="ensignal" dev="tmpfs" ino=2080 scontext=u:r:untrusted_app:s0:c243,c256,c512,c768 tcontext=u:object_r:ensignal_device:s0 tclass=chr_file permissive=0 app=com.google.android.inputmethod.latin
+04-12 20:40:53.564000  7523  7523 I auditd  : type=1400 audit(0.0:804): avc:  denied  { read write } for  comm="re-initialized>" name="ensignal" dev="tmpfs" ino=2080 scontext=u:r:untrusted_app:s0:c243,c256,c512,c768 tcontext=u:object_r:ensignal_device:s0 tclass=chr_file permissive=0 app=com.google.android.inputmethod.latin
+04-12 20:40:53.564000  7523  7523 I auditd  : type=1400 audit(0.0:805): avc:  denied  { search } for  comm="binder:7523_2" name="/" dev="sdc87" ino=2 scontext=u:r:untrusted_app:s0:c243,c256,c512,c768 tcontext=u:object_r:tranfs_file:s0 tclass=dir permissive=0 app=com.google.android.inputmethod.latin
+04-12 20:40:53.708931  1688  4286 I am_uid_active: 10243
+04-12 20:40:53.712431  1688  1870 I am_uid_running: 10222
+04-12 20:40:53.715949  1688  1871 I am_proc_start: [0,7567,10222,com.google.android.packageinstaller,broadcast,{com.google.android.packageinstaller/com.android.packageinstaller.common.TemporaryFileManager},action = android.intent.action.BOOT_COMPLETED]
+04-12 20:40:53.721015  1688  2100 I sysui_multi_action: [757,804,799,power_consecutive_short_tap_count,801,1,802,1]
+04-12 20:40:53.721026  1688  2100 I sysui_multi_action: [757,804,799,power_double_tap_interval,801,34526,802,1]
+04-12 20:40:53.721146  1688  2100 I intercept_power: [ACTION_DOWN,0,1]
+04-12 20:40:53.730012  1688  2233 I screen_toggled: 1
+04-12 20:40:53.758914  1688  1901 I sysui_multi_action: [757,1696,758,6,759,3]
+04-12 20:40:53.760411  1688  1801 I sysui_multi_action: [757,127,758,1]
+04-12 20:40:53.760428  1688  1801 I sysui_multi_action: [757,804,799,note_load,801,6,802,1]
+04-12 20:40:53.760489  1688  1801 I notification_panel_revealed: 6
+04-12 20:40:53.801342  1688  2233 I power_screen_broadcast_send: 1
+04-12 20:40:53.803250  1688  1870 I dvm_lock_sample: [system_server,1,ActivityManager,49,BroadcastQueueImpl.java,493,void com.android.server.am.BroadcastQueueImpl.updateRunningList(),,0,null,9]
+04-12 20:40:53.803897  1688  4450 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,1775997654723]
+04-12 20:40:53.804096  1688  4450 I netstats_wifi_sample: [1217890,587178,2040,2074,1154670,586910,1967,2070,1775997654723]
+04-12 20:40:53.804595  2698  2698 I viewroot_draw_event: [VRI[NotificationShade],Resumed drawing after screen turned on]
+04-12 20:40:53.811231  2698  2698 I viewroot_draw_event: [VRI[NotificationShade],reportDrawFinished seqId=0]
+04-12 20:40:53.816000   504   504 I auditd  : type=1400 audit(0.0:806): avc:  denied  { read } for  comm="logd.writer" name="u:object_r:bluetooth_prop:s0" dev="tmpfs" ino=173 scontext=u:r:logd:s0 tcontext=u:object_r:bluetooth_prop:s0 tclass=file permissive=0
+04-12 20:40:53.816000   504   504 I auditd  : type=1400 audit(0.0:807): avc:  denied  { read } for  comm="logd.writer" name="u:object_r:bluetooth_prop:s0" dev="tmpfs" ino=173 scontext=u:r:logd:s0 tcontext=u:object_r:bluetooth_prop:s0 tclass=file permissive=0
+04-12 20:40:53.829597  1688  3629 I dvm_lock_sample: [system_server,1,binder:1688_13,90,BroadcastController.java,759,int com.android.server.am.BroadcastController.broadcastIntentWithFeature(android.app.IApplicationThread, java.lang.String, android.content.Intent, java.lang.String, android.content.IIntentReceiver, int, java.lang.String, android.os.Bundle, java.lang.String[], java.lang.String[], java.lang.String[], int, android.os.Bundle, boolean, boolean, int),,0,null,18]
+04-12 20:40:53.834827  1688  4399 I dvm_lock_sample: [system_server,1,binder:1688_18,96,ActivityManagerService.java,15305,boolean com.android.server.am.ActivityManagerService.unbindService(android.app.IServiceConnection),BroadcastController.java,820,int com.android.server.am.BroadcastController.broadcastIntentWithFeature(android.app.IApplicationThread, java.lang.String, android.content.Intent, java.lang.String, android.content.IIntentReceiver, int, java.lang.String, android.os.Bundle, java.lang.String[], java.lang.String[], java.lang.String[], int, android.os.Bundle, boolean, boolean, int),19]
+04-12 20:40:53.835300  1688  2142 I dvm_lock_sample: [system_server,1,NetworkPolicy.uid,35,NetworkStatsService.java,2002,void android.net.connectivity.com.android.server.net.NetworkStatsService.noteUidForeground(int, boolean),-,2581,void android.net.connectivity.com.android.server.net.NetworkStatsService.performPoll(int, android.net.connectivity.com.android.server.net.NetworkStatsEventLogger$PollEvent),7]
+04-12 20:40:53.845823  1688  4258 I am_proc_bound: [0,7567,com.google.android.packageinstaller]
+04-12 20:40:53.849274  1688  2430 I commit_sys_config_file: [input-subtypes,6]
+04-12 20:40:53.861643  1688  2277 I dvm_lock_sample: [system_server,0,binder:1688_6,81,ContentProviderHelper.java,985,void com.android.server.am.ContentProviderHelper.removeContentProvider(android.os.IBinder, boolean),,0,null,16]
+04-12 20:40:53.884869  1688  2140 I dvm_lock_sample: [system_server,0,NetworkStats,72,BroadcastController.java,759,int com.android.server.am.BroadcastController.broadcastIntentWithFeature(android.app.IApplicationThread, java.lang.String, android.content.Intent, java.lang.String, android.content.IIntentReceiver, int, java.lang.String, android.os.Bundle, java.lang.String[], java.lang.String[], java.lang.String[], int, android.os.Bundle, boolean, boolean, int),,0,null,14]
+04-12 20:40:53.890915  1688  3322 I dvm_lock_sample: [system_server,1,binder:1688_12,15,ActivityManagerService.java,15319,void com.android.server.am.ActivityManagerService.publishService(android.os.IBinder, android.content.Intent, android.os.IBinder),,0,null,3]
+04-12 20:40:53.893536  1688  1870 I am_wtf  : [0,1688,system_server,-1,JobScheduler.JobStatus,App com.google.android.inputmethod.latin became active but still in NEVER bucket]
+04-12 20:40:53.893640  1688  1870 I am_wtf  : [0,1688,system_server,-1,JobScheduler.JobStatus,App com.google.android.inputmethod.latin became active but still in NEVER bucket]
+04-12 20:40:53.893682  1688  1870 I am_wtf  : [0,1688,system_server,-1,JobScheduler.JobStatus,App com.google.android.inputmethod.latin became active but still in NEVER bucket]
+04-12 20:40:53.893710  1688  1870 I am_wtf  : [0,1688,system_server,-1,JobScheduler.JobStatus,App com.google.android.inputmethod.latin became active but still in NEVER bucket]
+04-12 20:40:53.893742  1688  1870 I am_wtf  : [0,1688,system_server,-1,JobScheduler.JobStatus,App com.google.android.inputmethod.latin became active but still in NEVER bucket]
+04-12 20:40:53.893791  1688  1870 I am_wtf  : [0,1688,system_server,-1,JobScheduler.JobStatus,App com.google.android.inputmethod.latin became active but still in NEVER bucket]
+04-12 20:40:53.893838  1688  1870 I am_wtf  : [0,1688,system_server,-1,JobScheduler.JobStatus,App com.google.android.inputmethod.latin became active but still in NEVER bucket]
+04-12 20:40:53.900843  1688  1870 I am_wtf  : [0,1688,system_server,-1,JobScheduler.JobStatus,App com.google.android.inputmethod.latin became active but still in NEVER bucket]
+04-12 20:40:53.900946  1688  1870 I am_wtf  : [0,1688,system_server,-1,JobScheduler.JobStatus,App com.google.android.inputmethod.latin became active but still in NEVER bucket]
+04-12 20:40:53.907378  1688  2100 I intercept_power: [ACTION_UP,0,0]
+04-12 20:40:53.910177  1688  3322 I am_uid_active: 10222
+04-12 20:40:53.911508  1688  1870 I am_wtf  : [0,1688,system_server,-1,JobScheduler.JobStatus,App com.google.android.inputmethod.latin became active but still in NEVER bucket]
+04-12 20:40:53.911567  1688  1870 I am_wtf  : [0,1688,system_server,-1,JobScheduler.JobStatus,App com.google.android.inputmethod.latin became active but still in NEVER bucket]
+04-12 20:40:53.911632  1688  1870 I am_wtf  : [0,1688,system_server,-1,JobScheduler.JobStatus,App com.google.android.inputmethod.latin became active but still in NEVER bucket]
+04-12 20:40:53.928271  1688  2002 I commit_sys_config_file: [settings-1-0,2]
+04-12 20:40:53.931905  1688  1870 I am_wtf  : [0,1688,system_server,-1,JobScheduler.JobStatus,App com.google.android.inputmethod.latin became active but still in NEVER bucket]
+04-12 20:40:53.942842  1688  1870 I am_wtf  : [0,1688,system_server,-1,JobScheduler.JobStatus,App com.google.android.inputmethod.latin became active but still in NEVER bucket]
+04-12 20:40:53.946173  1688  1870 I am_wtf  : [0,1688,system_server,-1,JobScheduler.JobStatus,App com.google.android.inputmethod.latin became active but still in NEVER bucket]
+04-12 20:40:53.966624  1688  1870 I am_wtf  : [0,1688,system_server,-1,JobScheduler.JobStatus,App com.google.android.inputmethod.latin became active but still in NEVER bucket]
+04-12 20:40:53.966721  1688  1870 I am_wtf  : [0,1688,system_server,-1,JobScheduler.JobStatus,App com.google.android.inputmethod.latin became active but still in NEVER bucket]
+04-12 20:40:53.987527  2698  2939 I jank_cuj_events_begin_request: [23,1775997653987457000,34794769771,34794769771,MISSING_CLOCK_ID]
+04-12 20:40:53.995576  1688  1953 I am_proc_start: [0,7633,10212,com.google.android.projection.gearhead:car,broadcast,{com.google.android.projection.gearhead/com.google.android.apps.auto.carservice.frx.FrxReceiver},action = android.intent.action.BOOT_COMPLETED]
+04-12 20:40:53.997082  1688  1953 I am_proc_bound: [0,7633,com.google.android.projection.gearhead:car]
+04-12 20:40:54.073691  1688  1870 I am_wtf  : [0,1688,system_server,-1,JobScheduler.JobStatus,App com.google.android.inputmethod.latin became active but still in NEVER bucket]
+04-12 20:40:54.076637  1688  1870 I am_wtf  : [0,1688,system_server,-1,JobScheduler.JobStatus,App com.google.android.inputmethod.latin became active but still in NEVER bucket]
+04-12 20:40:54.078995  1688  2277 I dvm_lock_sample: [system_server,0,binder:1688_6,59,ActivityManagerService.java,15340,void com.android.server.am.ActivityManagerService.serviceDoneExecuting(android.os.IBinder, int, int, int, android.content.Intent),,0,null,11]
+04-12 20:40:54.102273  1688  1688 I battery_saving_stats: [0,0,0,1520,4000,0,1520,4000,0]
+04-12 20:40:54.142632  1688  1870 I am_uid_running: 10229
+04-12 20:40:54.187555  1688  1871 I am_proc_start: [0,7667,10229,com.google.android.setupwizard,broadcast,{com.google.android.setupwizard/com.google.android.setupwizard.pairing.PairingBootReceiver},action = android.intent.action.BOOT_COMPLETED]
+04-12 20:40:54.195873  1688  2442 I dvm_lock_sample: [system_server,1,binder:1688_9,22,ActivityManagerService.java,5375,void com.android.server.am.ActivityManagerService.attachApplication(android.app.IApplicationThread, long),,0,null,4]
+04-12 20:40:54.196067  1688  2442 I am_proc_bound: [0,7667,com.google.android.setupwizard]
+04-12 20:40:54.211280  1688  2002 I commit_sys_config_file: [settings-1-0,7]
+04-12 20:40:54.250638  1688  1901 I sysui_latency: [5,526]
+04-12 20:40:54.253659  1688  2233 I sysui_multi_action: [757,198,758,1,759,1,1359,532,1694,1]
+04-12 20:40:54.253670  1688  2233 I power_screen_state: [1,0,0,0,532]
+04-12 20:40:54.382523  1688  2099 I input_interaction: Interaction with: 257f30b NotificationShade, [Gesture Monitor] edge-swipe, [Gesture Monitor] TranGestureMonitor, [Gesture Monitor] TranGestureMonitor, PointerEventDispatcher0, 
+04-12 20:40:54.394980  1688  1823 I snet_event_log: updateFrameRateVote [pkg = com.android.systemui title = com.android.systemui.wallpapers.ImageWallpaper refreshRate = 90.0 modeId = 3 setting =10000 peak = 120.0 mTopApp = null]
+04-12 20:40:54.395830  1688  1823 I snet_event_log: updateFrameRateVote [pkg = com.android.systemui title = NotificationShade refreshRate = 120.00001 modeId = 2 setting =10000 peak = 120.0 mTopApp = null]
+04-12 20:40:54.395940  1688  1823 I snet_event_log: updateFrameRateVote [pkg = com.transsion.launcher3 title = Taskbar refreshRate = 120.00001 modeId = 2 setting =10000 peak = 120.0 mTopApp = null]
+04-12 20:40:54.475960  2698  2698 I sysui_multi_action: [757,186,758,4,826,197,827,5183]
+04-12 20:40:54.475971  2698  2698 I sysui_lockscreen_gesture: [1,197,5183]
+04-12 20:40:54.476332  2698  2939 I jank_cuj_events_end_request: [10425,1775997654473800000,35281112848,35281112924]
+04-12 20:40:54.489196  2698  2939 I jank_cuj_events_cancel_request: [29,1775997654481302000,35288615309,35288615309]
+04-12 20:40:54.489235  2698  2939 I jank_cuj_events_cancel_request: [23,1775997654484843000,35292156309,35292156540]
+04-12 20:40:54.491785  2698  2939 I jank_cuj_events_begin_request: [29,1775997654489298000,35296611001,35296611001,]
+04-12 20:40:54.499987  2698  2939 I jank_cuj_events_end_request: [0,1775997654499631000,35306943386,35306943617]
+04-12 20:40:54.500274  2698  2939 I jank_cuj_events_end_request: [55,1775997654499667000,35306979617,35306979694]
+04-12 20:40:54.507547  1688  1953 I am_uid_idle: 10160
+04-12 20:40:54.511576  1688  2282 I wm_set_keyguard_shown: [0,1,0,1,0,keyguardGoingAway]
+04-12 20:40:54.523564  1688  2282 I wm_set_resumed_activity: [0,com.android.settings/com.transsion.settings.usbdialog.UsbMTPChooserActivity,resumeTopActivity - onActivityStateChanged]
+04-12 20:40:54.528574  1688  2282 I wm_resume_activity: [0,104190138,55,com.android.settings/com.transsion.settings.usbdialog.UsbMTPChooserActivity]
+04-12 20:40:54.535283  2365  2365 I wm_on_restart_called: [143795573,com.android.launcher3.uioverrides.QuickstepLauncher,performRestart,0]
+04-12 20:40:54.537053  2365  2365 I wm_on_start_called: [143795573,com.android.launcher3.uioverrides.QuickstepLauncher,handleStartActivity,2]
+04-12 20:40:54.537139  1688  1823 I snet_event_log: updateFrameRateVote [pkg = com.transsion.livewallpaper.custompictorial title = com.transsion.livewallpaper.pictorial.CustomPictorialWallpaperService refreshRate = 120.00001 modeId = 2 setting =10000 peak = 120.0 mTopApp = null]
+04-12 20:40:54.537195  1688  1823 I snet_event_log: updateFrameRateVote [pkg = com.android.systemui title = com.android.systemui.wallpapers.ImageWallpaper refreshRate = 120.00001 modeId = 2 setting =10000 peak = 120.0 mTopApp = null]
+04-12 20:40:54.537288  1688  1823 I wm_wallpaper_surface: [0,1,Window{ebafc39 u0 com.transsion.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher}]
+04-12 20:40:54.537336  1688  1823 I snet_event_log: updateFrameRateVote [pkg = com.android.settings title = com.android.settings/com.transsion.settings.usbdialog.UsbMTPChooserActivity refreshRate = 120.00001 modeId = 2 setting =10000 peak = 120.0 mTopApp = null]
+04-12 20:40:54.540279  3052  3052 I viewroot_draw_event: [VRI[UsbMTPChooserActivity],Start draw after previous draw not visible]
+04-12 20:40:54.547125  3052  3052 I viewroot_draw_event: [VRI[UsbMTPChooserActivity],reportDrawFinished seqId=0]
+04-12 20:40:54.547810  3052  3052 I wm_on_restart_called: [104190138,com.transsion.settings.usbdialog.UsbMTPChooserActivity,performRestart,0]
+04-12 20:40:54.547881  1688  4795 I sysui_multi_action: [757,128,758,1,793,4344,794,0,795,4344,796,1000,797,a:GMSCORE_STORE_RENDERER:11be35c183260000:107718207925398475592,798,6,806,com.google.android.gms,857,com.google.android.gms.noti-9e60d696,858,3,946,0|com.google.android.gms|g:-1d40d8e2,947,0,1395,6,1500,4120,1688,1,1745,2098068913]
+04-12 20:40:54.547930  1688  4795 I sysui_multi_action: [757,1501,758,1,793,4360,794,16,795,4360,796,1000,797,a:GMSCORE_STORE_RENDERER:11be35c183260000:107718207925398475592,806,com.google.android.gms,857,com.google.android.gms.noti-9e60d696,858,3,946,0|com.google.android.gms|g:-1d40d8e2,947,0,1500,0,1688,1,1745,2098068913]
+04-12 20:40:54.547941  1688  4795 I sysui_multi_action: [757,804,799,note_interruptive,801,0,802,1]
+04-12 20:40:54.547955  1688  4795 I sysui_multi_action: [757,804,799,note_freshness,801,4344,802,1]
+04-12 20:40:54.547971  1688  4795 I notification_visibility: [0|com.google.android.gms|1000|a:GMSCORE_STORE_RENDERER:11be35c183260000:107718207925398475592|10232,1,4344,4344,0,6]
+04-12 20:40:54.555923  2698  2939 I jank_cuj_events_cancel_request: [55,1775997654526125000,35333438386,35333438386]
+04-12 20:40:54.555946  2698  2939 I jank_cuj_events_end_request: [0,1775997654526712000,35334024617,35334024848]
+04-12 20:40:54.555953  2698  2939 I jank_cuj_events_end_request: [55,1775997654526717000,35334029232,35334029232]
+04-12 20:40:54.555958  2698  2939 I jank_cuj_events_cancel_request: [29,1775997654526731000,35334043309,35334043309]
+04-12 20:40:54.560138  1688  4795 I sysui_multi_action: [757,128,758,1,793,12761,794,0,795,12761,796,26,798,2,806,android,857,DEVELOPER_IMPORTANT,858,4,946,-1|android|g:Aggregate_Aler-df069087,947,0,1395,6,1500,12734,1688,1]
+04-12 20:40:54.560210  1688  4795 I sysui_multi_action: [757,1501,758,1,793,12761,794,0,795,12761,796,26,806,android,857,DEVELOPER_IMPORTANT,858,4,946,-1|android|g:Aggregate_Aler-df069087,947,0,1500,0,1688,1]
+04-12 20:40:54.560224  1688  4795 I sysui_multi_action: [757,804,799,note_interruptive,801,0,802,1]
+04-12 20:40:54.560232  1688  4795 I sysui_multi_action: [757,804,799,note_freshness,801,12761,802,1]
+04-12 20:40:54.560239  1688  4795 I notification_visibility: [-1|android|26|null|1000,1,12761,12761,0,2]
+04-12 20:40:54.560351  1688  4795 I sysui_multi_action: [757,128,758,1,793,12723,794,0,795,12723,796,0,797,-1|android|g:Aggregate_AlertingSection,798,1,806,android,857,DEVELOPER_IMPORTANT,858,4,946,-1|android|g:Aggregate_Aler-df069087,947,1,1395,6,1500,12723,1688,1]
+04-12 20:40:54.560372  1688  4795 I sysui_multi_action: [757,804,799,note_freshness,801,12723,802,1]
+04-12 20:40:54.560380  1688  4795 I notification_visibility: [-1|android|0|-1|android|g:Aggregate_AlertingSection|1000|-1|android|g:Aggregate_AlertingSection,1,12723,12723,0,1]
+04-12 20:40:54.562942  1688  1822 I dvm_lock_sample: [system_server,1,android.display,38,ActivityTaskManagerService.java,5775,void com.android.server.wm.ActivityTaskManagerService.lambda$setLastResumedActivityUncheckLocked$15(com.android.server.wm.ActivityRecord),,0,null,7]
+04-12 20:40:54.566756  3052  3052 I wm_on_start_called: [104190138,com.transsion.settings.usbdialog.UsbMTPChooserActivity,handleStartActivity,19]
+04-12 20:40:54.566859  3052  3052 I wm_on_resume_called: [104190138,com.transsion.settings.usbdialog.UsbMTPChooserActivity,RESUME_ACTIVITY,0]
+04-12 20:40:54.566951  3052  3052 I wm_on_top_resumed_gained_called: [104190138,com.transsion.settings.usbdialog.UsbMTPChooserActivity,topWhenResuming]
+04-12 20:40:54.572572  1688  1823 I snet_event_log: updateFrameRateVote [pkg = android title = TranssionWaterMark refreshRate = 120.00001 modeId = 2 setting =10000 peak = 120.0 mTopApp = null]
+04-12 20:40:54.582871  1688  1823 I snet_event_log: updateFrameRateVote [pkg = com.transsion.launcher3 title = com.transsion.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher refreshRate = 120.00001 modeId = 2 setting =10000 peak = 120.0 mTopApp = null]
+04-12 20:40:54.583912  2365  2365 I viewroot_draw_event: [VRI[QuickstepLauncher],Start draw after previous draw not visible]
+04-12 20:40:54.592833  3052  3052 I viewroot_draw_event: [VRI[UsbMTPChooserActivity],Start draw after previous draw not visible]
+04-12 20:40:54.594675  2365  2365 I viewroot_draw_event: [VRI[QuickstepLauncher],reportDrawFinished seqId=0]
+04-12 20:40:54.595114  3052  3052 I viewroot_draw_event: [VRI[UsbMTPChooserActivity],reportDrawFinished seqId=0]
+04-12 20:40:54.600668  1688  2926 I sysui_multi_action: [757,127,758,2]
+04-12 20:40:54.601023  1688  2926 I notification_panel_hidden: 
+04-12 20:40:54.616006  1688  4795 I sysui_multi_action: [757,128,758,1,793,3501,794,0,795,3501,796,1000,797,a:GMSCORE_STORE_RENDERER:0b135afdc4360000:107718207925398475592,798,5,806,com.google.android.gms,857,com.google.android.gms.noti-9e60d696,858,3,946,0|com.google.android.gms|g:-1d40d8e2,947,0,1395,6,1500,3282,1688,1,1745,2098068913]
+04-12 20:40:54.616070  1688  4795 I sysui_multi_action: [757,1501,758,1,793,3557,794,56,795,3557,796,1000,797,a:GMSCORE_STORE_RENDERER:0b135afdc4360000:107718207925398475592,806,com.google.android.gms,857,com.google.android.gms.noti-9e60d696,858,3,946,0|com.google.android.gms|g:-1d40d8e2,947,0,1500,0,1688,1,1745,2098068913]
+04-12 20:40:54.616081  1688  4795 I sysui_multi_action: [757,804,799,note_interruptive,801,0,802,1]
+04-12 20:40:54.616089  1688  4795 I sysui_multi_action: [757,804,799,note_freshness,801,3501,802,1]
+04-12 20:40:54.616096  1688  4795 I notification_visibility: [0|com.google.android.gms|1000|a:GMSCORE_STORE_RENDERER:0b135afdc4360000:107718207925398475592|10232,1,3501,3501,0,5]
+04-12 20:40:54.626880  1688  4795 I sysui_multi_action: [757,128,758,1,793,3338,794,0,795,3338,796,0,797,0|com.google.android.gms|g:Aggregate_AlertingSection,798,4,806,com.google.android.gms,857,com.google.android.gms.noti-9e60d696,858,3,946,0|com.google.android.gms|g:-1d40d8e2,947,1,1395,6,1500,3338,1688,1]
+04-12 20:40:54.626944  1688  4795 I sysui_multi_action: [757,804,799,note_freshness,801,3338,802,1]
+04-12 20:40:54.626957  1688  4795 I notification_visibility: [0|com.google.android.gms|0|0|com.google.android.gms|g:Aggregate_AlertingSection|10232|0|com.google.android.gms|g:Aggregate_AlertingSection,1,3338,3338,0,4]
+04-12 20:40:54.627062  1688  4795 I sysui_multi_action: [757,128,758,1,793,15630,794,0,795,15630,796,32,798,3,806,android,857,ALERTS,858,3,946,-1|android|g:Aggregate_Aler-df069087,947,0,1395,6,1500,15623,1688,1]
+04-12 20:40:54.627114  1688  4795 I sysui_multi_action: [757,1501,758,1,793,15630,794,0,795,15630,796,32,806,android,857,ALERTS,858,3,946,-1|android|g:Aggregate_Aler-df069087,947,0,1500,0,1688,1]
+04-12 20:40:54.627124  1688  4795 I sysui_multi_action: [757,804,799,note_interruptive,801,0,802,1]
+04-12 20:40:54.627132  1688  4795 I sysui_multi_action: [757,804,799,note_freshness,801,15630,802,1]
+04-12 20:40:54.627138  1688  4795 I notification_visibility: [-1|android|32|null|1000,1,15630,15630,0,3]
+04-12 20:40:54.632158  1688  2281 I sysui_multi_action: [757,128,758,2,793,4445,794,101,795,4445,796,1000,797,a:GMSCORE_STORE_RENDERER:11be35c183260000:107718207925398475592,798,6,806,com.google.android.gms,857,com.google.android.gms.noti-9e60d696,858,3,946,0|com.google.android.gms|g:-1d40d8e2,947,0,1395,6,1500,85,1688,1,1745,2098068913]
+04-12 20:40:54.633030  1688  2281 I notification_visibility: [0|com.google.android.gms|1000|a:GMSCORE_STORE_RENDERER:11be35c183260000:107718207925398475592|10232,0,4445,4445,0,6]
+04-12 20:40:54.633956  1688  2281 I sysui_multi_action: [757,128,758,2,793,12834,794,73,795,12834,796,26,798,2,806,android,857,DEVELOPER_IMPORTANT,858,4,946,-1|android|g:Aggregate_Aler-df069087,947,0,1395,6,1500,73,1688,1]
+04-12 20:40:54.633980  1688  2281 I notification_visibility: [-1|android|26|null|1000,0,12834,12834,0,2]
+04-12 20:40:54.634444  1688  2281 I sysui_multi_action: [757,128,758,2,793,12797,794,74,795,12797,796,0,797,-1|android|g:Aggregate_AlertingSection,798,1,806,android,857,DEVELOPER_IMPORTANT,858,4,946,-1|android|g:Aggregate_Aler-df069087,947,1,1395,6,1500,12797,1688,1]
+04-12 20:40:54.634463  1688  2281 I notification_visibility: [-1|android|0|-1|android|g:Aggregate_AlertingSection|1000|-1|android|g:Aggregate_AlertingSection,0,12797,12797,0,1]
+04-12 20:40:54.634569  1688  2281 I sysui_multi_action: [757,128,758,2,793,3575,794,74,795,3575,796,1000,797,a:GMSCORE_STORE_RENDERER:0b135afdc4360000:107718207925398475592,798,5,806,com.google.android.gms,857,com.google.android.gms.noti-9e60d696,858,3,946,0|com.google.android.gms|g:-1d40d8e2,947,0,1395,6,1500,18,1688,1,1745,2098068913]
+04-12 20:40:54.634586  1688  2281 I notification_visibility: [0|com.google.android.gms|1000|a:GMSCORE_STORE_RENDERER:0b135afdc4360000:107718207925398475592|10232,0,3575,3575,0,5]
+04-12 20:40:54.634679  1688  2281 I sysui_multi_action: [757,128,758,2,793,3346,794,8,795,3346,796,0,797,0|com.google.android.gms|g:Aggregate_AlertingSection,798,4,806,com.google.android.gms,857,com.google.android.gms.noti-9e60d696,858,3,946,0|com.google.android.gms|g:-1d40d8e2,947,1,1395,6,1500,3346,1688,1]
+04-12 20:40:54.634695  1688  2281 I notification_visibility: [0|com.google.android.gms|0|0|com.google.android.gms|g:Aggregate_AlertingSection|10232|0|com.google.android.gms|g:Aggregate_AlertingSection,0,3346,3346,0,4]
+04-12 20:40:54.634846  1688  2281 I sysui_multi_action: [757,128,758,2,793,15637,794,7,795,15637,796,32,798,3,806,android,857,ALERTS,858,3,946,-1|android|g:Aggregate_Aler-df069087,947,0,1395,6,1500,7,1688,1]
+04-12 20:40:54.634866  1688  2281 I notification_visibility: [-1|android|32|null|1000,0,15637,15637,0,3]
+04-12 20:40:54.641912  1688  1823 I wm_dim_created: [Task=55,132]
+04-12 20:40:54.642067  1688  1823 I wm_dim_cancel_anim: [132,new target values]
+04-12 20:40:54.642181  1688  1823 I wm_dim_animate: [132,0.200000,0.000000]
+04-12 20:40:54.645065  1688  1821 I commit_sys_config_file: [notification-policy,9]
+04-12 20:40:54.659047  1688  2282 I wm_set_keyguard_occluded: [0,0,0,setOccluded]
+04-12 20:40:54.667083  2698  2698 I sysui_keyguard: [0,0]
+04-12 20:40:54.668747  2698  2939 I jank_cuj_events_end_request: [29,1775997654645728000,35453040617,35453040848]
+04-12 20:40:54.668776  2698  2939 I jank_cuj_events_end_request: [0,1775997654645764000,35453076924,35453076924]
+04-12 20:40:54.668783  2698  2939 I jank_cuj_events_cancel_request: [23,1775997654645772000,35453084540,35453084540]
+04-12 20:40:54.668787  2698  2939 I jank_cuj_events_cancel_request: [23,1775997654667090000,35474403001,35474403001]
+04-12 20:40:54.669495  1688  1823 I wm_wallpaper_surface: [0,0,Window{ebafc39 u0 com.transsion.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher}]
+04-12 20:40:54.690756  2698  2698 I sysui_multi_action: [757,196,758,2,759,0]
+04-12 20:40:54.690779  2698  2698 I sysui_status_bar_state: [0,0,0,0,0,1]
+04-12 20:40:54.708638  1688  1822 I dvm_lock_sample: [system_server,1,android.display,32,WindowManagerService.java,6396,void com.android.server.wm.WindowManagerService$H.handleMessage(android.os.Message),,0,null,6]
+04-12 20:40:54.709865  1688  1823 I wm_dim_finish_anim: 132
+04-12 20:40:54.716498  1688  2920 I wm_set_keyguard_shown: [0,0,0,1,0,setKeyguardShown]
+04-12 20:40:54.718840  1688  2282 I am_uid_active: 10229
+04-12 20:40:54.727368  1688  1823 I snet_event_log: updateFrameRateVote [pkg = com.android.systemui title = com.android.systemui.wallpapers.ImageWallpaper refreshRate = 90.0 modeId = 3 setting =10000 peak = 120.0 mTopApp = null]
+04-12 20:40:54.741147  1688  1871 I am_proc_start: [0,7719,1000,com.mediatek.omacp,broadcast,{com.mediatek.omacp/com.mediatek.omacp.message.OmacpReceiver},action = android.intent.action.BOOT_COMPLETED]
+04-12 20:40:54.782887  1688  1822 I dvm_lock_sample: [system_server,1,android.display,72,ActivityManagerService.java,17361,void com.android.server.am.ActivityManagerService.trimApplications(boolean, int),,0,null,14]
+04-12 20:40:54.836681  1688  1823 I input_focus: [Focus request 536cab5 com.android.settings/com.transsion.settings.usbdialog.UsbMTPChooserActivity,reason=UpdateInputWindows]
+04-12 20:40:54.847352  1688  2099 I input_focus: [Focus leaving 257f30b NotificationShade,reason=setFocusedWindow]
+04-12 20:40:54.847417  1688  2099 I input_focus: [Focus entering 536cab5 com.android.settings/com.transsion.settings.usbdialog.UsbMTPChooserActivity,reason=setFocusedWindow]
+04-12 20:40:54.849008  2698  2939 I jank_cuj_events_cancel_request: [80,1775997654848843000,35656155617,35656155617]
+04-12 20:40:54.849065  2698  2939 I jank_cuj_events_end_request: [80,1775997654849036000,35656349155,35656349232]
+04-12 20:40:54.852581  2698  2698 I viewroot_draw_event: [VRI[NotificationShade],Not drawing due to not visible. Reason=View.INVISIBLE]
+04-12 20:40:54.853648  1688  1822 I user_activity_timeout_override: -1
+04-12 20:40:54.896143  1688  2002 I commit_sys_config_file: [settings-0-0,3]
+04-12 20:40:54.906559  1688  3032 I am_proc_bound: [0,7719,com.mediatek.omacp]
+04-12 20:40:54.921956  1688  2002 I commit_sys_config_file: [settings-2-0,23]
+04-12 20:40:54.924000  7719  7719 I auditd  : type=1400 audit(0.0:899): avc:  denied  { read write } for  comm="re-initialized>" name="ensignal" dev="tmpfs" ino=2080 scontext=u:r:system_app:s0 tcontext=u:object_r:ensignal_device:s0 tclass=chr_file permissive=0
+04-12 20:40:54.928000  7719  7719 I auditd  : type=1400 audit(0.0:900): avc:  denied  { read write } for  comm="re-initialized>" name="ensignal" dev="tmpfs" ino=2080 scontext=u:r:system_app:s0 tcontext=u:object_r:ensignal_device:s0 tclass=chr_file permissive=0
+04-12 20:40:54.958721  1688  1870 I am_wtf  : [0,1688,system_server,-1,JobScheduler.JobStatus,App com.google.android.inputmethod.latin became active but still in NEVER bucket]
+04-12 20:40:55.002054  1688  1870 I am_wtf  : [0,1688,system_server,-1,JobScheduler.JobStatus,App com.google.android.inputmethod.latin became active but still in NEVER bucket]
+04-12 20:40:55.023886  1688  2277 I dvm_lock_sample: [system_server,0,binder:1688_6,125,ActivityManagerService.java,15340,void com.android.server.am.ActivityManagerService.serviceDoneExecuting(android.os.IBinder, int, int, int, android.content.Intent),,0,null,25]
+04-12 20:40:55.033441  1688  3629 I dvm_lock_sample: [system_server,1,binder:1688_13,34,ActivityManagerService.java,6474,java.lang.String com.android.server.am.ActivityManagerService.getTagForIntentSender(android.content.IIntentSender, java.lang.String),,0,null,6]
+04-12 20:40:55.038818  1688  2920 I dvm_lock_sample: [system_server,1,binder:1688_E,14,ActivityManagerService.java,15283,int com.android.server.am.ActivityManagerService.bindServiceInstance(android.app.IApplicationThread, android.os.IBinder, android.content.Intent, java.lang.String, android.app.IServiceConnection, long, java.lang.String, boolean, int, java.lang.String, android.app.IApplicationThread, java.lang.String, int),,0,null,2]
+04-12 20:40:55.056643  1688  3322 I dvm_lock_sample: [system_server,1,binder:1688_12,29,ActivityManagerService.java,15283,int com.android.server.am.ActivityManagerService.bindServiceInstance(android.app.IApplicationThread, android.os.IBinder, android.content.Intent, java.lang.String, android.app.IServiceConnection, long, java.lang.String, boolean, int, java.lang.String, android.app.IApplicationThread, java.lang.String, int),,0,null,5]
+04-12 20:40:55.064509  1688  2282 I am_foreground_service_start: [0,com.google.android.setupwizard/.notification.SetupNotificationService,1,BACKGROUND_ACTIVITY_PERMISSION,36,36,0,0,0,1,UNKNOWN,1073741824]
+04-12 20:40:55.085121  1688  1871 I am_proc_start: [0,7784,1000,com.mediatek.schpwronoff,broadcast,{com.mediatek.schpwronoff/com.mediatek.schpwronoff.AlarmInitReceiver},action = android.intent.action.BOOT_COMPLETED]
+04-12 20:40:55.104000  7523  7523 I auditd  : type=1400 audit(0.0:901): avc:  denied  { read } for  comm="putmethod.latin" name="u:object_r:qemu_hw_prop:s0" dev="tmpfs" ino=396 scontext=u:r:untrusted_app:s0:c243,c256,c512,c768 tcontext=u:object_r:qemu_hw_prop:s0 tclass=file permissive=0 app=com.google.android.inputmethod.latin
+04-12 20:40:55.119063  7523  7523 I viewroot_draw_event: [VRI[InputMethod],Not drawing due to not visible. Reason=View.INVISIBLE]
+04-12 20:40:55.132603  1688  1688 I am_uid_running: 10166
+04-12 20:40:55.146240  1688  2277 I am_proc_bound: [0,7784,com.mediatek.schpwronoff]
+04-12 20:40:55.158355  1688  2281 I dvm_lock_sample: [system_server,1,binder:1688_7,45,ActivityManagerService.java,15305,boolean com.android.server.am.ActivityManagerService.unbindService(android.app.IServiceConnection),,0,null,9]
+04-12 20:40:55.156000  7784  7784 I auditd  : type=1400 audit(0.0:902): avc:  denied  { read write } for  comm="re-initialized>" name="ensignal" dev="tmpfs" ino=2080 scontext=u:r:system_app:s0 tcontext=u:object_r:ensignal_device:s0 tclass=chr_file permissive=0
+04-12 20:40:55.160000  7784  7784 I auditd  : type=1400 audit(0.0:903): avc:  denied  { read write } for  comm="re-initialized>" name="ensignal" dev="tmpfs" ino=2080 scontext=u:r:system_app:s0 tcontext=u:object_r:ensignal_device:s0 tclass=chr_file permissive=0
+04-12 20:40:55.234339  1688  1871 I am_proc_start: [0,7852,10166,com.transsion.sk,service,{com.transsion.sk/com.transsion.sk.inputservice.OpenSafeKeyboardService},caller=system/1000]
+04-12 20:40:55.236265  1688  4399 I dvm_lock_sample: [system_server,1,binder:1688_18,113,ActivityManagerService.java,15319,void com.android.server.am.ActivityManagerService.publishService(android.os.IBinder, android.content.Intent, android.os.IBinder),,0,null,22]
+04-12 20:40:55.248733  1688  2733 I am_proc_bound: [0,7852,com.transsion.sk]
+04-12 20:40:55.251021  4390  4390 I viewroot_draw_event: [VRI[SmartPanel_handleView],Start draw after previous draw not visible]
+04-12 20:40:55.277340  4390  4390 I viewroot_draw_event: [VRI[SmartPanel_handleView],reportDrawFinished seqId=0]
+04-12 20:40:55.278280  4390  5874 I viewroot_draw_event: [VRI[SmartPanel_handleView],Transaction not synced due to no frame drawn]
+04-12 20:40:55.329944  1688  1841 I dvm_lock_sample: [system_server,1,android.bg,68,ContentProviderHelper.java,1677,void com.android.server.am.ContentProviderHelper.handleProviderRemoval(com.android.server.am.ContentProviderConnection, boolean, boolean),,0,null,13]
+04-12 20:40:55.343707  1688  2282 I dvm_lock_sample: [system_server,1,binder:1688_8,76,ActivityManagerService.java,15128,boolean com.android.server.am.ActivityManagerService.stopServiceToken(android.content.ComponentName, android.os.IBinder, int),,0,null,15]
+04-12 20:40:55.393001  1688  3629 I dvm_lock_sample: [system_server,0,binder:1688_13,118,ActivityManagerService.java,15340,void com.android.server.am.ActivityManagerService.serviceDoneExecuting(android.os.IBinder, int, int, int, android.content.Intent),,0,null,23]
+04-12 20:40:55.403520  1688  1819 I power_screen_broadcast_done: [1,1602,1]
+04-12 20:40:55.417137  1688  4286 I am_foreground_service_start: [0,com.mediatek.omacp/.message.OmacpReceiverService,1,PROC_STATE_PERSISTENT,36,36,0,0,0,1,UNKNOWN,1]
+04-12 20:40:55.430748  1688  2002 I commit_sys_config_file: [settings-2-0,2]
+04-12 20:40:55.454677  1688  1870 I am_uid_active: 10166
+04-12 20:40:55.457517  1688  1871 I am_proc_start: [0,7892,1000,com.transsion.audiosmartconnect,service,{com.transsion.audiosmartconnect/com.transsion.audiosmartconnect.service.AudioSmartConnectEnterService},caller=com.transsion.iotservice/1000]
+04-12 20:40:55.465127  1688  1801 I am_proc_bound: [0,7892,com.transsion.audiosmartconnect]
+04-12 20:40:55.477816  1688  2002 I commit_sys_config_file: [settings-0-0,31]
+04-12 20:40:55.487820  1688  4795 I dvm_lock_sample: [system_server,1,binder:1688_20,171,ActivityManagerService.java,6474,java.lang.String com.android.server.am.ActivityManagerService.getTagForIntentSender(android.content.IIntentSender, java.lang.String),,0,null,34]
+04-12 20:40:55.521601  1688  2164 I notification_enqueue: [1000,7719,com.mediatek.omacp,126,NULL,0,Notification(channel=omacp_notification_channel shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=FOREGROUND_SERVICE|CAN_COLORIZE color=0x00000000 vis=PRIVATE),0,1]
+04-12 20:40:55.521668  1688  2442 I am_foreground_service_stop: [0,com.mediatek.omacp/.message.OmacpReceiverService,1,PROC_STATE_PERSISTENT,36,36,0,0,105,1,STOP_SERVICE,1]
+04-12 20:40:55.544251  1688  1870 I am_wtf  : [0,1688,system_server,-1,JobScheduler.JobStatus,App com.google.android.inputmethod.latin became active but still in NEVER bucket]
+04-12 20:40:55.571509  1688  2164 I sysui_multi_action: [757,128,758,5,759,8,793,73,794,0,795,73,796,126,806,com.mediatek.omacp,857,omacp_notification_channel,858,3,947,0,1500,73,1688,1]
+04-12 20:40:55.571546  1688  2164 I notification_canceled: [0|com.mediatek.omacp|126|null|1000,8,73,73,0,-1,-1,NULL]
+04-12 20:40:55.583885  1688  2926 I dvm_lock_sample: [system_server,1,binder:1688_F,45,ActivityManagerService.java,15283,int com.android.server.am.ActivityManagerService.bindServiceInstance(android.app.IApplicationThread, android.os.IBinder, android.content.Intent, java.lang.String, android.app.IServiceConnection, long, java.lang.String, boolean, int, java.lang.String, android.app.IApplicationThread, java.lang.String, int),,0,null,9]
+04-12 20:40:55.610570  1688  4793 I dvm_lock_sample: [system_server,0,binder:1688_1F,14,ActivityManagerService.java,15340,void com.android.server.am.ActivityManagerService.serviceDoneExecuting(android.os.IBinder, int, int, int, android.content.Intent),-,15284,int com.android.server.am.ActivityManagerService.bindServiceInstance(android.app.IApplicationThread, android.os.IBinder, android.content.Intent, java.lang.String, android.app.IServiceConnection, long, java.lang.String, boolean, int, java.lang.String, android.app.IApplicationThread, java.lang.String, int),2]
+04-12 20:40:55.632670  1688  1904 I commit_sys_config_file: [package-user-0,14]
+04-12 20:40:55.634159  1688  1870 I am_wtf  : [0,1688,system_server,-1,JobScheduler.JobStatus,App com.google.android.inputmethod.latin became active but still in NEVER bucket]
+04-12 20:40:55.646925  1688  1871 I am_proc_start: [0,7967,1000,com.mediatek.batterywarning,broadcast,{com.mediatek.batterywarning/com.mediatek.batterywarning.BatteryWarningReceiver},action = mediatek.intent.action.BATTERY_NORMAL]
+04-12 20:40:55.650606  1688  4294 I am_meminfo: [3804643328,1125875712,6696960,1061998592,1143987200]
+04-12 20:40:55.701098  1688  1841 I dvm_lock_sample: [system_server,1,android.bg,53,ContentProviderHelper.java,1677,void com.android.server.am.ContentProviderHelper.handleProviderRemoval(com.android.server.am.ContentProviderConnection, boolean, boolean),,0,null,10]
+04-12 20:40:55.717221  1688  4793 I dvm_lock_sample: [system_server,0,binder:1688_1F,51,ActivityManagerService.java,15340,void com.android.server.am.ActivityManagerService.serviceDoneExecuting(android.os.IBinder, int, int, int, android.content.Intent),,0,null,10]
+04-12 20:40:55.721639  1688  3322 I dvm_lock_sample: [system_server,1,binder:1688_12,96,AlarmManagerService.java,3025,void com.android.server.alarm.AlarmManagerService$4.remove(android.app.PendingIntent, android.app.IAlarmListener),,0,null,19]
+04-12 20:40:55.733053  1688  4399 I dvm_lock_sample: [system_server,1,binder:1688_18,53,BroadcastController.java,532,android.content.Intent com.android.server.am.BroadcastController.registerReceiverWithFeatureTraced(android.app.IApplicationThread, java.lang.String, java.lang.String, java.lang.String, android.content.IIntentReceiver, android.content.IntentFilter, java.lang.String, int, int),,0,null,10]
+04-12 20:40:55.739605  1688  3629 I dvm_lock_sample: [system_server,1,binder:1688_13,30,BroadcastController.java,532,android.content.Intent com.android.server.am.BroadcastController.registerReceiverWithFeatureTraced(android.app.IApplicationThread, java.lang.String, java.lang.String, java.lang.String, android.content.IIntentReceiver, android.content.IntentFilter, java.lang.String, int, int),,0,null,6]
+04-12 20:40:55.763971  1688  4258 I am_proc_bound: [0,7967,com.mediatek.batterywarning]
+04-12 20:40:55.766854  1688  3629 I dvm_lock_sample: [system_server,1,binder:1688_13,27,ActivityManagerService.java,15128,boolean com.android.server.am.ActivityManagerService.stopServiceToken(android.content.ComponentName, android.os.IBinder, int),,0,null,5]
+04-12 20:40:55.817138  2369  5127 I service_manager_stats: [200,177,36624]
+04-12 20:40:55.872541  1688  2442 I dvm_lock_sample: [system_server,1,binder:1688_9,18,ContentProviderHelper.java,207,android.app.ContentProviderHolder com.android.server.am.ContentProviderHelper.getContentProviderImpl(android.app.IApplicationThread, java.lang.String, android.os.IBinder, int, java.lang.String, java.lang.String, boolean, int),,0,null,3]
+04-12 20:40:55.879184  1688  1870 I am_uid_running: 10241
+04-12 20:40:55.894097  1688  1871 I am_proc_start: [0,8035,10241,com.android.chrome,broadcast,{com.android.chrome/com.google.android.apps.chrome.rlz.RevenueStatsConfigurationUpdateReceiver},caller=com.google.android.partnersetup/10221,action = com.google.android.partnersetup.action.CONFIGURATION_UPDATE]
+04-12 20:40:55.908086  1688  4286 I am_proc_bound: [0,8035,com.android.chrome]
+04-12 20:40:55.972000  7892  7892 I auditd  : type=1400 audit(0.0:918): avc:  denied  { read } for  comm=4F6E65494420576F726B6572 name="u:object_r:vendor_security_patch_level_prop:s0" dev="tmpfs" ino=888 scontext=u:r:system_app:s0 tcontext=u:object_r:vendor_security_patch_level_prop:s0 tclass=file permissive=0
+04-12 20:40:56.111805  1688  2002 I commit_sys_config_file: [settings-0-0,10]
+04-12 20:40:56.208000  6615  6615 I auditd  : type=1400 audit(0.0:919): avc:  denied  { read } for  comm="Athena-Worker" name="rid" dev="proc" ino=4026533863 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:proc_rid:s0 tclass=file permissive=0 app=com.scorpio.securitycom
+04-12 20:40:57.004000  5551  5551 I auditd  : type=1400 audit(0.0:920): avc:  denied  { search } for  comm="ProcessStablePh" name="com.google.android.mosey" dev="dm-79" ino=9401 scontext=u:r:mosey_app:s0:c131,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c131,c256,c512,c768 tclass=dir permissive=0 app=com.google.android.mosey
+04-12 20:40:57.004000  5551  5551 I auditd  : type=1400 audit(0.0:921): avc:  denied  { search } for  comm="ProcessStablePh" name="com.google.android.mosey" dev="dm-79" ino=9401 scontext=u:r:mosey_app:s0:c131,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c131,c256,c512,c768 tclass=dir permissive=0 app=com.google.android.mosey
+04-12 20:40:57.004000  5551  5551 I auditd  : type=1400 audit(0.0:922): avc:  denied  { search } for  comm="ProcessStablePh" name="com.google.android.mosey" dev="dm-79" ino=9401 scontext=u:r:mosey_app:s0:c131,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c131,c256,c512,c768 tclass=dir permissive=0 app=com.google.android.mosey
+04-12 20:40:57.004000  5551  5551 I auditd  : type=1400 audit(0.0:923): avc:  denied  { search } for  comm="ProcessStablePh" name="com.google.android.mosey" dev="dm-79" ino=9401 scontext=u:r:mosey_app:s0:c131,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c131,c256,c512,c768 tclass=dir permissive=0 app=com.google.android.mosey
+04-12 20:40:57.004000  5551  5551 I auditd  : type=1400 audit(0.0:924): avc:  denied  { search } for  comm="ProcessStablePh" name="com.google.android.mosey" dev="dm-79" ino=9401 scontext=u:r:mosey_app:s0:c131,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c131,c256,c512,c768 tclass=dir permissive=0 app=com.google.android.mosey
+04-12 20:40:57.004000  5551  5551 I auditd  : type=1400 audit(0.0:925): avc:  denied  { search } for  comm="ProcessStablePh" name="com.google.android.mosey" dev="dm-79" ino=9401 scontext=u:r:mosey_app:s0:c131,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c131,c256,c512,c768 tclass=dir permissive=0 app=com.google.android.mosey
+04-12 20:40:57.004000  5551  5551 I auditd  : type=1400 audit(0.0:926): avc:  denied  { getattr } for  comm="ProcessStablePh" path="/data/data/com.google.android.mosey" dev="dm-79" ino=9401 scontext=u:r:mosey_app:s0:c131,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c131,c256,c512,c768 tclass=dir permissive=0 app=com.google.android.mosey
+04-12 20:40:57.004000  5551  5551 I auditd  : type=1400 audit(0.0:927): avc:  denied  { search } for  comm="ProcessStablePh" name="com.google.android.mosey" dev="dm-79" ino=9401 scontext=u:r:mosey_app:s0:c131,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c131,c256,c512,c768 tclass=dir permissive=0 app=com.google.android.mosey
+04-12 20:40:57.997634  1688  1821 I commit_sys_config_file: [notification-policy,8]
+04-12 20:40:58.188000  6893  6893 I auditd  : type=1400 audit(0.0:946): avc:  denied  { read } for  comm="Athena-Worker" name="rid" dev="proc" ino=4026533863 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:proc_rid:s0 tclass=file permissive=0 app=com.sh.smart.caller

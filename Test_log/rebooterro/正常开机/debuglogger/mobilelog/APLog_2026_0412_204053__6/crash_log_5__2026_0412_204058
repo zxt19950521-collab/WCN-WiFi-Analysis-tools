@@ -1,0 +1,92 @@
+----- timezone:Asia/Shanghai
+04-12 20:40:32.569563  1048  1048 I libpq_sec: mtk-brm-commit-id:3a7a81928019e2c2884564de8136ef5c132a9319
+04-12 20:40:32.569626  1048  1048 I libpq_sec: mtk-brm-change-id:I2e3266c61a50a95016bccffab850a5933cba054a
+04-12 20:40:32.569630  1048  1048 I libpq_sec: mtk-brm-merge-id:none
+04-12 20:40:32.602784  1053  1053 I libpq_sec: mtk-brm-commit-id:3a7a81928019e2c2884564de8136ef5c132a9319
+04-12 20:40:32.602900  1053  1053 I libpq_sec: mtk-brm-change-id:I2e3266c61a50a95016bccffab850a5933cba054a
+04-12 20:40:32.602902  1053  1053 I libpq_sec: mtk-brm-merge-id:none
+04-12 20:40:32.683342  1130  1130 I liboemcrypto: mtk-brm-commit-id:32db255f42d64c180b220b8efcc0ee9b73b45871
+04-12 20:40:32.683451  1130  1130 I liboemcrypto: mtk-brm-change-id:I022f85d785bea367c866ebdf9ed80d50f5bb1935
+04-12 20:40:32.683480  1130  1130 I liboemcrypto: mtk-brm-merge-id:none
+04-12 20:40:32.754011  1156  1224 I meow_lib: mtk-brm-commit-id:962082e1e4356af1338f45918d485fd23d3670f0
+04-12 20:40:32.754022  1156  1224 I meow_lib: mtk-brm-change-id:If068939027f00f06617d718e482f11c4b1c45d65
+04-12 20:40:32.754026  1156  1224 I meow_lib: mtk-brm-merge-id:none
+04-12 20:40:32.764372  1222  1222 I libmtkgpuserv: mtk-brm-commit-id:b83511144d367cf0c0949644956c4c26e1532e0a
+04-12 20:40:32.764515  1156  1224 I libged  : mtk-brm-commit-id:7205373f368e098bcc2132e511e1342d234d66e2
+04-12 20:40:32.764520  1222  1222 I libmtkgpuserv: mtk-brm-change-id:Idb505e10690a43a4d03f3d0c1fe2915e5dd30b59
+04-12 20:40:32.764525  1156  1224 I libged  : mtk-brm-change-id:Ied7171944d3651e5d5c7ba6fda12c4c6eb16d0c5
+04-12 20:40:32.764525  1222  1222 I libmtkgpuserv: mtk-brm-merge-id:none
+04-12 20:40:32.764527  1156  1224 I libged  : mtk-brm-merge-id:none
+04-12 20:40:32.764548  1222  1222 I libmtkgpuserv: mtk-brm-commit-id:b83511144d367cf0c0949644956c4c26e1532e0a
+04-12 20:40:32.764551  1222  1222 I libmtkgpuserv: mtk-brm-change-id:Idb505e10690a43a4d03f3d0c1fe2915e5dd30b59
+04-12 20:40:32.764553  1222  1222 I libmtkgpuserv: mtk-brm-merge-id:none
+04-12 20:40:32.764558  1222  1222 I libmtkgpuserv: mtk-brm-commit-id:b83511144d367cf0c0949644956c4c26e1532e0a
+04-12 20:40:32.764560  1222  1222 I libmtkgpuserv: mtk-brm-change-id:Idb505e10690a43a4d03f3d0c1fe2915e5dd30b59
+04-12 20:40:32.764562  1222  1222 I libmtkgpuserv: mtk-brm-merge-id:none
+04-12 20:40:32.771003  1156  1224 I libGLES_mali: mtk-brm-commit-id:9ea7edd980ca21e34fc0846327c12680d7e8b38e
+04-12 20:40:32.771025  1156  1224 I libGLES_mali: mtk-brm-change-id:I6175e84c5de2cbf989352314eee54d427423dcec
+04-12 20:40:32.771030  1156  1224 I libGLES_mali: mtk-brm-merge-id:0292f733c3  813c9ab08c
+04-12 20:40:32.934938  1273  1273 I libneuralnetworks_sl_driver: mtk-brm-commit-id:5bb03bc675f0fcbaa7f8164b05a8b0bee4526c56
+04-12 20:40:32.935096  1273  1273 I libneuralnetworks_sl_driver: mtk-brm-change-id:Iff1dc01f1d3b421941653c06c6def9786b5d6737
+04-12 20:40:32.935100  1273  1273 I libneuralnetworks_sl_driver: mtk-brm-merge-id:none
+04-12 20:40:32.935242  1273  1273 I neuralnetworks_shim: mtk-brm-commit-id:25a38658d8fcdbb20664f319d3ecf9d75fd3654c
+04-12 20:40:32.935248  1273  1273 I neuralnetworks_shim: mtk-brm-change-id:I98bca291cad1df955fc3a2dd4a672c689604df9b
+04-12 20:40:32.935251  1273  1273 I neuralnetworks_shim: mtk-brm-merge-id:none
+04-12 20:40:32.961861  1281  1281 I thermal_core: mtk-brm-commit-id:d1481691dccf8f9d489f90ed1d7a782372b32d8a
+04-12 20:40:32.961996  1281  1281 I thermal_core: mtk-brm-change-id:Iacd392282d3ebbd55177101ff35e66840aafe5c3
+04-12 20:40:32.961999  1281  1281 I thermal_core: mtk-brm-merge-id:none
+04-12 20:40:32.977016  1271  1271 I libimsma_adapt: mtk-brm-commit-id:86b746c21fd235c214611f3344cf70649e895fd7
+04-12 20:40:32.977121  1271  1271 I libimsma_adapt: mtk-brm-change-id:I44c926fb2a62b0816d0a8d12e3957bca373f1721
+04-12 20:40:32.977123  1271  1271 I libimsma_adapt: mtk-brm-merge-id:none
+04-12 20:40:33.048192  1320  1320 I emdlogger: mtk-brm-commit-id:9d634ad4aaec05afd61a48cc390c2f3e7ba213ba
+04-12 20:40:33.048295  1320  1320 I emdlogger: mtk-brm-change-id:I95f7f5b11ef3b8f02e5bc26abd93bf70033f9e48
+04-12 20:40:33.048298  1320  1320 I emdlogger: mtk-brm-merge-id:none
+04-12 20:40:33.118020  1386  1386 I libpq_sec: mtk-brm-commit-id:3a7a81928019e2c2884564de8136ef5c132a9319
+04-12 20:40:33.118128  1386  1386 I libpq_sec: mtk-brm-change-id:I2e3266c61a50a95016bccffab850a5933cba054a
+04-12 20:40:33.118135  1386  1386 I libpq_sec: mtk-brm-merge-id:none
+04-12 20:40:33.130304  1390  1390 I libpq_sec: mtk-brm-commit-id:3a7a81928019e2c2884564de8136ef5c132a9319
+04-12 20:40:33.130414  1390  1390 I libpq_sec: mtk-brm-change-id:I2e3266c61a50a95016bccffab850a5933cba054a
+04-12 20:40:33.130420  1390  1390 I libpq_sec: mtk-brm-merge-id:none
+04-12 20:40:33.149895  1403  1403 I jxnosfastswitch: mtk-brm-commit-id:a9750a6186f97c4b4d9157d16657c3fa7f26622c
+04-12 20:40:33.149998  1403  1403 I jxnosfastswitch: mtk-brm-change-id:I97f9ab22f53fb5d299565021c94de143bb2dc814
+04-12 20:40:33.150002  1403  1403 I jxnosfastswitch: mtk-brm-merge-id:none
+04-12 20:40:33.474114  1509  1557 I meow_lib: mtk-brm-commit-id:962082e1e4356af1338f45918d485fd23d3670f0
+04-12 20:40:33.474150  1509  1557 I meow_lib: mtk-brm-change-id:If068939027f00f06617d718e482f11c4b1c45d65
+04-12 20:40:33.474153  1509  1557 I meow_lib: mtk-brm-merge-id:none
+04-12 20:40:33.999968  1032  1032 I meow_lib: mtk-brm-commit-id:962082e1e4356af1338f45918d485fd23d3670f0
+04-12 20:40:34.000002  1032  1032 I meow_lib: mtk-brm-change-id:If068939027f00f06617d718e482f11c4b1c45d65
+04-12 20:40:34.000007  1032  1032 I meow_lib: mtk-brm-merge-id:none
+04-12 20:40:34.319952  1336  1336 I libpq_sec: mtk-brm-commit-id:3a7a81928019e2c2884564de8136ef5c132a9319
+04-12 20:40:34.319976  1336  1336 I libpq_sec: mtk-brm-change-id:I2e3266c61a50a95016bccffab850a5933cba054a
+04-12 20:40:34.319981  1336  1336 I libpq_sec: mtk-brm-merge-id:none
+04-12 20:40:42.919274  4163  4163 I thermal_core: mtk-brm-commit-id:25784be39c26668cc76e97ef71cbdeb10bcc5dce
+04-12 20:40:42.919406  4163  4163 I thermal_core: mtk-brm-change-id:I57f0cbd2fde7ffbc3b064f8c6a2f425a4c6b5e28
+04-12 20:40:42.919412  4163  4163 I thermal_core: mtk-brm-merge-id:none
+04-12 20:40:51.332616  6747  6747 E AndroidRuntime: FATAL EXCEPTION: main
+04-12 20:40:51.332616  6747  6747 E AndroidRuntime: Process: com.transsion.tranfacmode, PID: 6747
+04-12 20:40:51.332616  6747  6747 E AndroidRuntime: java.lang.RuntimeException: Unable to create application com.transsion.tranfacmode.TranfacModeApplication: java.lang.IllegalStateException: A migration from 3 to 2 was required but not found. Please provide the necessary Migration path via RoomDatabase.Builder.addMigration(...) or allow for destructive migrations via one of the RoomDatabase.Builder.fallbackToDestructiveMigration* functions.
+04-12 20:40:51.332616  6747  6747 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:8075)
+04-12 20:40:51.332616  6747  6747 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+04-12 20:40:51.332616  6747  6747 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2674)
+04-12 20:40:51.332616  6747  6747 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+04-12 20:40:51.332616  6747  6747 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:327)
+04-12 20:40:51.332616  6747  6747 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:431)
+04-12 20:40:51.332616  6747  6747 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9329)
+04-12 20:40:51.332616  6747  6747 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-12 20:40:51.332616  6747  6747 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:629)
+04-12 20:40:51.332616  6747  6747 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1024)
+04-12 20:40:51.332616  6747  6747 E AndroidRuntime: Caused by: java.lang.IllegalStateException: A migration from 3 to 2 was required but not found. Please provide the necessary Migration path via RoomDatabase.Builder.addMigration(...) or allow for destructive migrations via one of the RoomDatabase.Builder.fallbackToDestructiveMigration* functions.
+04-12 20:40:51.332616  6747  6747 E AndroidRuntime: 	at androidx.room.BaseRoomConnectionManager.onMigrate(Unknown Source:150)
+04-12 20:40:51.332616  6747  6747 E AndroidRuntime: 	at androidx.room.RoomConnectionManager$SupportOpenHelperCallback.onUpgrade(Unknown Source:12)
+04-12 20:40:51.332616  6747  6747 E AndroidRuntime: 	at androidx.room.RoomConnectionManager$SupportOpenHelperCallback.onDowngrade(Unknown Source:5)
+04-12 20:40:51.332616  6747  6747 E AndroidRuntime: 	at androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper$OpenHelper.onDowngrade(Unknown Source:14)
+04-12 20:40:51.332616  6747  6747 E AndroidRuntime: 	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:435)
+04-12 20:40:51.332616  6747  6747 E AndroidRuntime: 	at android.database.sqlite.SQLiteOpenHelper.getWritableDatabase(SQLiteOpenHelper.java:336)
+04-12 20:40:51.332616  6747  6747 E AndroidRuntime: 	at androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper$OpenHelper.getWritableOrReadableDatabase(Unknown Source:2)
+04-12 20:40:51.332616  6747  6747 E AndroidRuntime: 	at androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper$OpenHelper.innerGetDatabase(Unknown Source:60)
+04-12 20:40:51.332616  6747  6747 E AndroidRuntime: 	at androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper$OpenHelper.getSupportDatabase(Unknown Source:23)
+04-12 20:40:51.332616  6747  6747 E AndroidRuntime: 	at androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper.getWritableDatabase(Unknown Source:5)
+04-12 20:40:51.332616  6747  6747 E AndroidRuntime: 	at com.transsion.tranfacmode.TranfacModeApplication.onCreate(Unknown Source:70)
+04-12 20:40:51.332616  6747  6747 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1385)
+04-12 20:40:51.332616  6747  6747 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:8069)
+04-12 20:40:51.332616  6747  6747 E AndroidRuntime: 	... 9 more

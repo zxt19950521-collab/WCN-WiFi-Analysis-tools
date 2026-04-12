@@ -1,0 +1,62 @@
+----- timezone:Asia/Shanghai
+NOTICE:  (0)[0.195819]BL31: v2.10.0	(release):7e8fde996
+NOTICE:  (0)[0.196421]BL31: Built : 10:58:25, Apr  8 2026
+NOTICE:  (0)[0.199601]mmap mrdump_cblock: 0x48082000
+NOTICE:  (0)[0.200169]mmap ram_console: 0x48081000
+NOTICE:  (0)[0.200805]gpueb: INIT: end
+NOTICE:  (0)[0.201223]gpueb: MFG0_PWR_CON = 0xe2f1224d
+NOTICE:  (0)[0.201825]gpueb: MFG_RPC_AO_CLK_CFG(0x13f91034) = 0x41
+ERROR:   (0)[0.233635][MPU_HAL][mpu_svc]origin=0x2 invalid zone size=0x0
+ERROR:   (0)[1.039280][SEC][KDF] EKcst is not enabled.
+ERROR:   (0)[1.095199][SEC][KDF] EKcst is not enabled.
+ERROR:   (0)[1.146016][SEC][KDF] EKcst is not enabled.
+ERROR:   (0)[1.182222][SEC][KDF] EKcst is not enabled.
+ERROR:   (0)[1.191659][SCP RECOVERY]: scp_smc_scp_dram_subregion invalid param dram id:20 off:0x866b00 sz:8000
+ERROR:   (0)[1.209475][SEC][KDF] EKcst is not enabled.
+ERROR:   (0)[1.265524][SEC][KDF] EKcst is not enabled.
+NOTICE:  (0)[1.948465]Software version: common_2.6.1(6899-1.5)
+NOTICE:  (0)[1.949158]Change ID: 6077162(11020542)
+NOTICE:  (0)[1.949722]Build time: Jun 8 2022(Aug 7 20:08:00 UTC 2025)
+ERROR:   (0)[1.987297][SEC][KDF] EKcst is not enabled.
+ERROR:   (0)[2.055538][SEC][KDF] EKcst is not enabled.
+ERROR:   (0)[2.092798][SEC][KDF] EKcst is not enabled.
+ERROR:   (0)[2.106737][SEC][KDF] EKcst is not enabled.
+ERROR:   (0)[2.121482][SEC][KDF] EKcst is not enabled.
+ERROR:   (0)[2.136008][SEC][KDF] EKcst is not enabled.
+ERROR:   (0)[2.195509][SEC][KDF] EKcst is not enabled.
+ERROR:   (0)[2.321269][SEC][KDF] EKcst is not enabled.
+ERROR:   (0)[2.347567][SEC][KDF] EKcst is not enabled.
+ERROR:   (0)[2.410217][SEC][KDF] EKcst is not enabled.
+ERROR:   (0)[2.457092][SEC][KDF] EKcst is not enabled.
+ERROR:   (0)[3.004694][DEVAPC_MMINFRA] check_module_apc: Incorrect permission setting, module:0x1e, domain_id:0x6, perm:0x3, ret:0x0
+ERROR:   (7)[10.773548][AUDIO]: audio_smc_handler, Wrong request_ops, request_ops = 7, init_done = 0
+ERROR:   (7)[10.774792][AUDIO]: audio_smc_handler, Wrong request_ops, request_ops = 3, init_done = 0
+ERROR:   (7)[10.785239][AUDIO]: audio_smc_handler, Wrong request_ops, request_ops = 4, init_done = 0
+NOTICE:  (4)[365.056856][LPM] suspend last core prot fail
+NOTICE:  (4)[375.983205][LPM] suspend last core prot fail
+NOTICE:  (6)[438.024058][LPM] suspend last core prot fail
+NOTICE:  (5)[1447.732479][LPM] suspend last core prot fail
+NOTICE:  (6)[1530.399474][LPM] suspend last core prot fail
+NOTICE:  (6)[1549.949862][LPM] suspend last core prot fail
+NOTICE:  (6)[1611.327472][LPM] suspend last core prot fail
+NOTICE:  (4)[1642.006321][LPM] suspend last core prot fail
+ERROR:   (4)K:[1740.995838][gps_kernel_handler] unknown request_ops=0
+ERROR:   (6)K:[1740.996725][gps_kernel_handler] unknown request_ops=3
+NOTICE:  (2)K:[1871.026507]GDL[E:0] [gps_dl_hw_get_dsp_ms_counter:247]: abnormal, p_tcxo_low = dead0001, p_tcxo_high = dead0001
+NOTICE:  (7)[3147.400829][LPM] suspend last core prot fail
+NOTICE:  (4)[3311.699384][LPM] suspend last core prot fail
+NOTICE:  (7)[3891.107000][LPM] suspend last core prot fail
+NOTICE:  (5)[4137.197916][LPM] suspend last core prot fail
+NOTICE:  (6)[5038.817425][LPM] suspend last core prot fail
+NOTICE:  (6)[5072.740641][LPM] suspend last core prot fail
+NOTICE:  (6)[5098.270271][LPM] suspend last core prot fail
+NOTICE:  (5)[5103.937308][LPM] suspend last core prot fail
+NOTICE:  (7)[5118.047486][LPM] suspend last core prot fail
+NOTICE:  (4)[5365.267366][LPM] suspend last core prot fail
+NOTICE:  (7)[5532.813781][LPM] suspend last core prot fail
+NOTICE:  (7)[5566.535196][LPM] suspend last core prot fail
+NOTICE:  (7)[5571.838896][LPM] suspend last core prot fail
+ERROR:   (2)K:[6139.856746][gps_kernel_handler] unknown request_ops=0
+ERROR:   (3)K:[6139.857504][gps_kernel_handler] unknown request_ops=3
+NOTICE:  (7)[6441.394339][LPM] suspend last core prot fail
+NOTICE:  (7)[6661.529182][LPM] suspend last core prot fail

@@ -1,0 +1,824 @@
+----- timezone:Asia/Shanghai
+04-12 20:44:01.934192  2665  2665 D DPM-1   : Data profiles changed.
+04-12 20:44:01.934350  2665  2665 D DPM-1   : getPreferredDataProfileSetId: cursor is null
+04-12 20:44:01.934370  2665  2665 D MtkDPM  : DPM-1: mtkGetOperatorNumeric: phone type = 0 [1:GSM,2:CDMA], operator from phone = , operator from RIL = 
+04-12 20:44:01.934378  2665  2665 D DPM-1   : updateDataProfilesAtModem: set 1 data profiles.
+04-12 20:44:01.934383  2665  2665 D DPM-1   : updateDataProfilesAtModem: invoke RIL interface directly.
+04-12 20:44:01.936148  2665  2665 I RILJ    : [0213]> SET_DATA_PROFILE with data profiles :  [PHONE1]
+04-12 20:44:01.936219  2665  2665 I RILJ    : [DataProfile=[ApnSetting] DEFAULT EIMS, 0, null, , null, null, null, null, null, 0, emergency, IPV4V6, IPV4V6, true, 0, false, 0, 0, 0, 0, 0, null, null, false, UNKNOWN, UNKNOWN, -1, -1, -1, false, 3, 961, false, UNEDITED, TrafficDescriptor={mDnn=, null}, preferred=false] [PHONE1]
+04-12 20:44:01.936756  1342  1840 I AT      : SEND MSGID=0113 [APN_ADD_PROFILE_LIST_REQ], TXID=0208 [RFXSender_16], DUMP=841954240000000002001301080268010001010001000000018100002A2A2A2A2A2A2A2A2A2A2A2A030100000000000000000000FE7F0100FE7F1800010000000100000000000000000000000F0000000000000000000000FFFF1C012A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A
+04-12 20:44:01.937162  2665  2665 D DPM-1   : Initial attach data profile updated as null or forceUpdateIa= true
+04-12 20:44:01.937303  2665  2665 D GwsdService: handleMessage: MSG_NOTIFY_SYSTEM_STATE_DSDA_CHANGED from system
+04-12 20:44:01.937338  2665  2665 D GwsdService: mDsdaMode: 400
+04-12 20:44:01.937354  2665  2665 D GwsdService: default data phoneId: -1
+04-12 20:44:01.937369  2665  2665 D GwsdModeController0: [InacviceState]setUserSelectionMode: action = false
+04-12 20:44:01.937411  2665  2665 D GwsdModeController1: [InacviceState]setUserSelectionMode: action = false
+04-12 20:44:01.937477  2665  2665 D GwsdService: handleMessage: MSG_NOTIFY_SYSTEM_STATE_DSDA_CHANGED from system
+04-12 20:44:01.937482  2665  2665 D GwsdService: mDsdaMode: 400
+04-12 20:44:01.937487  2665  2665 D GwsdService: default data phoneId: -1
+04-12 20:44:01.937492  2665  2665 D GwsdModeController0: [InacviceState]setUserSelectionMode: action = false
+04-12 20:44:01.937498  2665  2665 D GwsdModeController1: [InacviceState]setUserSelectionMode: action = false
+04-12 20:44:01.937515  2665  2665 D DRM-0   : Remove all retry and throttling entries, reason=DATA_PROFILES_CHANGED
+04-12 20:44:01.937557  2665  2665 D DRM-1   : Remove all retry and throttling entries, reason=DATA_PROFILES_CHANGED
+04-12 20:44:01.937582  2665  2665 D DNC-0   : onReevaluateExistingDataNetworks: No existing data networks to re-evaluate.
+04-12 20:44:01.937621  2665  2665 D DNC-0   : Re-evaluating 0 unsatisfied network requests in 0 groups,  due to DATA_PROFILES_CHANGED
+04-12 20:44:01.937628  2665  2665 D DNC-1   : onReevaluateExistingDataNetworks: No existing data networks to re-evaluate.
+04-12 20:44:01.937640  2665  2665 D DNC-1   : Re-evaluating 0 unsatisfied network requests in 0 groups,  due to DATA_PROFILES_CHANGED
+04-12 20:44:01.937814  2665  3337 D GwsdModeController0: [InacviceState]msg=EVENT_SET_NORMAL_MODE
+04-12 20:44:01.937848  2665  3337 D GwsdModeController0: [InacviceState]msg=EVENT_SET_NORMAL_MODE
+04-12 20:44:01.937913  2665  3338 D GwsdModeController1: [InacviceState]msg=EVENT_SET_NORMAL_MODE
+04-12 20:44:01.937924  2665  3338 D GwsdModeController1: [InacviceState]msg=EVENT_SET_NORMAL_MODE
+04-12 20:44:01.949319  1342  1740 I AT      : RECV MSGID=0114 [APN_ADD_PROFILE_LIST_CNF], TXID=0208, DUMP=8419542400000000020214010802700100000400000000000001010001000000018100002A2A2A2A2A2A2A2A2A2A2A2AFFFF1C012A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A020100000000000000000000FE7F0100FE7F1800010000000100000000000000000000000F0000000000000000000000
+04-12 20:44:01.951391  2665  2966 I RILJ    : [0213]< SET_DATA_PROFILE  [PHONE1]
+04-12 20:44:02.117922  2665  2665 D SmsBroadcastUndelivered: Received broadcast android.intent.action.USER_UNLOCKED
+04-12 20:44:02.125156  2665  2665 D SmsDispatchersController: Received broadcast android.intent.action.USER_UNLOCKED
+04-12 20:44:02.126384  2665  5021 D MtkSmsBroadcastUndelivered: scanning raw table for undelivered messages
+04-12 20:44:02.134080  2665  2665 D SmsDispatchersController: Received broadcast android.intent.action.USER_UNLOCKED
+04-12 20:44:02.167937  2665  5021 D MtkSmsBroadcastUndelivered: finished scanning raw table in 41 ms
+04-12 20:44:02.167949  2665  5021 D MtkSmsBroadcastUndelivered: scanning raw table for undelivered messages
+04-12 20:44:02.174292  2665  5021 D MtkSmsBroadcastUndelivered: finished scanning raw table in 6 ms
+04-12 20:44:02.192698  2665  2665 D DNC-0   : onSimStateChanged: state=ABSENT
+04-12 20:44:02.192708  2665  2665 D DNC-0   : onSimAbsent
+04-12 20:44:02.192882  2665  2665 D MtkTelephonyAssist: MtkPhoneAssistBroadcastReceiver: MtkPhoneAssistBroadcastReceiver action = android.telephony.action.SIM_CARD_STATE_CHANGED isSystemUser = true
+04-12 20:44:02.199739  2665  2691 E SMSVC   : getActiveSubscriptionInfoList: com.transsion.launcher3 does not have enough permission. Returning empty list here.
+04-12 20:44:02.205260  2665  3388 E SMSVC   : getActiveSubscriptionInfoList: com.transsion.livewallpaper.custompictorial does not have enough permission. Returning empty list here.
+04-12 20:44:02.219420  2665  2665 I RILJ    : [0214]> VOICE_RADIO_TECH [PHONE0]
+04-12 20:44:02.223042  2665  3388 I RILJ    : [0214]< VOICE_RADIO_TECH {1} [PHONE0]
+04-12 20:44:02.225462  2665  2665 I GsmCdmaPhone: [0] didn't updateVoNrSettings for add on case, will update by ims.
+04-12 20:44:02.227716  2665  2665 I RILJ    : [0215]> GET_RADIO_CAPABILITY [PHONE0]
+04-12 20:44:02.228239  2665  2665 D DNC-0   : onReevaluateExistingDataNetworks: No existing data networks to re-evaluate.
+04-12 20:44:02.229085  2665  3388 I RILJ    : convertHalRadioCapability: session=-1, phase=3, rat=561156, logicModemUuid=modem_sys1_ps0_nr1, status=1, rcRil.raf=1130504 [PHONE0]
+04-12 20:44:02.229185  2665  3388 I RILJ    : [0215]< GET_RADIO_CAPABILITY {mPhoneId = 0 mVersion=1 mSession=-1 mPhase=3 mRadioAccessFamily=561156 mLogicModemId=modem_sys1_ps0_nr1 mStatus=1} [PHONE0]
+04-12 20:44:02.441070  2685  2930 I ImsLocationHandler: NetworkCallback.onAvailable()
+04-12 20:44:02.446248  2665  3225 D NetworkTypeController: [0] On Available: 100
+04-12 20:44:02.447350  2665  3225 D NetworkTypeController: [0] satellite constrained data status : false
+04-12 20:44:02.448430  2665  3225 D DIC-0   : dataNetworkType: 0, voiceNetworkType: 0, resultNetworkType: 0
+04-12 20:44:02.448504  2665  3225 D NetworkTypeController: [0] onCapabilitiesChanged: 100
+04-12 20:44:02.448517  2665  3225 D NetworkTypeController: [0] satellite constrained data status : false
+04-12 20:44:02.448546  2665  3225 D DIC-0   : dataNetworkType: 0, voiceNetworkType: 0, resultNetworkType: 0
+04-12 20:44:02.450286  2685  3014 I ImsLocationHandler: lastKnownLocation = null
+04-12 20:44:02.451882  2685  3014 I ImsLocationHandler: proxyAppLocationGranted: false
+04-12 20:44:02.454786  2685  3014 I ImsLocationHandler: isEccInProgress: false, redialECC: false
+04-12 20:44:02.454848  2685  3014 E ImsLocationHandler: isGetLocationAlways: SIM not ready, use default carrier config
+04-12 20:44:02.454879  2685  3014 I ImsLocationHandler: isGetLocationAlways: false
+04-12 20:44:02.457588  2685  3014 W ImsLocationHandler: requestLocationFromNetworkLocation failed: is NOT in ECC & non-framework location proxy app is NOT granted
+04-12 20:44:02.457637  2685  3014 I ImsLocationHandler: setLocationInfo info=[LocationInfo objId: 196817678, phoneId: 0, transationId: 0, accuracy: 0.0, confidence: 68, vericalAxisAccuracy: 0.0, broadcastFlag: 1, method: Network, city: , state: ***nown, zip: , countryCode: *N, time: 0, mPlmnCountryCode:CN
+04-12 20:44:02.458811  2685  3014 E ImsLocationHandler: getIntCarrierConfig: SIM not ready, use default carrier config
+04-12 20:44:02.459568  1342  1826 I AT      : SEND MSGID=0051 [SYS_SET_GEO_LOCATION_REQ], TXID=0209 [RFXSender_3], DUMP=8419542400000000010051000902A000068101002A0000000E8104002A2A2A2A078108002A2A2A2A2A2A2A2A000000000F8104002A2A2A2A008101002A000000088101002A000000010101002A000000098103002A2A2A00028104002A2A2A2A0A8112002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A0000038104002A2A2A2A0B8104002A2A2A2A048104002A2A2A2A0C8104002A2A2A2A058108002A2A2A2A2A2A2A2A000000000D8104002A2A2A2A
+04-12 20:44:02.462361  2665  3281 D NetworkTypeController: [1] On Available: 100
+04-12 20:44:02.462862  2665  3281 D NetworkTypeController: [1] satellite constrained data status : false
+04-12 20:44:02.463059  2665  3281 D DIC-1   : dataNetworkType: 0, voiceNetworkType: 0, resultNetworkType: 0
+04-12 20:44:02.463199  2665  3281 D NetworkTypeController: [1] onCapabilitiesChanged: 100
+04-12 20:44:02.463231  2665  3281 D NetworkTypeController: [1] satellite constrained data status : false
+04-12 20:44:02.463253  2665  3281 D DIC-1   : dataNetworkType: 0, voiceNetworkType: 0, resultNetworkType: 0
+04-12 20:44:02.468131  1342  1740 I AT      : RECV MSGID=0052 [SYS_SET_GEO_LOCATION_CNF], TXID=0209, DUMP=841954240000000001025200090208000000040000000000
+04-12 20:44:02.472541  2665  3223 D TelephonyCountryDetector: onCapabilitiesChanged: [ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=60000Kbps TransportInfo: <SSID: <unknown ssid>, BSSID: 02:00:00:00:00:00, MAC: 02:00:00:00:00:00, IP: /192.168.1.136, Security type: 2, Supplicant state: COMPLETED, Wi-Fi standard: 11ac, RSSI: -38, Link speed: 780Mbps, Tx Link speed: 780Mbps, Max Supported Tx Link speed: 866Mbps, Rx Link speed: 6Mbps, Max Supported Rx Link speed: 866Mbps, Frequency: 5180MHz, Net ID: -1, Metered hint: false, score: 100, isUsable: true, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1, Trusted: true, Restricted: false, Ephemeral: false, OEM paid: false, OEM private: false, OSU AP: false, FQDN: <none>, Provider friendly name: <none>, Requesting package name: <none><none>MLO Information: , Is TID-To-Link negotiation supported by the AP: false, AP MLD Address: <none>, AP MLO Link Id: <none>, AP MLO Affiliated links: <none>, Vendor Data: <none>> SignalStrength: -38 AdminUids: [1000] SSID: "David_5" UnderlyingNetworks: Null]
+04-12 20:44:02.472570  2665  3223 D TelephonyCountryDetector: isWifiConnected: false
+04-12 20:44:02.473484  2665  3403 D TelephonyCountryDetector: handleEventWifiConnectivityStateChanged: false
+04-12 20:44:02.473544  2665  3403 D TelephonyCountryDetector: getCurrentNetworkCountryIso: invalid countryIso= for phoneId=1, subId=-1
+04-12 20:44:02.473551  2665  3403 D TelephonyCountryDetector: Location update was not requested yet
+04-12 20:44:02.475720  2665  2665 D MtkDeviceStateMonitor: [phoneId0]isLowDataExpected mIsScreenOn = true mIsCharging = false mIsTetheringOn = false
+04-12 20:44:02.483288  2665  2665 D MtkDeviceStateMonitor: [phoneId1]isLowDataExpected mIsScreenOn = true mIsCharging = false mIsTetheringOn = false
+04-12 20:44:02.484388  2665  2665 I RILJ    : [0216]> SET_UNSOLICITED_RESPONSE_FILTER 32 [PHONE1]
+04-12 20:44:02.484546  2665  2665 D NetworkTypeController: [1] LegacyState: process EVENT_PHYSICAL_CHANNEL_CONFIG_NOTIF_CHANGED
+04-12 20:44:02.484570  2665  2665 D NetworkTypeController: [1] DefaultState: process EVENT_PHYSICAL_CHANNEL_CONFIG_NOTIF_CHANGED
+04-12 20:44:02.484580  2665  2665 D NetworkTypeController: [1] mIsPhysicalChannelConfigOn changed to: false
+04-12 20:44:02.484586  2665  2665 D NetworkTypeController: [1] Reset timers since physical channel config indications are off.
+04-12 20:44:02.484630  2665  2665 D MtkNetworkTypeController: [Override]getCurrentOverrideNetworkType: 0
+04-12 20:44:02.484652  2665  2665 D DIC-1   : dataNetworkType: 0, voiceNetworkType: 0, resultNetworkType: 0
+04-12 20:44:02.486315  1342  1803 I AT      : SEND MSGID=0309 [INTERNAL_UNREGISTER_IND_REQ], TXID=020a [RFXSender_12], DUMP=8419542400000000020009030A0208000001020002440000
+04-12 20:44:02.491639  1342  1740 I AT      : RECV MSGID=030a [INTERNAL_UNREGISTER_IND_CNF], TXID=020a, DUMP=841954240000000002020A030A0208000000040000000000
+04-12 20:44:02.492023  1342  1803 I AT      : SEND MSGID=0309 [INTERNAL_UNREGISTER_IND_REQ], TXID=020b [RFXSender_12], DUMP=8419542400000000020009030B0208000001020013440000
+04-12 20:44:02.493767  1342  1740 I AT      : RECV MSGID=030a [INTERNAL_UNREGISTER_IND_CNF], TXID=020b, DUMP=841954240000000002020A030B0208000000040000000000
+04-12 20:44:02.494316  1342  1803 I AT      : SEND MSGID=0309 [INTERNAL_UNREGISTER_IND_REQ], TXID=020c [RFXSender_12], DUMP=8419542400000000020009030C020800000102001E440000
+04-12 20:44:02.496572  1342  1740 I AT      : RECV MSGID=030a [INTERNAL_UNREGISTER_IND_CNF], TXID=020c, DUMP=841954240000000002020A030C0208000000040000000000
+04-12 20:44:02.496645  1342  1803 I AT      : SEND MSGID=0309 [INTERNAL_UNREGISTER_IND_REQ], TXID=020d [RFXSender_12], DUMP=8419542400000000020009030D0208000001020017440000
+04-12 20:44:02.498091  1342  1740 I AT      : RECV MSGID=030a [INTERNAL_UNREGISTER_IND_CNF], TXID=020d, DUMP=841954240000000002020A030D0208000000040000000000
+04-12 20:44:02.498558  1342  1803 I AT      : SEND MSGID=0309 [INTERNAL_UNREGISTER_IND_REQ], TXID=020e [RFXSender_12], DUMP=8419542400000000020009030E0208000001020018440000
+04-12 20:44:02.500434  1342  1740 I AT      : RECV MSGID=030a [INTERNAL_UNREGISTER_IND_CNF], TXID=020e, DUMP=841954240000000002020A030E0208000000040000000000
+04-12 20:44:02.500538  1342  1803 I AT      : SEND MSGID=0309 [INTERNAL_UNREGISTER_IND_REQ], TXID=020f [RFXSender_12], DUMP=8419542400000000020009030F0208000001020009440000
+04-12 20:44:02.501597  1342  1740 I AT      : RECV MSGID=030a [INTERNAL_UNREGISTER_IND_CNF], TXID=020f, DUMP=841954240000000002020A030F0208000000040000000000
+04-12 20:44:02.501896  2665  2665 E TNP     : onNetworkUnneeded: Unable to get phone. phoneId=-1
+04-12 20:44:02.502400  2665  2665 E TNP     : onNetworkUnneeded: Unable to get phone. phoneId=-1
+04-12 20:44:02.502480  2665  2665 E TNP     : onNetworkUnneeded: Unable to get phone. phoneId=-1
+04-12 20:44:02.502695  1342  1803 I AT      : SEND MSGID=047b [NW_SET_NW_IND_REPORT_LEVEL_REQ], TXID=0210 [RFXSender_12], DUMP=841954240000000002007B041002100000010100050000000101010005000000
+04-12 20:44:02.510864  1342  1740 I AT      : RECV MSGID=047c [NW_SET_NW_IND_REPORT_LEVEL_CNF], TXID=0210, DUMP=841954240000000002027C04100208000000040000000000
+04-12 20:44:02.510975  1342  1803 I AT      : SEND MSGID=0309 [INTERNAL_UNREGISTER_IND_REQ], TXID=0211 [RFXSender_12], DUMP=841954240000000002000903110208000001020019440000
+04-12 20:44:02.511909  1342  1740 I AT      : RECV MSGID=030a [INTERNAL_UNREGISTER_IND_CNF], TXID=0211, DUMP=841954240000000002020A03110208000000040000000000
+04-12 20:44:02.511993  1342  1803 I AT      : SEND MSGID=0309 [INTERNAL_UNREGISTER_IND_REQ], TXID=0212 [RFXSender_12], DUMP=84195424000000000200090312020800000102001B440000
+04-12 20:44:02.513214  1342  1740 I AT      : RECV MSGID=030a [INTERNAL_UNREGISTER_IND_CNF], TXID=0212, DUMP=841954240000000002020A03120208000000040000000000
+04-12 20:44:02.513576  2665  3802 I RILJ    : [0216]< SET_UNSOLICITED_RESPONSE_FILTER  [PHONE1]
+04-12 20:44:02.513705  1342  1803 I AT      : SEND MSGID=0309 [INTERNAL_UNREGISTER_IND_REQ], TXID=0213 [RFXSender_12], DUMP=84195424000000000200090313020800000102000D420000
+04-12 20:44:02.515715  1342  1740 I AT      : RECV MSGID=030a [INTERNAL_UNREGISTER_IND_CNF], TXID=0213, DUMP=841954240000000002020A03130208000000040000000000
+04-12 20:44:02.609085  1135  1152 I mipc_lib: SEND MSGID=1409 [MIPC_LOC_LBS_SYNC_LOCATION_EM_CONFIG_REQ], TXID=000d [binder:1135_2], DUMP=8419542400000000010009140D00100000010400010000000101040000000000
+04-12 20:44:02.615678  1135  1889 I mipc_lib: RECV MSGID=140a [MIPC_LOC_LBS_SYNC_LOCATION_EM_CONFIG_CNF], TXID=000d, DUMP=841954240000000001020A140D000800000004006A000000
+04-12 20:44:02.668118  2665  2665 D EmergencyNumberTracker: [0][mTranIntentReceiver] intent: Intent { act=android.telephony.action.CARRIER_CONFIG_CHANGED flg=0x15000010 xflg=0x4 (has extras) }
+04-12 20:44:02.673958  2665  2665 D MtkDPM  : DPM-0: mIntentReceiverEx onReceive: action=android.telephony.action.CARRIER_CONFIG_CHANGED
+04-12 20:44:02.675036  2665  2665 D EmergencyNumberTracker: [1][mTranIntentReceiver] intent: Intent { act=android.telephony.action.CARRIER_CONFIG_CHANGED flg=0x15000010 xflg=0x4 (has extras) }
+04-12 20:44:02.678494  1744  1929 W TelephonyRegistry: Pid 1744 has exceeded half the number of permissible registered listeners. Now at 48
+04-12 20:44:02.678513  2665  2665 D MtkDPM  : DPM-1: mIntentReceiverEx onReceive: action=android.telephony.action.CARRIER_CONFIG_CHANGED
+04-12 20:44:02.688467  2665  2665 E ImsStateCallbackController: onReceive ACTION_CARRIER_CONFIG_CHANGED invalid subId
+04-12 20:44:02.689201  2665  2665 D PinStorage: SIM card/application changed[1]: ABSENT
+04-12 20:44:02.776234  2665  2665 D AnkitSimAbsent: Sim is Absent
+04-12 20:44:02.776377  2665  2665 D EmergencyNumberTracker: [0][mTranIntentReceiver] intent: Intent { act=android.telephony.action.CARRIER_CONFIG_CHANGED flg=0x15000010 xflg=0x4 (has extras) }
+04-12 20:44:02.777052  2665  2665 D MtkDPM  : DPM-0: mIntentReceiverEx onReceive: action=android.telephony.action.CARRIER_CONFIG_CHANGED
+04-12 20:44:02.777121  2665  2665 D EmergencyNumberTracker: [1][mTranIntentReceiver] intent: Intent { act=android.telephony.action.CARRIER_CONFIG_CHANGED flg=0x15000010 xflg=0x4 (has extras) }
+04-12 20:44:02.778619  2665  2665 D MtkDPM  : DPM-1: mIntentReceiverEx onReceive: action=android.telephony.action.CARRIER_CONFIG_CHANGED
+04-12 20:44:02.778818  2665  2665 D AnkitSimAbsent: Sim is Absent
+04-12 20:44:02.779109  2665  2665 E ImsStateCallbackController: onReceive ACTION_CARRIER_CONFIG_CHANGED invalid subId
+04-12 20:44:02.786772  2665  2665 I RILJ    : [0217]> VOICE_RADIO_TECH [PHONE1]
+04-12 20:44:02.787266  2665  2665 I GsmCdmaPhone: [1] didn't updateVoNrSettings for add on case, will update by ims.
+04-12 20:44:02.787994  2665  3803 I RILJ    : [0217]< VOICE_RADIO_TECH {1} [PHONE1]
+04-12 20:44:02.788732  2665  2665 I RILJ    : [0218]> GET_RADIO_CAPABILITY [PHONE1]
+04-12 20:44:02.789311  2665  2665 D LocaleTracker-1: updateLocale: countryIso = , countryIsoDebugInfo = radio off
+04-12 20:44:02.789328  2665  2665 D LocaleTracker-1: updateLocale: timeZoneCountryIso = , timeZoneCountryIsoDebugInfo = radio off
+04-12 20:44:02.789341  2665  2665 D NitzStateMachineImpl: handleCountryUnavailable: mLatestNitzSignal=null
+04-12 20:44:02.789371  2665  2665 D NitzStateMachineImpl: doTimeZoneDetection: countryIsoCode=null, nitzSignal=null, suggestion=TelephonyTimeZoneSuggestion{mSlotIndex=1, mZoneId='null', mMatchType=0, mQuality=0, mDebugInfo=[getTimeZoneSuggestion: nitzSignal=null, countryIsoCode=null, Detection reason=handleCountryUnavailable]}, reason=handleCountryUnavailable
+04-12 20:44:02.789393  2665  2665 D CarrierPrivilegesTracker: handleSimStateChanged: slotId=1 simState=1
+04-12 20:44:02.789401  2665  2665 D CarrierPrivilegesTracker: handleSimStateChanged: Ignore SIM gone event while UiccRules is empty or waiting to be emptied.
+04-12 20:44:02.792294  2665  2665 D TNP     : onNetworkNeeded: Not applied. [NetworkRequest [ REQUEST id=156, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10233 RequestorUid: 1000 RequestorPkg: android UnderlyingNetworks: Null] ], mPriority=0, state=UNSATISFIED, mAttachedDataNetwork=null, created time=20:44:02.792, evaluation result=null]
+04-12 20:44:02.792814  2665  3803 I RILJ    : convertHalRadioCapability: session=-1, phase=3, rat=561156, logicModemUuid=modem_sys1_ps1_nr1, status=1, rcRil.raf=1130504 [PHONE1]
+04-12 20:44:02.792918  2665  3803 I RILJ    : [0218]< GET_RADIO_CAPABILITY {mPhoneId = 1 mVersion=1 mSession=-1 mPhase=3 mRadioAccessFamily=561156 mLogicModemId=modem_sys1_ps1_nr1 mStatus=1} [PHONE1]
+04-12 20:44:02.901839  2665  2665 E TNP     : onNetworkUnneeded: Unable to get phone. phoneId=-1
+04-12 20:44:02.904167  2665  2665 E TNP     : onNetworkUnneeded: Unable to get phone. phoneId=-1
+04-12 20:44:02.904197  2665  2665 E TNP     : onNetworkUnneeded: Unable to get phone. phoneId=-1
+04-12 20:44:02.904209  2665  2665 E TNP     : onNetworkUnneeded: Unable to get phone. phoneId=-1
+04-12 20:44:02.904221  2665  2665 E TNP     : onNetworkUnneeded: Unable to get phone. phoneId=-1
+04-12 20:44:02.904241  2665  2665 E TNP     : onNetworkUnneeded: Unable to get phone. phoneId=-1
+04-12 20:44:02.904257  2665  2665 E TNP     : onNetworkUnneeded: Unable to get phone. phoneId=-1
+04-12 20:44:02.904270  2665  2665 E TNP     : onNetworkUnneeded: Unable to get phone. phoneId=-1
+04-12 20:44:02.904281  2665  2665 E TNP     : onNetworkUnneeded: Unable to get phone. phoneId=-1
+04-12 20:44:02.904297  2665  2665 E TNP     : onNetworkUnneeded: Unable to get phone. phoneId=-1
+04-12 20:44:02.904311  2665  2665 E TNP     : onNetworkUnneeded: Unable to get phone. phoneId=-1
+04-12 20:44:02.904345  2665  2665 E TNP     : onNetworkUnneeded: Unable to get phone. phoneId=-1
+04-12 20:44:02.904365  2665  2665 E TNP     : onNetworkUnneeded: Unable to get phone. phoneId=-1
+04-12 20:44:02.904377  2665  2665 E TNP     : onNetworkUnneeded: Unable to get phone. phoneId=-1
+04-12 20:44:02.904389  2665  2665 E TNP     : onNetworkUnneeded: Unable to get phone. phoneId=-1
+04-12 20:44:02.904402  2665  2665 E TNP     : onNetworkUnneeded: Unable to get phone. phoneId=-1
+04-12 20:44:02.904415  2665  2665 E TNP     : onNetworkUnneeded: Unable to get phone. phoneId=-1
+04-12 20:44:02.904429  2665  2665 E TNP     : onNetworkUnneeded: Unable to get phone. phoneId=-1
+04-12 20:44:02.904440  2665  2665 E TNP     : onNetworkUnneeded: Unable to get phone. phoneId=-1
+04-12 20:44:02.904452  2665  2665 E TNP     : onNetworkUnneeded: Unable to get phone. phoneId=-1
+04-12 20:44:02.904468  2665  2665 E TNP     : onNetworkUnneeded: Unable to get phone. phoneId=-1
+04-12 20:44:02.904478  2665  2665 E TNP     : onNetworkUnneeded: Unable to get phone. phoneId=-1
+04-12 20:44:02.904488  2665  2665 E TNP     : onNetworkUnneeded: Unable to get phone. phoneId=-1
+04-12 20:44:02.904500  2665  2665 E TNP     : onNetworkUnneeded: Unable to get phone. phoneId=-1
+04-12 20:44:02.904510  2665  2665 E TNP     : onNetworkUnneeded: Unable to get phone. phoneId=-1
+04-12 20:44:02.904521  2665  2665 E TNP     : onNetworkUnneeded: Unable to get phone. phoneId=-1
+04-12 20:44:02.905886  2665  2665 E TNP     : onNetworkUnneeded: Unable to get phone. phoneId=-1
+04-12 20:44:02.905915  2665  2665 E TNP     : onNetworkUnneeded: Unable to get phone. phoneId=-1
+04-12 20:44:02.905932  2665  2665 E TNP     : onNetworkUnneeded: Unable to get phone. phoneId=-1
+04-12 20:44:02.905944  2665  2665 E TNP     : onNetworkUnneeded: Unable to get phone. phoneId=-1
+04-12 20:44:02.905955  2665  2665 E TNP     : onNetworkUnneeded: Unable to get phone. phoneId=-1
+04-12 20:44:02.905969  2665  2665 E TNP     : onNetworkUnneeded: Unable to get phone. phoneId=-1
+04-12 20:44:02.925243  2665  3281 D NetworkTypeController: [1] onCapabilitiesChanged: 100
+04-12 20:44:02.925261  2665  3281 D NetworkTypeController: [1] satellite constrained data status : false
+04-12 20:44:02.925309  2665  3281 D DIC-1   : dataNetworkType: 0, voiceNetworkType: 0, resultNetworkType: 0
+04-12 20:44:02.925674  2665  3225 D NetworkTypeController: [0] onCapabilitiesChanged: 100
+04-12 20:44:02.925690  2665  3225 D NetworkTypeController: [0] satellite constrained data status : false
+04-12 20:44:02.925710  2665  3225 D DIC-0   : dataNetworkType: 0, voiceNetworkType: 0, resultNetworkType: 0
+04-12 20:44:02.929467  2665  3223 D TelephonyCountryDetector: onCapabilitiesChanged: [ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=60000Kbps TransportInfo: <SSID: <unknown ssid>, BSSID: 02:00:00:00:00:00, MAC: 02:00:00:00:00:00, IP: /192.168.1.136, Security type: 2, Supplicant state: COMPLETED, Wi-Fi standard: 11ac, RSSI: -38, Link speed: 780Mbps, Tx Link speed: 780Mbps, Max Supported Tx Link speed: 866Mbps, Rx Link speed: 6Mbps, Max Supported Rx Link speed: 866Mbps, Frequency: 5180MHz, Net ID: -1, Metered hint: false, score: 100, isUsable: true, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1, Trusted: true, Restricted: false, Ephemeral: false, OEM paid: false, OEM private: false, OSU AP: false, FQDN: <none>, Provider friendly name: <none>, Requesting package name: <none><none>MLO Information: , Is TID-To-Link negotiation supported by the AP: false, AP MLD Address: <none>, AP MLO Link Id: <none>, AP MLO Affiliated links: <none>, Vendor Data: <none>> SignalStrength: -38 AdminUids: [1000] SSID: "David_5" UnderlyingNetworks: Null]
+04-12 20:44:02.929497  2665  3223 D TelephonyCountryDetector: isWifiConnected: true
+04-12 20:44:02.933202  1342  1826 I RmmMwi  : [0] setWifiAssociated assoc:1, wifi_state:1, wifi_state_support:1
+04-12 20:44:02.933259  1342  1826 I AT      : SEND MSGID=cb02 [WFC_WIFI_INFO_NTF], TXID=ffff [RFXSender_3], DUMP=8419542400000000010002CBFFFF7800070102002A2A0000000106002A2A2A2A2A2A000000000000080106002A2A2A2A2A2A000000000000110108002A2A2A2A2A2A2A2A00000000030101002A000000130101002A00000004010F002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A0000000000140101002A000000050106002A2A2A2A2A2A000000000000
+04-12 20:44:02.933773  2665  3403 D TelephonyCountryDetector: handleEventWifiConnectivityStateChanged: true
+04-12 20:44:02.933812  2665  3403 D TelephonyCountryDetector: evaluateNotifyWifiConnectivityStateChangedEvent: wifi connectivity state has changed to true
+04-12 20:44:02.933845  2665  3403 D TelephonyCountryDetector: getCurrentNetworkCountryIso: invalid countryIso= for phoneId=1, subId=-1
+04-12 20:44:02.933849  2665  3403 D TelephonyCountryDetector: Location update was not requested yet
+04-12 20:44:02.938202  1342  1826 I AT      : SEND MSGID=cb02 [WFC_WIFI_INFO_NTF], TXID=ffff [RFXSender_3], DUMP=8419542400000000010002CBFFFF78000E0110002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A000000000F0100002A2A2A2A2A2A2A2A2A2A2A2A000106002A2A2A2A2A2A000000000000100101002A000000090104002A2A2A2A0A0101002A0000000B0104002A2A2A2A0C0110002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A00000000FF7F04002A2A2A2A
+04-12 20:44:02.938257  1342  1826 I AT      : SEND MSGID=cb00 [WFC_WIFI_SIGNAL_NTF], TXID=ffff [RFXSender_3], DUMP=8419542400000000010000CBFFFF200000010500776C616E000000000000000001010200DAFF00000201020000000000
+04-12 20:44:02.941923  2665  2665 D DataHelper: mDsdaMode=400 changed=false
+04-12 20:44:02.942756  1342  1740 I AT      : RECV MSGID=4011 [SYS_GEO_LOCATION_IND], TXID=ffff, DUMP=841954240000000001031140FFFF5800008101002A000000010101002A000000028104002A2A2A2A038104002A2A2A2A048102002A2A0000058101002A000000068101002A000000078101002A000000088101002A000000098101002A0000000B8104002A2A2A2A
+04-12 20:44:02.943552  1342  1740 I AT      : RECV MSGID=4011 [SYS_GEO_LOCATION_IND], TXID=ffff, DUMP=841954240000000002031140FFFF5800008101002A000000010101002A000000028104002A2A2A2A038104002A2A2A2A048102002A2A0000058101002A000000068101002A000000078101002A000000088101002A000000098101002A0000000B8104002A2A2A2A
+04-12 20:44:02.944439  1342  1740 I AT      : RECV MSGID=4215 [DATA_RETRY_TIMER_IND], TXID=ffff, DUMP=841954240000000001031542FFFF100000010100000000000101010001000000
+04-12 20:44:02.945763  1342  1740 I AT      : RECV MSGID=4215 [DATA_RETRY_TIMER_IND], TXID=ffff, DUMP=841954240000000002031542FFFF100000010100000000000101010001000000
+04-12 20:44:02.950615  1342  1826 I AT      : SEND MSGID=cb00 [WFC_WIFI_SIGNAL_NTF], TXID=ffff [RFXSender_3], DUMP=8419542400000000010000CBFFFF200000010500776C616E000000000000000001010200DAFF00000201020000000000
+04-12 20:44:02.951200  2665  2965 I RILJ    : Unsol response received; Sending ack to ril.cpp [PHONE1]
+04-12 20:44:02.951261  2665  2965 I RILJ    : [UNSL]< MTK: RIL_UNSOL_MD_DATA_RETRY_COUNT_RESET [PHONE1]
+04-12 20:44:02.951360  2665  2665 D MtkDNC  : DNC-1: EVENT_MD_DATA_RETRY_COUNT_RESET
+04-12 20:44:02.951381  2665  2665 D DRM-1   : Remove all retry and throttling entries, reason=MODEM_RESTART
+04-12 20:44:02.951497  2665  2665 D DNC-1   : Re-evaluating 0 unsatisfied network requests in 0 groups,  due to NEW_REQUEST
+04-12 20:44:02.954097  2665  2965 I RILJ    : Unsol response received; Sending ack to ril.cpp [PHONE0]
+04-12 20:44:02.954146  2665  2965 I RILJ    : [UNSL]< MTK: RIL_UNSOL_MD_DATA_RETRY_COUNT_RESET [PHONE0]
+04-12 20:44:02.954209  2665  2665 D MtkDNC  : DNC-0: EVENT_MD_DATA_RETRY_COUNT_RESET
+04-12 20:44:02.954222  2665  2665 D DRM-0   : Remove all retry and throttling entries, reason=MODEM_RESTART
+04-12 20:44:02.954304  2665  2665 D DNC-0   : Re-evaluating 0 unsatisfied network requests in 0 groups,  due to NEW_REQUEST
+04-12 20:44:02.974941  2685  3014 I ImsLocationHandler: lastKnownLocation = null
+04-12 20:44:02.978076  2685  3014 I ImsLocationHandler: proxyAppLocationGranted: false
+04-12 20:44:02.981880  2685  3014 I ImsLocationHandler: isEccInProgress: false, redialECC: false
+04-12 20:44:02.981935  2685  3014 E ImsLocationHandler: isGetLocationAlways: SIM not ready, use default carrier config
+04-12 20:44:02.981972  2685  3014 I ImsLocationHandler: isGetLocationAlways: false
+04-12 20:44:02.982725  2685  3014 W ImsLocationHandler: requestLocationFromNetworkLocation failed: is NOT in ECC & non-framework location proxy app is NOT granted
+04-12 20:44:02.982776  2685  3014 I ImsLocationHandler: setLocationInfo info=[LocationInfo objId: 51851567, phoneId: 1, transationId: 100, accuracy: 0.0, confidence: 0, vericalAxisAccuracy: 0.0, broadcastFlag: 0, method: Network, city: , state: ***nown, zip: , countryCode: *N, time: 0, mPlmnCountryCode:CN
+04-12 20:44:02.985103  1342  1839 I AT      : SEND MSGID=0051 [SYS_SET_GEO_LOCATION_REQ], TXID=0214 [RFXSender_15], DUMP=8419542400000000020051001402A000068101002A0000000E8104002A2A2A2A078108002A2A2A2A2A2A2A2A000000000F8104002A2A2A2A008101002A000000088101002A000000010101002A000000098103002A2A2A00028104002A2A2A2A0A8112002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A0000038104002A2A2A2A0B8104002A2A2A2A048104002A2A2A2A0C8104002A2A2A2A058108002A2A2A2A2A2A2A2A000000000D8104002A2A2A2A
+04-12 20:44:02.985306  2685  3014 I ImsLocationHandler: lastKnownLocation = null
+04-12 20:44:02.986320  2685  3014 I ImsLocationHandler: proxyAppLocationGranted: false
+04-12 20:44:02.986859  2685  3014 I ImsLocationHandler: isEccInProgress: false, redialECC: false
+04-12 20:44:02.986880  2685  3014 E ImsLocationHandler: isGetLocationAlways: SIM not ready, use default carrier config
+04-12 20:44:02.986897  2685  3014 I ImsLocationHandler: isGetLocationAlways: false
+04-12 20:44:02.987201  2685  3014 W ImsLocationHandler: requestLocationFromNetworkLocation failed: is NOT in ECC & non-framework location proxy app is NOT granted
+04-12 20:44:02.987328  2685  3014 I ImsLocationHandler: setLocationInfo info=[LocationInfo objId: 188117820, phoneId: 0, transationId: 100, accuracy: 0.0, confidence: 0, vericalAxisAccuracy: 0.0, broadcastFlag: 0, method: Network, city: , state: ***nown, zip: , countryCode: *N, time: 0, mPlmnCountryCode:CN
+04-12 20:44:02.990167  1342  1826 I AT      : SEND MSGID=0051 [SYS_SET_GEO_LOCATION_REQ], TXID=0215 [RFXSender_3], DUMP=8419542400000000010051001502A000068101002A0000000E8104002A2A2A2A078108002A2A2A2A2A2A2A2A000000000F8104002A2A2A2A008101002A000000088101002A000000010101002A000000098103002A2A2A00028104002A2A2A2A0A8112002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A0000038104002A2A2A2A0B8104002A2A2A2A048104002A2A2A2A0C8104002A2A2A2A058108002A2A2A2A2A2A2A2A000000000D8104002A2A2A2A
+04-12 20:44:02.996351  1342  1740 I AT      : RECV MSGID=0052 [SYS_SET_GEO_LOCATION_CNF], TXID=0214, DUMP=841954240000000002025200140208000000040000000000
+04-12 20:44:02.996617  1342  1740 I AT      : RECV MSGID=0052 [SYS_SET_GEO_LOCATION_CNF], TXID=0215, DUMP=841954240000000001025200150208000000040000000000
+04-12 20:44:03.103939  2665  2665 I TranCAT : BootCompletedReceiver: [onReceive] action = android.intent.action.SIM_STATE_CHANGED
+04-12 20:44:03.103970  2665  2665 I TranCAT : BootCompletedReceiver: ACTION_SIM_STATE_CHANGED, simStatus: ABSENT
+04-12 20:44:03.103980  2665  2665 I TranCAT : StkAthenaUploader: [handleIccChangeAction] simStatus: ABSENT
+04-12 20:44:03.119440  2665  2665 D MTKSST  : [GsmSST0] SST.requestAllCellInfo(): return last, back to back calls
+04-12 20:44:03.123568  2665  5286 D MtkRILJ : [0221]> OEM_HOOK_STRINGS strings = AT+ESIMS? +ESIMS  [PHONE0]
+04-12 20:44:03.124088  1342  1805 D RpOemCtlr: [0] onHandleOemHookString, data[0] = AT+ESIMS?
+04-12 20:44:03.124392  1342  1824 I AT      : [0] AT> AT+ESIMS? (RIL_CMD_READER_1 tid:528047672256)
+04-12 20:44:03.124432  1342  1824 I AT      : SEND MSGID=0003 [SYS_AT_REQ], TXID=0216 [RFXSender_1], DUMP=8419542400000000010003001602100000810A002A2A2A2A2A2A2A2A2A2A0000
+04-12 20:44:03.130921  1342  1740 I AT      : RECV MSGID=0004 [SYS_AT_CNF], TXID=0216, DUMP=841954240000000001020400160220000000040000000000008114002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A
+04-12 20:44:03.131018  1342  1824 I AT      : [0] AT< +ESIMS: 0 (RIL_CMD_READER_1, tid:528047672256)
+04-12 20:44:03.131031  1342  1824 I AT      : [0] AT< OK (RIL_CMD_READER_1, tid:528047672256)
+04-12 20:44:03.131484  2665  2965 I RILJ    : [0221]< OEM_HOOK_STRINGS {+ESIMS: 0} [PHONE0]
+04-12 20:44:03.132973  2665  2665 D DNC-1   : onSimStateChanged: state=ABSENT
+04-12 20:44:03.132997  2665  2665 D DNC-1   : onSimAbsent
+04-12 20:44:03.133013  2665  2665 D DNC-1   : onReevaluateExistingDataNetworks: No existing data networks to re-evaluate.
+04-12 20:44:03.133386  2665  2665 D SAT     : [0]onSimAbsent, reset activation state to UNKNOWN
+04-12 20:44:03.133397  2665  2665 D SAT     : [0]setVoiceActivationState=0
+04-12 20:44:03.133817  2665  2665 D SAT     : [0]setDataActivationState=0
+04-12 20:44:03.134021  2665  2665 D SMSDispatcher: Received broadcast android.intent.action.SIM_STATE_CHANGED
+04-12 20:44:03.134081  2665  2665 D SMSDispatcher: Received broadcast android.intent.action.SIM_STATE_CHANGED
+04-12 20:44:03.134203  2665  2665 D MtkTelephonyAssist: MtkPhoneAssistBroadcastReceiver: MtkPhoneAssistBroadcastReceiver action = android.telephony.action.SIM_CARD_STATE_CHANGED isSystemUser = true
+04-12 20:44:03.141177  2665  2665 D SMSDispatcher: Received broadcast android.intent.action.SIM_STATE_CHANGED
+04-12 20:44:03.141324  2665  2665 D EmergencyNumberTracker: [0][mTranIntentReceiver] intent: Intent { act=android.intent.action.SIM_STATE_CHANGED flg=0x15000010 xflg=0x4 (has extras) }
+04-12 20:44:03.147852  2665  2665 D MtkDPM  : DPM-0: mIntentReceiverEx onReceive: action=android.intent.action.SIM_STATE_CHANGED
+04-12 20:44:03.147975  2665  2665 D MtkDPM  : DPM-0: unregisterForFdnEnableChanged(), already unregistered, skip unregister
+04-12 20:44:03.148228  2665  2665 D SAT     : [1]onSimAbsent, reset activation state to UNKNOWN
+04-12 20:44:03.148266  2665  2665 D SAT     : [1]setVoiceActivationState=0
+04-12 20:44:03.149884  2665  2665 D SAT     : [1]setDataActivationState=0
+04-12 20:44:03.150726  2665  2665 D SMSDispatcher: Received broadcast android.intent.action.SIM_STATE_CHANGED
+04-12 20:44:03.150866  2665  2665 D GwsdSystemStateMonitor: Receive: android.intent.action.SERVICE_STATE
+04-12 20:44:03.151390  2665  2665 D GwsdSystemStateMonitor: phoneId:0 state:{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mChannelNumber=-1, duplexMode()=0, mCellBandwidths=[], mOperatorAlphaLong=null, mOperatorAlphaShort=null, isManualNetworkSelection=false(automatic), getRilVoiceRadioTechnology=0(Unknown), getRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=true, isUsingCarrierAggregation=false, mArfcnRsrpBoost=0, mNetworkRegistrationInfos=[NetworkRegistrationInfo{ domain=PS transportType=WLAN registrationState=NOT_REG_OR_SEARCHING networkRegistrationState=NOT_REG_OR_SEARCHING roamingType=NOT_ROAMING accessNetworkTechnology=UNKNOWN rejectCause=0 emergencyEnabled=false availableServices=[] cellIdentity=null voiceSpecificInfo=null dataSpecificInfo=android.telephony.DataSpecificRegistrationInfo :{ maxDataCalls = 0 isDcNrRestricted = false isNrAvailable = false isEnDcAvailable = false mLteAttachResultType = 0 mLteAttachExtraInfo = 0 LteVopsSupportInfo :  mVopsSupport = 1 mEmcBearerSupport = 1 } nrState=NONE rRplmn=null isUsingCarrierAggregation=false isNonTerrestrialNetwork=TERRESTRIAL}, NetworkRegistrationInfo{ domain=CS transportType=WWAN registrationState=NOT_REG_OR_SEARCHING networkRegistrationState=NOT_REG_OR_SEARCHING roamingType=NOT_ROAMING accessNetworkTechnology=UNKNOWN rejectCause=0 emergencyEnabled=true availableServices=[EMERGENCY] cellIdentity=null voiceSpecificInfo=VoiceSpecificRegistrationInfo { mCssSupported=false mRoamingIndicator=0 mSystemIsInPrl=0 mDefaultRoamingIndicator=0} dataSpecificInfo=null nrState=NONE rRplmn= isUsingCarrierAggregation=false isNonTerrestrialNetwork=TERRESTRIAL}, NetworkRegistrationInfo{ domain=PS transportType=WWAN registrationState=NOT_REG_OR_SEARCHING networkRegistrationState=NOT_REG_OR_SEARCHING roamingType=NOT_ROAMING accessNetworkTechnology=UNKNOWN rejectCause=0 emergencyEnabled=false availableServices=[] cellIdentity=null voiceSpecificInfo=null dataSpecificInfo=android.telephony.DataSpecificRegistrationInfo :{ maxDataCalls = 16 isDcNrRestricted = false isNrAvailable = false isEnDcAvailable = false mLteAttachResultType = 0 mLteAttachExtraInfo = 0 null } nrState=NONE rRplmn= isUsingCarrierAggregation=false isNonTerrestrialNetwork=TERRESTRIAL}], mNrFrequencyRange=0, mOperatorAlphaLongRaw=, mOperatorAlphaShortRaw=, mIsDataRoamingFromRegistration=false, mIsIwlanPreferred=false, mIsUsingNonTerrestrialNetwork=false}
+04-12 20:44:03.151489  2665  2665 D SMSDispatcher: Received broadcast android.intent.action.SIM_STATE_CHANGED
+04-12 20:44:03.151557  2665  2665 D SMSDispatcher: Received broadcast android.intent.action.SIM_STATE_CHANGED
+04-12 20:44:03.151732  2665  2665 D GwsdSystemStateMonitor: Receive: android.intent.action.SERVICE_STATE
+04-12 20:44:03.153250  2665  2665 D GwsdSystemStateMonitor: phoneId:0 state:{mVoiceRegState=1(OUT_OF_SERVICE), mDataRegState=1(OUT_OF_SERVICE), mChannelNumber=-1, duplexMode()=0, mCellBandwidths=[], mOperatorAlphaLong=null, mOperatorAlphaShort=null, isManualNetworkSelection=false(automatic), getRilVoiceRadioTechnology=0(Unknown), getRilDataRadioTechnology=0(Unknown), mCssIndicator=unsupported, mNetworkId=-1, mSystemId=-1, mCdmaRoamingIndicator=-1, mCdmaDefaultRoamingIndicator=-1, mIsEmergencyOnly=true, isUsingCarrierAggregation=false, mArfcnRsrpBoost=0, mNetworkRegistrationInfos=[NetworkRegistrationInfo{ domain=PS transportType=WLAN registrationState=NOT_REG_OR_SEARCHING networkRegistrationState=NOT_REG_OR_SEARCHING roamingType=NOT_ROAMING accessNetworkTechnology=UNKNOWN rejectCause=0 emergencyEnabled=false availableServices=[] cellIdentity=null voiceSpecificInfo=null dataSpecificInfo=android.telephony.DataSpecificRegistrationInfo :{ maxDataCalls = 0 isDcNrRestricted = false isNrAvailable = false isEnDcAvailable = false mLteAttachResultType = 0 mLteAttachExtraInfo = 0 LteVopsSupportInfo :  mVopsSupport = 1 mEmcBearerSupport = 1 } nrState=NONE rRplmn=null isUsingCarrierAggregation=false isNonTerrestrialNetwork=TERRESTRIAL}, NetworkRegistrationInfo{ domain=CS transportType=WWAN registrationState=NOT_REG_OR_SEARCHING networkRegistrationState=NOT_REG_OR_SEARCHING roamingType=NOT_ROAMING accessNetworkTechnology=UNKNOWN rejectCause=0 emergencyEnabled=true availableServices=[EMERGENCY] cellIdentity=null voiceSpecificInfo=VoiceSpecificRegistrationInfo { mCssSupported=false mRoamingIndicator=0 mSystemIsInPrl=0 mDefaultRoamingIndicator=0} dataSpecificInfo=null nrState=NONE rRplmn= isUsingCarrierAggregation=false isNonTerrestrialNetwork=TERRESTRIAL}, NetworkRegistrationInfo{ domain=PS transportType=WWAN registrationState=NOT_REG_OR_SEARCHING networkRegistrationState=NOT_REG_OR_SEARCHING roamingType=NOT_ROAMING accessNetworkTechnology=UNKNOWN rejectCause=0 emergencyEnabled=false availableServices=[] cellIdentity=null voiceSpecificInfo=null dataSpecificInfo=android.telephony.DataSpecificRegistrationInfo :{ maxDataCalls = 16 isDcNrRestricted = false isNrAvailable = false isEnDcAvailable = false mLteAttachResultType = 0 mLteAttachExtraInfo = 0 null } nrState=NONE rRplmn= isUsingCarrierAggregation=false isNonTerrestrialNetwork=TERRESTRIAL}], mNrFrequencyRange=0, mOperatorAlphaLongRaw=, mOperatorAlphaShortRaw=, mIsDataRoamingFromRegistration=false, mIsIwlanPreferred=false, mIsUsingNonTerrestrialNetwork=false}
+04-12 20:44:03.153400  2665  2665 D EmergencyNumberTracker: [1][mTranIntentReceiver] intent: Intent { act=android.intent.action.SIM_STATE_CHANGED flg=0x15000010 xflg=0x4 (has extras) }
+04-12 20:44:03.156086  2665  2665 D MtkDPM  : DPM-1: mIntentReceiverEx onReceive: action=android.intent.action.SIM_STATE_CHANGED
+04-12 20:44:03.157273  2665  2665 D GwsdService: handleMessage: MSG_NOTIFY_SYSTEM_STATE_NETWORK_SERVICE_CHANGED from system
+04-12 20:44:03.157291  2665  2665 D GwsdService: old voiceReg:3, new voiceReg:1, old dataReg:1, new dataReg:1 on phone0
+04-12 20:44:03.157310  2665  2665 D GwsdModeController0: [InacviceState]reset
+04-12 20:44:03.157451  2665  3337 D GwsdModeController0: [InacviceState]msg=EVENT_RESET
+04-12 20:44:03.157692  2665  3337 D GwsdModeController0: [InacviceState]no action
+04-12 20:44:03.157721  2665  3337 D GwsdModeController0: [InacviceState]msg=EVENT_RESET
+04-12 20:44:03.157848  2665  2665 D GwsdService: handleMessage: MSG_NOTIFY_SYSTEM_STATE_NETWORK_SERVICE_CHANGED from system
+04-12 20:44:03.348045  1744  2206 W TelephonyRegistry: Pid 1744 has exceeded half the number of permissible registered listeners. Now at 49
+04-12 20:44:03.348071  1744  2206 D TelephonyRegistry: listen oscl: mHasNotifySubscriptionInfoChangedOccurred==false no callback
+04-12 20:44:03.394016  2685  2685 D SuppServExt: [0]ACTION_CARRIER_CONFIG_CHANGED: not loaded, subId: -1
+04-12 20:44:03.402969  2685  2685 D SuppServExt: [1]ACTION_CARRIER_CONFIG_CHANGED: not loaded, subId: -1
+04-12 20:44:03.431232  2665  3162 I RILJ    : [0222]> GSM_SET_BROADCAST_CONFIG with 7 configs :  [PHONE0]
+04-12 20:44:03.431273  2665  3162 I RILJ    : SmsBroadcastConfigInfo: Id [4352,4354] Code [0,255] ENABLED [PHONE0]
+04-12 20:44:03.431284  2665  3162 I RILJ    : SmsBroadcastConfigInfo: Id [4355,4355] Code [0,255] DISABLED [PHONE0]
+04-12 20:44:03.431292  2665  3162 I RILJ    : SmsBroadcastConfigInfo: Id [4356,4356] Code [0,255] ENABLED [PHONE0]
+04-12 20:44:03.431298  2665  3162 I RILJ    : SmsBroadcastConfigInfo: Id [4370,4379] Code [0,255] ENABLED [PHONE0]
+04-12 20:44:03.431304  2665  3162 I RILJ    : SmsBroadcastConfigInfo: Id [4380,4382] Code [0,255] DISABLED [PHONE0]
+04-12 20:44:03.431317  2665  3162 I RILJ    : SmsBroadcastConfigInfo: Id [4383,4392] Code [0,255] ENABLED [PHONE0]
+04-12 20:44:03.431323  2665  3162 I RILJ    : SmsBroadcastConfigInfo: Id [4393,4395] Code [0,255] DISABLED [PHONE0]
+04-12 20:44:03.433050  1342  1826 I AT      : SEND MSGID=060f [SMS_CBM_CFG_REQ], TXID=0217 [RFXSender_3], DUMP=841954240000000001000F0617026000F97F040002110011FA7F04001B1112110101010001000000FB7F04001E111C11020100000000000000000000F97F0500FC7F040028111F11030100000000000000000000FE7F0200FD7F04002B112911FE7F020003110000FF7F020004110000
+04-12 20:44:03.441068  1342  1740 I AT      : RECV MSGID=0610 [SMS_CBM_CFG_CNF], TXID=0217, DUMP=84195424000000000102100617027800000004000000000000010400FFFFFFFF0101010001000000020100000000000000000000FB7F0500FB7F040002110011FC7F04001B111211FD7F04001E111C11FE7F040028111F11FF7F04002B112911030100000000000000000000F97F0200F97F020003110000FA7F0200041100000801010003000000
+04-12 20:44:03.452817  2665  3802 I RILJ    : [0222]< GSM_SET_BROADCAST_CONFIG  [PHONE0]
+04-12 20:44:03.467853  2665  3162 I RILJ    : [0223]> GSM_BROADCAST_ACTIVATION activate = true [PHONE0]
+04-12 20:44:03.468285  1342  1826 D RmmGsmSmsRequest: [0] Turn GSM CB on
+04-12 20:44:03.468315  1342  1826 I AT      : SEND MSGID=060f [SMS_CBM_CFG_REQ], TXID=0218 [RFXSender_3], DUMP=841954240000000001000F061802100000010400070000800A01010001000000
+04-12 20:44:03.472280  1342  1740 I AT      : RECV MSGID=0610 [SMS_CBM_CFG_CNF], TXID=0218, DUMP=84195424000000000102100618021800000004000000000000010400FFFFFFFF0801010003000000
+04-12 20:44:03.473120  2665  3004 I RILJ    : [0223]< GSM_BROADCAST_ACTIVATION  [PHONE0]
+04-12 20:44:03.513375  2685  2685 D SuppServExt: [0]ACTION_CARRIER_CONFIG_CHANGED: not loaded, subId: -1
+04-12 20:44:03.513485  2685  2685 D SuppServExt: [1]ACTION_CARRIER_CONFIG_CHANGED: not loaded, subId: -1
+04-12 20:44:03.514041  2685  2685 I ImsLocationHandler: LocationManager.PROVIDERS_CHANGED_ACTION isNlpEnabled: true, location timeout = false
+04-12 20:44:03.514532  2685  2685 D ImsConfigEventReceiver[0]: ICC_ABSENT[0], reset carrier config loaded flag.
+04-12 20:44:03.514928  2685  2685 D ImsConfigEventReceiver[1]: ICC_ABSENT[1], reset carrier config loaded flag.
+04-12 20:44:03.616279  1135  1152 I mipc_lib: SEND MSGID=1409 [MIPC_LOC_LBS_SYNC_LOCATION_EM_CONFIG_REQ], TXID=000e [binder:1135_2], DUMP=8419542400000000010009140E00100000010400010000000101040000000000
+04-12 20:44:03.625676  1135  1889 I mipc_lib: RECV MSGID=140a [MIPC_LOC_LBS_SYNC_LOCATION_EM_CONFIG_CNF], TXID=000e, DUMP=841954240000000001020A140E000800000004006A000000
+04-12 20:44:03.676216  2665  3706 D MtkRILJ : [0224]> OEM_HOOK_STRINGS strings = AT+ESBP=5,"SBP_BLIND_AFR_3G4_FDD",1,1 +ESBP  [PHONE0]
+04-12 20:44:03.677501  1342  1805 D RpOemCtlr: [0] onHandleOemHookString, data[0] = AT+ESBP=5,"SBP_BLIND_AFR_3G4_FDD",1,1
+04-12 20:44:03.680621  1342  1824 I AT      : [0] AT> AT+ESBP=5,"SBP_BLIND_AFR_3G4_FDD",1,1 (RIL_CMD_READER_1 tid:528047672256)
+04-12 20:44:03.680645  1342  1824 I AT      : SEND MSGID=0003 [SYS_AT_REQ], TXID=0219 [RFXSender_1], DUMP=84195424000000000100030019023000008126002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A000000000000
+04-12 20:44:03.684115  1342  1740 I AT      : RECV MSGID=0004 [SYS_AT_CNF], TXID=0219, DUMP=841954240000000001020400190218000000040000000000008107002A2A2A2A2A2A2A0000000000
+04-12 20:44:03.684700  2665  3706 D MtkRILJ : [0225]> OEM_HOOK_STRINGS strings = AT+ESBP=5,"SBP_BLIND_FR_2G_TDD",1,1 +ESBP  [PHONE0]
+04-12 20:44:03.685132  2665  3706 D MtkRILJ : [0226]> OEM_HOOK_STRINGS strings = AT+ESBP=5,"SBP_BLIND_FR_2G_FDD",1,1 +ESBP  [PHONE0]
+04-12 20:44:03.685309  1342  1805 D RpOemCtlr: [0] onHandleOemHookString, data[0] = AT+ESBP=5,"SBP_BLIND_FR_2G_TDD",1,1
+04-12 20:44:03.685415  1342  1805 D RpOemCtlr: [0] onHandleOemHookString, data[0] = AT+ESBP=5,"SBP_BLIND_FR_2G_FDD",1,1
+04-12 20:44:03.687743  1342  1824 I AT      : [0] AT< OK (RIL_CMD_READER_1, tid:528047672256)
+04-12 20:44:03.687829  1342  1824 I AT      : [0] AT> AT+ESBP=5,"SBP_BLIND_FR_2G_TDD",1,1 (RIL_CMD_READER_1 tid:528047672256)
+04-12 20:44:03.687843  1342  1824 I AT      : SEND MSGID=0003 [SYS_AT_REQ], TXID=021a [RFXSender_1], DUMP=8419542400000000010003001A022800008124002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A
+04-12 20:44:03.688181  2665  2679 I RILJ    : [0224]< OEM_HOOK_STRINGS {} [PHONE0]
+04-12 20:44:03.690529  1342  1740 I AT      : RECV MSGID=0004 [SYS_AT_CNF], TXID=021a, DUMP=8419542400000000010204001A021800000004000000000000810A002A2A2A2A2A2A2A2A2A2A0000
+04-12 20:44:03.690620  1342  1824 I AT      : [0] AT< ERROR (RIL_CMD_READER_1, tid:528047672256)
+04-12 20:44:03.690645  1342  1824 E RmmOemHandler: [0] OEM_HOOK_STRINGS fail
+04-12 20:44:03.690698  1342  1824 I AT      : [0] AT> AT+ESBP=5,"SBP_BLIND_FR_2G_FDD",1,1 (RIL_CMD_READER_1 tid:528047672256)
+04-12 20:44:03.690710  1342  1824 I AT      : SEND MSGID=0003 [SYS_AT_REQ], TXID=021b [RFXSender_1], DUMP=8419542400000000010003001B022800008124002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A
+04-12 20:44:03.691088  2665  2679 I RILJ    : [0225]< OEM_HOOK_STRINGS error 2 [PHONE0]
+04-12 20:44:03.691134  2665  2679 D RilRequest: [0225]< OEM_HOOK_STRINGS error: com.android.internal.telephony.CommandException: GENERIC_FAILURE ret={} result=null
+04-12 20:44:03.693574  2665  3706 D MtkRILJ : [0227]> OEM_HOOK_STRINGS strings = AT+ESBP=5,"SBP_BLIND_AFR_3G4_FDD",1,1 +ESBP  [PHONE1]
+04-12 20:44:03.693858  1342  1805 D RpOemCtlr: [1] onHandleOemHookString, data[0] = AT+ESBP=5,"SBP_BLIND_AFR_3G4_FDD",1,1
+04-12 20:44:03.694058  1342  1837 I AT      : [1] AT> AT+ESBP=5,"SBP_BLIND_AFR_3G4_FDD",1,1 (RIL_CMD2_READER_1 tid:527661591488)
+04-12 20:44:03.694085  1342  1837 I AT      : SEND MSGID=0003 [SYS_AT_REQ], TXID=021c [RFXSender_13], DUMP=8419542400000000020003001C023000008126002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A000000000000
+04-12 20:44:03.694364  1342  1740 I AT      : RECV MSGID=0004 [SYS_AT_CNF], TXID=021b, DUMP=8419542400000000010204001B0218000000040000000000008107002A2A2A2A2A2A2A0000000000
+04-12 20:44:03.694431  1342  1824 I AT      : [0] AT< OK (RIL_CMD_READER_1, tid:528047672256)
+04-12 20:44:03.694788  2665  3706 D MtkRILJ : [0228]> OEM_HOOK_STRINGS strings = AT+ESBP=5,"SBP_BLIND_FR_2G_TDD",1,1 +ESBP  [PHONE1]
+04-12 20:44:03.695073  2665  2679 I RILJ    : [0226]< OEM_HOOK_STRINGS {} [PHONE0]
+04-12 20:44:03.695299  2665  3706 D MtkRILJ : [0229]> OEM_HOOK_STRINGS strings = AT+ESBP=5,"SBP_BLIND_FR_2G_FDD",1,1 +ESBP  [PHONE1]
+04-12 20:44:03.696463  1342  1805 D RpOemCtlr: [1] onHandleOemHookString, data[0] = AT+ESBP=5,"SBP_BLIND_FR_2G_TDD",1,1
+04-12 20:44:03.696519  1342  1805 D RpOemCtlr: [1] onHandleOemHookString, data[0] = AT+ESBP=5,"SBP_BLIND_FR_2G_FDD",1,1
+04-12 20:44:03.698398  1342  1740 I AT      : RECV MSGID=0004 [SYS_AT_CNF], TXID=021c, DUMP=8419542400000000020204001C0218000000040000000000008107002A2A2A2A2A2A2A0000000000
+04-12 20:44:03.698485  1342  1837 I AT      : [1] AT< OK (RIL_CMD2_READER_1, tid:527661591488)
+04-12 20:44:03.698557  1342  1837 I AT      : [1] AT> AT+ESBP=5,"SBP_BLIND_FR_2G_TDD",1,1 (RIL_CMD2_READER_1 tid:527661591488)
+04-12 20:44:03.698574  1342  1837 I AT      : SEND MSGID=0003 [SYS_AT_REQ], TXID=021d [RFXSender_13], DUMP=8419542400000000020003001D022800008124002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A
+04-12 20:44:03.700695  2665  2679 I RILJ    : [0227]< OEM_HOOK_STRINGS {} [PHONE1]
+04-12 20:44:03.701450  1342  1740 I AT      : RECV MSGID=0004 [SYS_AT_CNF], TXID=021d, DUMP=8419542400000000020204001D021800000004000000000000810A002A2A2A2A2A2A2A2A2A2A0000
+04-12 20:44:03.701595  1342  1837 I AT      : [1] AT< ERROR (RIL_CMD2_READER_1, tid:527661591488)
+04-12 20:44:03.701728  1342  1837 E RmmOemHandler: [1] OEM_HOOK_STRINGS fail
+04-12 20:44:03.701805  1342  1837 I AT      : [1] AT> AT+ESBP=5,"SBP_BLIND_FR_2G_FDD",1,1 (RIL_CMD2_READER_1 tid:527661591488)
+04-12 20:44:03.702304  1342  1837 I AT      : SEND MSGID=0003 [SYS_AT_REQ], TXID=021e [RFXSender_13], DUMP=8419542400000000020003001E022800008124002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A
+04-12 20:44:03.704993  2665  2679 I RILJ    : [0228]< OEM_HOOK_STRINGS error 2 [PHONE1]
+04-12 20:44:03.705039  2665  2679 D RilRequest: [0228]< OEM_HOOK_STRINGS error: com.android.internal.telephony.CommandException: GENERIC_FAILURE ret={} result=null
+04-12 20:44:03.706331  1342  1740 I AT      : RECV MSGID=0004 [SYS_AT_CNF], TXID=021e, DUMP=8419542400000000020204001E0218000000040000000000008107002A2A2A2A2A2A2A0000000000
+04-12 20:44:03.706441  1342  1837 I AT      : [1] AT< OK (RIL_CMD2_READER_1, tid:527661591488)
+04-12 20:44:03.708696  2665  2679 I RILJ    : [0229]< OEM_HOOK_STRINGS {} [PHONE1]
+04-12 20:44:04.132801  2665  3004 E SMSVC   : getActiveSubscriptionInfoList: com.transsion.applock does not have enough permission. Returning empty list here.
+04-12 20:44:04.508916  2665  3004 E SMSVC   : getActiveSubscriptionInfoList: com.transsion.atomicbrain does not have enough permission. Returning empty list here.
+04-12 20:44:04.546394  2665  2665 I TranCAT : BootCompletedReceiver: [onReceive] action = android.intent.action.SIM_STATE_CHANGED
+04-12 20:44:04.546517  2665  2665 I TranCAT : BootCompletedReceiver: ACTION_SIM_STATE_CHANGED, simStatus: ABSENT
+04-12 20:44:04.546528  2665  2665 I TranCAT : StkAthenaUploader: [handleIccChangeAction] simStatus: ABSENT
+04-12 20:44:04.557225  2665  5752 D MtkRILJ : [0230]> OEM_HOOK_STRINGS strings = AT+ESIMS? +ESIMS  [PHONE1]
+04-12 20:44:04.557594  1342  1805 D RpOemCtlr: [1] onHandleOemHookString, data[0] = AT+ESIMS?
+04-12 20:44:04.557745  1342  1837 I AT      : [1] AT> AT+ESIMS? (RIL_CMD2_READER_1 tid:527661591488)
+04-12 20:44:04.557760  1342  1837 I AT      : SEND MSGID=0003 [SYS_AT_REQ], TXID=021f [RFXSender_13], DUMP=8419542400000000020003001F02100000810A002A2A2A2A2A2A2A2A2A2A0000
+04-12 20:44:04.563916  1342  1740 I AT      : RECV MSGID=0004 [SYS_AT_CNF], TXID=021f, DUMP=8419542400000000020204001F0220000000040000000000008114002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A
+04-12 20:44:04.563975  1342  1837 I AT      : [1] AT< +ESIMS: 0 (RIL_CMD2_READER_1, tid:527661591488)
+04-12 20:44:04.563989  1342  1837 I AT      : [1] AT< OK (RIL_CMD2_READER_1, tid:527661591488)
+04-12 20:44:04.564387  2665  3004 I RILJ    : [0230]< OEM_HOOK_STRINGS {+ESIMS: 0} [PHONE1]
+04-12 20:44:04.587515  2665  2665 D SAT     : [0]onSimAbsent, reset activation state to UNKNOWN
+04-12 20:44:04.587545  2665  2665 D SAT     : [0]setVoiceActivationState=0
+04-12 20:44:04.589129  2665  2665 D SAT     : [0]setDataActivationState=0
+04-12 20:44:04.591216  2665  2665 D EmergencyNumberTracker: [0][mTranIntentReceiver] intent: Intent { act=android.telephony.action.NETWORK_COUNTRY_CHANGED flg=0x10 xflg=0x4 (has extras) }
+04-12 20:44:04.594017  2665  2665 D EmergencyNumberTracker: [0]ACTION_NETWORK_COUNTRY_CHANGED: PhoneId: 0 CountryIso: cn
+04-12 20:44:04.594153  2665  2665 D SMSDispatcher: Received broadcast android.intent.action.SIM_STATE_CHANGED
+04-12 20:44:04.594249  2665  2665 D SMSDispatcher: Received broadcast android.intent.action.SIM_STATE_CHANGED
+04-12 20:44:04.594313  2665  2665 D SMSDispatcher: Received broadcast android.intent.action.SIM_STATE_CHANGED
+04-12 20:44:04.594479  2665  2665 D EmergencyNumberTracker: [0][mTranIntentReceiver] intent: Intent { act=android.intent.action.SIM_STATE_CHANGED flg=0x15000010 xflg=0x4 (has extras) }
+04-12 20:44:04.608865  2665  2665 D MtkDPM  : DPM-0: mIntentReceiverEx onReceive: action=android.intent.action.SIM_STATE_CHANGED
+04-12 20:44:04.609000  2665  2665 D EmergencyNumberTracker: [1][mTranIntentReceiver] intent: Intent { act=android.telephony.action.NETWORK_COUNTRY_CHANGED flg=0x10 xflg=0x4 (has extras) }
+04-12 20:44:04.610033  2665  2665 D SAT     : [1]onSimAbsent, reset activation state to UNKNOWN
+04-12 20:44:04.610046  2665  2665 D SAT     : [1]setVoiceActivationState=0
+04-12 20:44:04.612468  2665  2665 D SAT     : [1]setDataActivationState=0
+04-12 20:44:04.612826  2665  2665 D SMSDispatcher: Received broadcast android.intent.action.SIM_STATE_CHANGED
+04-12 20:44:04.612911  2665  2665 D SMSDispatcher: Received broadcast android.intent.action.SIM_STATE_CHANGED
+04-12 20:44:04.616444  2665  2665 D Phone-0 : isImsRegistered =false
+04-12 20:44:04.616520  2665  2665 E Phone-0 : [0] getUserHandle: ex=java.lang.IllegalArgumentException: [getSubscriptionUserHandle]: Invalid subscriptionId: -1
+04-12 20:44:04.617879  2665  2665 D SMSDispatcher: Received broadcast android.intent.action.SIM_STATE_CHANGED
+04-12 20:44:04.618003  2665  2665 D EmergencyNumberTracker: [1][mTranIntentReceiver] intent: Intent { act=android.intent.action.SIM_STATE_CHANGED flg=0x15000010 xflg=0x4 (has extras) }
+04-12 20:44:04.618612  2665  2665 D EmergencyNumberTracker: [0]updateEmergencyNumberListDatabaseAndNotify(): receiving countryIso: cn
+04-12 20:44:04.618882  2665  2665 D EmergencyNumberTracker: [0]cn asset emergency database is loaded. Ver: 2 Phone Id: 0 countryIso: cn
+04-12 20:44:04.619100  2665  2665 E EmergencyNumberTracker: [0]Cache ota emergency database IOException: java.io.FileNotFoundException: /data/misc/emergencynumberdb/emergency_number_db: open failed: ENOENT (No such file or directory)
+04-12 20:44:04.619113  2665  2665 D EmergencyNumberTracker: [0]Using Asset Emergency database. Version: 2
+04-12 20:44:04.620766  2665  2665 D EmergencyNumberTracker: [0]notifyEmergencyNumberList(): notified
+04-12 20:44:04.620804  2665  2665 D EmergencyNumberTracker: [1]updateEmergencyNumberListDatabaseAndNotify(): receiving countryIso: cn
+04-12 20:44:04.622378  2665  2665 D EmergencyNumberTracker: [1]cn asset emergency database is loaded. Ver: 2 Phone Id: 1 countryIso: cn
+04-12 20:44:04.622550  2665  2665 E EmergencyNumberTracker: [1]Cache ota emergency database IOException: java.io.FileNotFoundException: /data/misc/emergencynumberdb/emergency_number_db: open failed: ENOENT (No such file or directory)
+04-12 20:44:04.622555  2665  2665 D EmergencyNumberTracker: [1]Using Asset Emergency database. Version: 2
+04-12 20:44:04.623719  2665  2665 D EmergencyNumberTracker: [1]notifyEmergencyNumberList(): notified
+04-12 20:44:04.623785  2665  2665 D MtkDPM  : DPM-1: mIntentReceiverEx onReceive: action=android.intent.action.SIM_STATE_CHANGED
+04-12 20:44:04.623814  2665  2665 D MtkDPM  : DPM-1: unregisterForFdnEnableChanged(), already unregistered, skip unregister
+04-12 20:44:04.624276  2665  2665 E Phone-0 : [0] getUserHandle: ex=java.lang.IllegalArgumentException: [getSubscriptionUserHandle]: Invalid subscriptionId: -1
+04-12 20:44:04.626688  1135  1152 I mipc_lib: SEND MSGID=1409 [MIPC_LOC_LBS_SYNC_LOCATION_EM_CONFIG_REQ], TXID=000f [binder:1135_2], DUMP=8419542400000000010009140F00100000010400010000000101040000000000
+04-12 20:44:04.631936  1135  1889 I mipc_lib: RECV MSGID=140a [MIPC_LOC_LBS_SYNC_LOCATION_EM_CONFIG_CNF], TXID=000f, DUMP=841954240000000001020A140F000800000004006A000000
+04-12 20:44:04.652768  2665  2665 I TranCAT : BootCompletedReceiver: [onReceive] action = android.intent.action.BOOT_COMPLETED
+04-12 20:44:04.666984  2665  2665 I TranCAT : BootCompletedReceiver: [ACTION_BOOT_COMPLETED]
+04-12 20:44:04.668373  2665  2665 I TranCAT : StkAppService: onCreate()+
+04-12 20:44:04.672490  2665  2665 I TranCAT : TranUtils: getMpesaCloudParam: key = key_cloud_mpesa_enable , val = true
+04-12 20:44:04.674044  2665  2665 I TranCAT : StkAppService: simCount: 2, maxSimCount: 2, isMpesaSuppport: true
+04-12 20:44:04.675480  2665  2665 I TranCAT : StkAppService: mIsMxtcMarket = false ,mIsCoclMarket = false
+04-12 20:44:04.698138  2665  2665 I TranCAT : StkAppService: Register for phone state change
+04-12 20:44:04.715136  2665  2665 I TranCAT : MpesaViewSwitchManager: sMpesaViewSwitch slotId 0 res = false isSafaricomCard = false
+04-12 20:44:04.715169  2665  2665 I TranCAT : MpesaViewSwitchManager: sMpesaViewSwitch slotId 1 res = false isSafaricomCard = false
+04-12 20:44:04.715429  2665  2665 I TranCAT : StkAppService: onStart sim id: 0, op: 5, *****
+04-12 20:44:04.715455  2665  2665 I TranCAT : StkAppService: mStkService is: -1
+04-12 20:44:04.724140  2665  2665 I TranCAT : StkAppService: hasSimCard false
+04-12 20:44:04.724238  2665  2665 I TranCAT : StkAppInstaller: uninstall stkMain
+04-12 20:44:04.724252  2665  2665 I TranCAT : StkAppInstaller: uninstall :255,class: com.android.stk.StkMain
+04-12 20:44:04.724957  2665  2665 I TranCAT : StkAppService: onDestroy()
+04-12 20:44:04.731214  1744  1744 W TelephonyRegistry: Pid 1744 has exceeded half the number of permissible registered listeners. Now at 50
+04-12 20:44:04.731235  1744  1744 D TelephonyRegistry: listen oscl: mHasNotifySubscriptionInfoChangedOccurred==false no callback
+04-12 20:44:04.733444  2665  2665 I TranCAT : StkAppService: unregister for phone state change
+04-12 20:44:04.797803  2665  2665 D MtkTelephonyAssist: MtkPhoneAssistBroadcastReceiver: MtkPhoneAssistBroadcastReceiver action = android.intent.action.BOOT_COMPLETED isSystemUser = true
+04-12 20:44:04.812412  2665  2665 D SMSVC   : updateSubscriptionByCarrierConfig: phoneId=1, configPackageName=com.android.carrierconfig
+04-12 20:44:04.812430  2665  2665 D SMSVC   : updateSubscriptionByCarrierConfig: No subscription is active for phone being updated.
+04-12 20:44:04.812446  2665  2665 D SMSVC   : updateSubscriptionByCarrierConfig: phoneId=0, configPackageName=com.android.carrierconfig
+04-12 20:44:04.812452  2665  2665 D SMSVC   : updateSubscriptionByCarrierConfig: No subscription is active for phone being updated.
+04-12 20:44:04.904222  2665  2665 D EmergencyNumberTracker: [0][mTranIntentReceiver] intent: Intent { act=android.telephony.action.CARRIER_CONFIG_CHANGED flg=0x15000010 xflg=0x4 (has extras) }
+04-12 20:44:04.908360  2665  2665 D MtkDPM  : DPM-0: mIntentReceiverEx onReceive: action=android.telephony.action.CARRIER_CONFIG_CHANGED
+04-12 20:44:04.908461  2665  2665 D EmergencyNumberTracker: [1][mTranIntentReceiver] intent: Intent { act=android.telephony.action.CARRIER_CONFIG_CHANGED flg=0x15000010 xflg=0x4 (has extras) }
+04-12 20:44:04.909026  2665  2665 D MtkDPM  : DPM-1: mIntentReceiverEx onReceive: action=android.telephony.action.CARRIER_CONFIG_CHANGED
+04-12 20:44:04.909350  2665  2665 E ImsStateCallbackController: onReceive ACTION_CARRIER_CONFIG_CHANGED invalid subId
+04-12 20:44:04.912407  2665  2665 I RILJ    : [0231]> VOICE_RADIO_TECH [PHONE1]
+04-12 20:44:04.913037  2665  2665 I GsmCdmaPhone: [1] didn't updateVoNrSettings for add on case, will update by ims.
+04-12 20:44:04.913282  2665  2679 I RILJ    : [0231]< VOICE_RADIO_TECH {1} [PHONE1]
+04-12 20:44:04.913453  2665  2665 I RILJ    : [0232]> GET_RADIO_CAPABILITY [PHONE1]
+04-12 20:44:04.914067  2665  2679 I RILJ    : convertHalRadioCapability: session=-1, phase=3, rat=561156, logicModemUuid=modem_sys1_ps1_nr1, status=1, rcRil.raf=1130504 [PHONE1]
+04-12 20:44:04.914125  2665  2679 I RILJ    : [0232]< GET_RADIO_CAPABILITY {mPhoneId = 1 mVersion=1 mSession=-1 mPhase=3 mRadioAccessFamily=561156 mLogicModemId=modem_sys1_ps1_nr1 mStatus=1} [PHONE1]
+04-12 20:44:04.927791  2665  2665 I RILJ    : [0233]> VOICE_RADIO_TECH [PHONE0]
+04-12 20:44:04.928291  2665  3004 I RILJ    : [0233]< VOICE_RADIO_TECH {1} [PHONE0]
+04-12 20:44:04.928848  2665  2665 I GsmCdmaPhone: [0] didn't updateVoNrSettings for add on case, will update by ims.
+04-12 20:44:04.932569  2665  2665 I RILJ    : [0234]> GET_RADIO_CAPABILITY [PHONE0]
+04-12 20:44:04.934428  2665  2665 D EmergencyNumberTracker: [0][mTranIntentReceiver] intent: Intent { act=android.telephony.action.CARRIER_CONFIG_CHANGED flg=0x15000010 xflg=0x4 (has extras) }
+04-12 20:44:04.935312  2665  2679 I RILJ    : convertHalRadioCapability: session=-1, phase=3, rat=561156, logicModemUuid=modem_sys1_ps0_nr1, status=1, rcRil.raf=1130504 [PHONE0]
+04-12 20:44:04.935376  2665  2679 I RILJ    : [0234]< GET_RADIO_CAPABILITY {mPhoneId = 0 mVersion=1 mSession=-1 mPhase=3 mRadioAccessFamily=561156 mLogicModemId=modem_sys1_ps0_nr1 mStatus=1} [PHONE0]
+04-12 20:44:04.945102  2665  2665 D MtkDPM  : DPM-0: mIntentReceiverEx onReceive: action=android.telephony.action.CARRIER_CONFIG_CHANGED
+04-12 20:44:04.945194  2665  2665 D EmergencyNumberTracker: [1][mTranIntentReceiver] intent: Intent { act=android.telephony.action.CARRIER_CONFIG_CHANGED flg=0x15000010 xflg=0x4 (has extras) }
+04-12 20:44:04.946838  2665  2665 D MtkDPM  : DPM-1: mIntentReceiverEx onReceive: action=android.telephony.action.CARRIER_CONFIG_CHANGED
+04-12 20:44:04.947744  2665  2665 E ImsStateCallbackController: onReceive ACTION_CARRIER_CONFIG_CHANGED invalid subId
+04-12 20:44:04.966115  2685  2685 D SuppServExt: [0]ACTION_CARRIER_CONFIG_CHANGED: not loaded, subId: -1
+04-12 20:44:04.966174  2685  2685 D SuppServExt: [1]ACTION_CARRIER_CONFIG_CHANGED: not loaded, subId: -1
+04-12 20:44:05.030930  2685  2685 D SuppServExt: [0]ACTION_CARRIER_CONFIG_CHANGED: not loaded, subId: -1
+04-12 20:44:05.030998  2685  2685 D SuppServExt: [1]ACTION_CARRIER_CONFIG_CHANGED: not loaded, subId: -1
+04-12 20:44:05.128511  1744  4410 D TelephonyRegistry: listen oscl: mHasNotifySubscriptionInfoChangedOccurred==false no callback
+04-12 20:44:05.218813  2665  3281 D NetworkTypeController: [1] onCapabilitiesChanged: 100
+04-12 20:44:05.218901  2665  3281 D NetworkTypeController: [1] satellite constrained data status : false
+04-12 20:44:05.218926  2665  3281 D DIC-1   : dataNetworkType: 0, voiceNetworkType: 0, resultNetworkType: 0
+04-12 20:44:05.219044  2665  3225 D NetworkTypeController: [0] onCapabilitiesChanged: 100
+04-12 20:44:05.219054  2665  3225 D NetworkTypeController: [0] satellite constrained data status : false
+04-12 20:44:05.219068  2665  3225 D DIC-0   : dataNetworkType: 0, voiceNetworkType: 0, resultNetworkType: 0
+04-12 20:44:05.220681  1342  1826 I AT      : SEND MSGID=cb00 [WFC_WIFI_SIGNAL_NTF], TXID=ffff [RFXSender_3], DUMP=8419542400000000010000CBFFFF200000010500776C616E000000000000000001010200DCFF00000201020000000000
+04-12 20:44:05.227981  2665  3223 D TelephonyCountryDetector: onCapabilitiesChanged: [ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED LinkUpBandwidth>=12000Kbps LinkDnBandwidth>=60000Kbps TransportInfo: <SSID: <unknown ssid>, BSSID: 02:00:00:00:00:00, MAC: 02:00:00:00:00:00, IP: /192.168.1.136, Security type: 2, Supplicant state: COMPLETED, Wi-Fi standard: 11ac, RSSI: -36, Link speed: 780Mbps, Tx Link speed: 780Mbps, Max Supported Tx Link speed: 866Mbps, Rx Link speed: 780Mbps, Max Supported Rx Link speed: 866Mbps, Frequency: 5180MHz, Net ID: -1, Metered hint: false, score: 100, isUsable: true, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1, Trusted: true, Restricted: false, Ephemeral: false, OEM paid: false, OEM private: false, OSU AP: false, FQDN: <none>, Provider friendly name: <none>, Requesting package name: <none><none>MLO Information: , Is TID-To-Link negotiation supported by the AP: false, AP MLD Address: <none>, AP MLO Link Id: <none>, AP MLO Affiliated links: <none>, Vendor Data: <none>> SignalStrength: -36 AdminUids: [1000] SSID: "David_5" UnderlyingNetworks: Null]
+04-12 20:44:05.228021  2665  3223 D TelephonyCountryDetector: isWifiConnected: true
+04-12 20:44:05.230384  2665  3403 D TelephonyCountryDetector: handleEventWifiConnectivityStateChanged: true
+04-12 20:44:05.230434  2665  3403 D TelephonyCountryDetector: getCurrentNetworkCountryIso: invalid countryIso= for phoneId=1, subId=-1
+04-12 20:44:05.230457  2665  3403 D TelephonyCountryDetector: Location update was not requested yet
+04-12 20:44:05.632260  1135  1152 I mipc_lib: SEND MSGID=1409 [MIPC_LOC_LBS_SYNC_LOCATION_EM_CONFIG_REQ], TXID=0010 [binder:1135_2], DUMP=8419542400000000010009141000100000010400010000000101040000000000
+04-12 20:44:05.638325  1135  1889 I mipc_lib: RECV MSGID=140a [MIPC_LOC_LBS_SYNC_LOCATION_EM_CONFIG_CNF], TXID=0010, DUMP=841954240000000001020A1410000800000004006A000000
+04-12 20:44:05.904357  1342  1740 I AT      : RECV MSGID=4402 [NW_SIGNAL_IND], TXID=ffff, DUMP=841954240000000001030244FFFF30010401040005000000050104000500000006010400000000000701040002000000080104000000000009010100010000000B01100009000000630000001A0000002B000000000000000E0135001A0000002B0000000100000086FEFFFFF4FFFFFF010000000100000004000000000000000100000000000000000000000000000001000000000000000F01010001000000140100000000000000000000FF7F0100FF7F35001A0000002B0000000100000086FEFFFFF4FFFFFF01000000010000000400000000000000010000000000000000000000000000000100000000000000170100000000000000000000FE7F0100FE7F38001A0000002B0000000100000086FEFFFFF4FFFFFF01000000010000000400000000000000010000000000000000000000000000000100000000000000
+04-12 20:44:05.904771  1342  1802 D RmmNwUrcHdlr: [0] [handleSignalStrength]:sigRegisted[0000], sigUpdated[0X04]
+04-12 20:44:05.909874  2665  2665 D MtkSSCtr: [0] old:{level:4, raw:SignalStrength:{mAverageLevel=4mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=-91 ber=99 rscp=-89 ecno=-2 level=2,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=2147483647 rsrq=2147483647 rssnr=2147483647 cqiTableIndex=2147483647 cqi=2147483647 ta=2147483647 level=0 parametersUseForLevel=1,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiCqiTableIndex = 2147483647 csiCqiReport = [] ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 1 timingAdvance = 2147483647 },primary=CellSignalStrengthWcdma}}
+04-12 20:44:05.914327  2665  2665 D TranSignalSmooth: [calculateDalayLevel] averageLevel: 4, level: 3
+04-12 20:44:05.925306  2665  2665 D MtkSSCtr: [0] new:{level:4, raw:SignalStrength:{mAverageLevel=4mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=-95 ber=99 rscp=-94 ecno=-3 level=2,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=2147483647 rsrq=2147483647 rssnr=2147483647 cqiTableIndex=2147483647 cqi=2147483647 ta=2147483647 level=0 parametersUseForLevel=1,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiCqiTableIndex = 2147483647 csiCqiReport = [] ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 parametersUseForLevel = 1 timingAdvance = 2147483647 },primary=CellSignalStrengthWcdma}}, 
+04-12 20:44:05.994914  2685  3014 I ImsLocationHandler: proxyAppLocationGranted: false
+04-12 20:44:05.996659  2685  3014 I ImsLocationHandler: isEccInProgress: false, redialECC: false
+04-12 20:44:05.996692  2685  3014 E ImsLocationHandler: isGetLocationAlways: SIM not ready, use default carrier config
+04-12 20:44:05.996734  2685  3014 I ImsLocationHandler: isGetLocationAlways: false
+04-12 20:44:05.999930  2685  3014 W ImsLocationHandler: requestLocationFromNetworkLocation failed: is NOT in ECC & non-framework location proxy app is NOT granted
+04-12 20:44:06.639883  1135  1152 I mipc_lib: SEND MSGID=1409 [MIPC_LOC_LBS_SYNC_LOCATION_EM_CONFIG_REQ], TXID=0011 [binder:1135_2], DUMP=8419542400000000010009141100100000010400010000000101040000000000
+04-12 20:44:06.645259  1135  1889 I mipc_lib: RECV MSGID=140a [MIPC_LOC_LBS_SYNC_LOCATION_EM_CONFIG_CNF], TXID=0011, DUMP=841954240000000001020A1411000800000004006A000000
+04-12 20:44:06.886019  2665  3213 D MtkRILJ : [0235]> OEM_HOOK_STRINGS strings = AT+TRANCELLBAR=4,3   [PHONE0]
+04-12 20:44:06.886643  1342  1805 D RpOemCtlr: [0] onHandleOemHookString, data[0] = AT+TRANCELLBAR=4,3
+04-12 20:44:06.886779  1342  1824 I AT      : [0] AT> AT+TRANCELLBAR=4,3 (RIL_CMD_READER_1 tid:528047672256)
+04-12 20:44:06.886795  1342  1824 I AT      : SEND MSGID=0003 [SYS_AT_REQ], TXID=0220 [RFXSender_1], DUMP=84195424000000000100030020021800008113002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A00
+04-12 20:44:06.888539  2665  3213 D MtkRILJ : [0236]> OEM_HOOK_STRINGS strings = AT+TRANCELLBAR=5,3   [PHONE0]
+04-12 20:44:06.888864  1342  1805 D RpOemCtlr: [0] onHandleOemHookString, data[0] = AT+TRANCELLBAR=5,3
+04-12 20:44:06.892943  1342  1740 I AT      : RECV MSGID=0004 [SYS_AT_CNF], TXID=0220, DUMP=841954240000000001020400200218000000040000000000008107002A2A2A2A2A2A2A0000000000
+04-12 20:44:06.893022  1342  1824 I AT      : [0] AT< OK (RIL_CMD_READER_1, tid:528047672256)
+04-12 20:44:06.893083  1342  1824 I AT      : [0] AT> AT+TRANCELLBAR=5,3 (RIL_CMD_READER_1 tid:528047672256)
+04-12 20:44:06.893094  1342  1824 I AT      : SEND MSGID=0003 [SYS_AT_REQ], TXID=0221 [RFXSender_1], DUMP=84195424000000000100030021021800008113002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A00
+04-12 20:44:06.893505  2665  2971 I RILJ    : [0235]< OEM_HOOK_STRINGS {} [PHONE0]
+04-12 20:44:06.896580  1342  1740 I AT      : RECV MSGID=0004 [SYS_AT_CNF], TXID=0221, DUMP=841954240000000001020400210218000000040000000000008107002A2A2A2A2A2A2A0000000000
+04-12 20:44:06.896630  1342  1824 I AT      : [0] AT< OK (RIL_CMD_READER_1, tid:528047672256)
+04-12 20:44:06.896881  2665  2971 I RILJ    : [0236]< OEM_HOOK_STRINGS {} [PHONE0]
+04-12 20:44:07.083819  2665  3277 D MtkRILJ : [0237]> OEM_HOOK_STRINGS strings = AT+TRANCELLBAR=4,3   [PHONE1]
+04-12 20:44:07.084417  1342  1805 D RpOemCtlr: [1] onHandleOemHookString, data[0] = AT+TRANCELLBAR=4,3
+04-12 20:44:07.084701  1342  1837 I AT      : [1] AT> AT+TRANCELLBAR=4,3 (RIL_CMD2_READER_1 tid:527661591488)
+04-12 20:44:07.084728  1342  1837 I AT      : SEND MSGID=0003 [SYS_AT_REQ], TXID=0222 [RFXSender_13], DUMP=84195424000000000200030022021800008113002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A00
+04-12 20:44:07.087783  2665  3277 D MtkRILJ : [0238]> OEM_HOOK_STRINGS strings = AT+TRANCELLBAR=5,3   [PHONE1]
+04-12 20:44:07.087993  1342  1805 D RpOemCtlr: [1] onHandleOemHookString, data[0] = AT+TRANCELLBAR=5,3
+04-12 20:44:07.090765  1342  1740 I AT      : RECV MSGID=0004 [SYS_AT_CNF], TXID=0222, DUMP=841954240000000002020400220218000000040000000000008107002A2A2A2A2A2A2A0000000000
+04-12 20:44:07.090838  1342  1837 I AT      : [1] AT< OK (RIL_CMD2_READER_1, tid:527661591488)
+04-12 20:44:07.091044  1342  1837 I AT      : [1] AT> AT+TRANCELLBAR=5,3 (RIL_CMD2_READER_1 tid:527661591488)
+04-12 20:44:07.091062  1342  1837 I AT      : SEND MSGID=0003 [SYS_AT_REQ], TXID=0223 [RFXSender_13], DUMP=84195424000000000200030023021800008113002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A00
+04-12 20:44:07.091176  2665  2679 I RILJ    : [0237]< OEM_HOOK_STRINGS {} [PHONE1]
+04-12 20:44:07.093577  1342  1740 I AT      : RECV MSGID=0004 [SYS_AT_CNF], TXID=0223, DUMP=841954240000000002020400230218000000040000000000008107002A2A2A2A2A2A2A0000000000
+04-12 20:44:07.093627  1342  1837 I AT      : [1] AT< OK (RIL_CMD2_READER_1, tid:527661591488)
+04-12 20:44:07.093893  2665  2679 I RILJ    : [0238]< OEM_HOOK_STRINGS {} [PHONE1]
+04-12 20:44:07.645468  1135  1152 I mipc_lib: SEND MSGID=1409 [MIPC_LOC_LBS_SYNC_LOCATION_EM_CONFIG_REQ], TXID=0012 [binder:1135_2], DUMP=8419542400000000010009141200100000010400010000000101040000000000
+04-12 20:44:07.650808  1135  1889 I mipc_lib: RECV MSGID=140a [MIPC_LOC_LBS_SYNC_LOCATION_EM_CONFIG_CNF], TXID=0012, DUMP=841954240000000001020A1412000800000004006A000000
+04-12 20:44:08.040378  2665  2971 E SMSVC   : getActiveSubscriptionInfoList: com.transsion.screenrecorder does not have enough permission. Returning empty list here.
+04-12 20:44:08.127137  2665  2679 E SMSVC   : getActiveSubscriptionInfoList: com.transsion.airtransfer does not have enough permission. Returning empty list here.
+04-12 20:44:08.216051  2665  2679 E SMSVC   : getActiveSubscriptionInfoList: com.transsion.iotcard does not have enough permission. Returning empty list here.
+04-12 20:44:08.651026  1135  1152 I mipc_lib: SEND MSGID=1409 [MIPC_LOC_LBS_SYNC_LOCATION_EM_CONFIG_REQ], TXID=0013 [binder:1135_2], DUMP=8419542400000000010009141300100000010400010000000101040000000000
+04-12 20:44:08.656957  1135  1889 I mipc_lib: RECV MSGID=140a [MIPC_LOC_LBS_SYNC_LOCATION_EM_CONFIG_CNF], TXID=0013, DUMP=841954240000000001020A1413000800000004006A000000
+04-12 20:44:09.007888  2685  3014 I ImsLocationHandler: proxyAppLocationGranted: false
+04-12 20:44:09.028034  2685  3014 I ImsLocationHandler: isEccInProgress: false, redialECC: false
+04-12 20:44:09.029074  2685  3014 E ImsLocationHandler: isGetLocationAlways: SIM not ready, use default carrier config
+04-12 20:44:09.029168  2685  3014 I ImsLocationHandler: isGetLocationAlways: false
+04-12 20:44:09.029807  2685  3014 W ImsLocationHandler: requestLocationFromNetworkLocation failed: is NOT in ECC & non-framework location proxy app is NOT granted
+04-12 20:44:09.214360  2665  2665 I TranCAT : StkAthenaUploader: [reUploadCacheEvent] enable: false
+04-12 20:44:09.233345  2665  2665 D SSCtr   : onDeviceIdleStateChanged isDeviceIdle=true
+04-12 20:44:09.233382  2665  2665 D MtkDeviceStateMonitor: [phoneId0]isLowDataExpected mIsScreenOn = false mIsCharging = false mIsTetheringOn = false
+04-12 20:44:09.234130  1342  1827 I AT      : SEND MSGID=041f [NW_SET_IDLE_HINT_REQ], TXID=0224 [RFXSender_4], DUMP=841954240000000001001F042402100000010100030000000101040000000000
+04-12 20:44:09.234313  1342  1802 I AT      : SEND MSGID=0309 [INTERNAL_UNREGISTER_IND_REQ], TXID=0225 [RFXSender_0], DUMP=841954240000000001000903250208000001020007490000
+04-12 20:44:09.234389  1342  1803 I AT      : SEND MSGID=0309 [INTERNAL_UNREGISTER_IND_REQ], TXID=0226 [RFXSender_12], DUMP=841954240000000002000903260208000001020007490000
+04-12 20:44:09.234427  1342  1840 I AT      : SEND MSGID=041f [NW_SET_IDLE_HINT_REQ], TXID=0227 [RFXSender_16], DUMP=841954240000000002001F042702100000010100030000000101040000000000
+04-12 20:44:09.237710  2665  2665 I RILJ    : [0239]> SET_UNSOLICITED_RESPONSE_FILTER 32 [PHONE0]
+04-12 20:44:09.237872  2665  2665 D MtkDeviceStateMonitor: [phoneId1]isLowDataExpected mIsScreenOn = false mIsCharging = false mIsTetheringOn = false
+04-12 20:44:09.240368  1342  1740 I AT      : RECV MSGID=030a [INTERNAL_UNREGISTER_IND_CNF], TXID=0225, DUMP=841954240000000001020A03250208000000040000000000
+04-12 20:44:09.240582  1342  1802 I AT      : SEND MSGID=0309 [INTERNAL_UNREGISTER_IND_REQ], TXID=0228 [RFXSender_0], DUMP=841954240000000001000903280208000001020013420000
+04-12 20:44:09.240974  1342  1740 I AT      : RECV MSGID=030a [INTERNAL_UNREGISTER_IND_CNF], TXID=0226, DUMP=841954240000000002020A03260208000000040000000000
+04-12 20:44:09.241085  1342  1803 I AT      : SEND MSGID=0309 [INTERNAL_UNREGISTER_IND_REQ], TXID=0229 [RFXSender_12], DUMP=841954240000000002000903290208000001020013420000
+04-12 20:44:09.241221  2665  6956 D MtkRILJ : [0240]> OEM_HOOK_STRINGS strings = AT+EGMC=1,"customize_q_rxlv_min",1,0,-61,-61 +EGMC  [PHONE0]
+04-12 20:44:09.241345  1342  1740 I AT      : RECV MSGID=0420 [NW_SET_IDLE_HINT_CNF], TXID=0224, DUMP=8419542400000000010220042402100000000400000000000001010003000000
+04-12 20:44:09.241509  1342  1805 D RpOemCtlr: [0] onHandleOemHookString, data[0] = AT+EGMC=1,"customize_q_rxlv_min",1,0,-61,-61
+04-12 20:44:09.241649  1342  1824 I AT      : [0] AT> AT+EGMC=1,"customize_q_rxlv_min",1,0,-61,-61 (RIL_CMD_READER_1 tid:528047672256)
+04-12 20:44:09.241669  1342  1824 I AT      : SEND MSGID=0003 [SYS_AT_REQ], TXID=022a [RFXSender_1], DUMP=8419542400000000010003002A02380000812D002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A00000000000000
+04-12 20:44:09.242358  2665  2665 I RILJ    : [0241]> SET_SIGNAL_STRENGTH_REPORTING_CRITERIA [PHONE0]
+04-12 20:44:09.243333  1342  1740 I AT      : RECV MSGID=030a [INTERNAL_UNREGISTER_IND_CNF], TXID=0228, DUMP=841954240000000001020A03280208000000040000000000
+04-12 20:44:09.243375  1342  1740 I AT      : RECV MSGID=030a [INTERNAL_UNREGISTER_IND_CNF], TXID=0229, DUMP=841954240000000002020A03290208000000040000000000
+04-12 20:44:09.243467  1342  1802 I AT      : SEND MSGID=0309 [INTERNAL_UNREGISTER_IND_REQ], TXID=022b [RFXSender_0], DUMP=8419542400000000010009032B0208000001020002440000
+04-12 20:44:09.243527  1342  1740 I AT      : RECV MSGID=0420 [NW_SET_IDLE_HINT_CNF], TXID=0227, DUMP=8419542400000000020220042702100000000400000000000001010003000000
+04-12 20:44:09.245261  1342  1740 I AT      : RECV MSGID=030a [INTERNAL_UNREGISTER_IND_CNF], TXID=022b, DUMP=841954240000000001020A032B0208000000040000000000
+04-12 20:44:09.245342  1342  1802 I AT      : SEND MSGID=0309 [INTERNAL_UNREGISTER_IND_REQ], TXID=022c [RFXSender_0], DUMP=8419542400000000010009032C0208000001020013440000
+04-12 20:44:09.245510  1342  1740 I AT      : RECV MSGID=0004 [SYS_AT_CNF], TXID=022a, DUMP=8419542400000000010204002A0218000000040000000000008107002A2A2A2A2A2A2A0000000000
+04-12 20:44:09.245804  1342  1824 I AT      : [0] AT< OK (RIL_CMD_READER_1, tid:528047672256)
+04-12 20:44:09.245875  1342  1824 I AT      : SEND MSGID=049b [NW_SET_SIGNAL_REPORT_CRITERIA_REQ], TXID=022d [RFXSender_1], DUMP=841954240000000001009B042D02580000010100000000000101010001000000020101000100000003010400B80B00000401040002000000050129000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+04-12 20:44:09.246346  1342  1740 I AT      : RECV MSGID=030a [INTERNAL_UNREGISTER_IND_CNF], TXID=022c, DUMP=841954240000000001020A032C0208000000040000000000
+04-12 20:44:09.246386  1342  1802 I AT      : SEND MSGID=0309 [INTERNAL_UNREGISTER_IND_REQ], TXID=022e [RFXSender_0], DUMP=8419542400000000010009032E020800000102001E440000
+04-12 20:44:09.246431  2665  2971 I RILJ    : [0240]< OEM_HOOK_STRINGS {} [PHONE0]
+04-12 20:44:09.247214  2665  2665 D SSCtr   : setSignalStrengthReportingCriteria consolidatedSignalThresholdInfos=[SignalThresholdInfo{mRan=1 mSignalMeasurementType=1 mHysteresisMs=3000 mHysteresisDb=2 mThresholds=[] mIsEnabled=false}, SignalThresholdInfo{mRan=2 mSignalMeasurementType=2 mHysteresisMs=3000 mHysteresisDb=2 mThresholds=[] mIsEnabled=false}, SignalThresholdInfo{mRan=3 mSignalMeasurementType=3 mHysteresisMs=3000 mHysteresisDb=2 mThresholds=[] mIsEnabled=false}, SignalThresholdInfo{mRan=3 mSignalMeasurementType=4 mHysteresisMs=3000 mHysteresisDb=2 mThresholds=[] mIsEnabled=false}, SignalThresholdInfo{mRan=3 mSignalMeasurementType=5 mHysteresisMs=3000 mHysteresisDb=2 mThresholds=[] mIsEnabled=false}, SignalThresholdInfo{mRan=6 mSignalMeasurementType=6 mHysteresisMs=3000 mHysteresisDb=2 mThresholds=[] mIsEnabled=false}, SignalThresholdInfo{mRan=6 mSignalMeasurementType=7 mHysteresisMs=3000 mHysteresisDb=2 mThresholds=[] mIsEnabled=false}, SignalThresholdInfo{mRan=6 mSignalMeasurementType=8 mHysteresisMs=3000 mHysteresisDb=2 mThresholds=[] mIsEnabled=false}, SignalThresholdInfo{mRan=2 mSignalMeasurementType=9 mHysteresisMs=3000 mHysteresisDb=2 mThresholds=[] mIsEnabled=false}]
+04-12 20:44:09.247363  2665  2665 D NetworkTypeController: [0] LegacyState: process EVENT_PHYSICAL_CHANNEL_CONFIG_NOTIF_CHANGED
+04-12 20:44:09.247794  1342  1740 I AT      : RECV MSGID=030a [INTERNAL_UNREGISTER_IND_CNF], TXID=022e, DUMP=841954240000000001020A032E0208000000040000000000
+04-12 20:44:09.247851  1342  1802 I AT      : SEND MSGID=0309 [INTERNAL_UNREGISTER_IND_REQ], TXID=022f [RFXSender_0], DUMP=8419542400000000010009032F0208000001020017440000
+04-12 20:44:09.248134  1342  1740 I AT      : RECV MSGID=049c [NW_SET_SIGNAL_REPORT_CRITERIA_CNF], TXID=022d, DUMP=841954240000000001029C042D0208000000040000000000
+04-12 20:44:09.248220  1342  1824 I AT      : SEND MSGID=049b [NW_SET_SIGNAL_REPORT_CRITERIA_REQ], TXID=0230 [RFXSender_1], DUMP=841954240000000001009B043002580000010100000000000101010002000000020101000200000003010400B80B00000401040002000000050129000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+04-12 20:44:09.248585  2665  2665 D NetworkTypeController: [0] DefaultState: process EVENT_PHYSICAL_CHANNEL_CONFIG_NOTIF_CHANGED
+04-12 20:44:09.248623  2665  2665 D NetworkTypeController: [0] mIsPhysicalChannelConfigOn changed to: false
+04-12 20:44:09.248628  2665  2665 D NetworkTypeController: [0] Reset timers since physical channel config indications are off.
+04-12 20:44:09.248678  2665  2665 D MtkNetworkTypeController: [Override]getCurrentOverrideNetworkType: 0
+04-12 20:44:09.248701  2665  2665 D DIC-0   : dataNetworkType: 0, voiceNetworkType: 0, resultNetworkType: 0
+04-12 20:44:09.248999  1342  1740 I AT      : RECV MSGID=030a [INTERNAL_UNREGISTER_IND_CNF], TXID=022f, DUMP=841954240000000001020A032F0208000000040000000000
+04-12 20:44:09.249187  1342  1802 I AT      : SEND MSGID=0309 [INTERNAL_UNREGISTER_IND_REQ], TXID=0231 [RFXSender_0], DUMP=841954240000000001000903310208000001020018440000
+04-12 20:44:09.250148  1342  1740 I AT      : RECV MSGID=030a [INTERNAL_UNREGISTER_IND_CNF], TXID=0231, DUMP=841954240000000001020A03310208000000040000000000
+04-12 20:44:09.250216  1342  1802 I AT      : SEND MSGID=0309 [INTERNAL_UNREGISTER_IND_REQ], TXID=0232 [RFXSender_0], DUMP=841954240000000001000903320208000001020009440000
+04-12 20:44:09.251010  1342  1740 I AT      : RECV MSGID=049c [NW_SET_SIGNAL_REPORT_CRITERIA_CNF], TXID=0230, DUMP=841954240000000001029C04300208000000040000000000
+04-12 20:44:09.251047  1342  1740 I AT      : RECV MSGID=030a [INTERNAL_UNREGISTER_IND_CNF], TXID=0232, DUMP=841954240000000001020A03320208000000040000000000
+04-12 20:44:09.251096  1342  1802 I AT      : SEND MSGID=047b [NW_SET_NW_IND_REPORT_LEVEL_REQ], TXID=0233 [RFXSender_0], DUMP=841954240000000001007B043302100000010100050000000101010005000000
+04-12 20:44:09.251096  1342  1824 I AT      : SEND MSGID=049b [NW_SET_SIGNAL_REPORT_CRITERIA_REQ], TXID=0234 [RFXSender_1], DUMP=841954240000000001009B043402580000010100000000000101010003000000020101000300000003010400B80B00000401040002000000050129000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+04-12 20:44:09.251186  1526  1536 D TranRadioExt: setUnsolResponseFilter screen off, unregister mipc ind msg...
+04-12 20:44:09.251242  1526  1536 I mipc_lib: SEND MSGID=0309 [INTERNAL_UNREGISTER_IND_REQ], TXID=000f [binder:1526_3], DUMP=8419542400000000100009030F0008000001020001400000
+04-12 20:44:09.252584  1342  1740 I AT      : RECV MSGID=047c [NW_SET_NW_IND_REPORT_LEVEL_CNF], TXID=0233, DUMP=841954240000000001027C04330208000000040000000000
+04-12 20:44:09.252716  1342  1802 I AT      : SEND MSGID=0309 [INTERNAL_UNREGISTER_IND_REQ], TXID=0235 [RFXSender_0], DUMP=841954240000000001000903350208000001020019440000
+04-12 20:44:09.252891  1526  1702 I mipc_lib: RECV MSGID=030a [INTERNAL_UNREGISTER_IND_CNF], TXID=000f, DUMP=841954240000000010020A030F0008000000040000000000
+04-12 20:44:09.252971  1526  1536 D TranRadioExt: mipc_msg_unregister_ind_api MIPC_SYS_AT_IND, slotid:0,return:0
+04-12 20:44:09.253074  1526  1536 I mipc_lib: SEND MSGID=0309 [INTERNAL_UNREGISTER_IND_REQ], TXID=0010 [binder:1526_3], DUMP=841954240000000010000903100008000001020017420000
+04-12 20:44:09.254648  1342  1740 I AT      : RECV MSGID=030a [INTERNAL_UNREGISTER_IND_CNF], TXID=0235, DUMP=841954240000000001020A03350208000000040000000000
+04-12 20:44:09.254660  1526  1702 I mipc_lib: RECV MSGID=030a [INTERNAL_UNREGISTER_IND_CNF], TXID=0010, DUMP=841954240000000010020A03100008000000040000000000
+04-12 20:44:09.254809  1342  1802 I AT      : SEND MSGID=0309 [INTERNAL_UNREGISTER_IND_REQ], TXID=0236 [RFXSender_0], DUMP=84195424000000000100090336020800000102001B440000
+04-12 20:44:09.255039  1342  1740 I AT      : RECV MSGID=049c [NW_SET_SIGNAL_REPORT_CRITERIA_CNF], TXID=0234, DUMP=841954240000000001029C04340208000000040000000000
+04-12 20:44:09.255100  1526  1536 D TranRadioExt: mipc_msg_unregister_ind_api MIPC_DATA_URSP_UE_POLICY_CHG_IND, slotid:0,return:0
+04-12 20:44:09.255113  1342  1824 I AT      : SEND MSGID=049b [NW_SET_SIGNAL_REPORT_CRITERIA_REQ], TXID=0237 [RFXSender_1], DUMP=841954240000000001009B043702580000010100000000000101010003000000020101000400000003010400B80B00000401040002000000050129000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+04-12 20:44:09.255122  1526  1536 I mipc_lib: SEND MSGID=0309 [INTERNAL_UNREGISTER_IND_REQ], TXID=0011 [binder:1526_3], DUMP=841954240000000010000903110008000001020013420000
+04-12 20:44:09.256238  1526  1702 I mipc_lib: RECV MSGID=030a [INTERNAL_UNREGISTER_IND_CNF], TXID=0011, DUMP=841954240000000010020A03110008000000040000000000
+04-12 20:44:09.256294  1526  1536 D TranRadioExt: mipc_msg_unregister_ind_api MIPC_DATA_DSDA_STATE_IND, slotid:0,return:0
+04-12 20:44:09.256321  1526  1536 I mipc_lib: SEND MSGID=0309 [INTERNAL_UNREGISTER_IND_REQ], TXID=0012 [binder:1526_3], DUMP=841954240000000020000903120008000001020001400000
+04-12 20:44:09.256723  1342  1740 I AT      : RECV MSGID=030a [INTERNAL_UNREGISTER_IND_CNF], TXID=0236, DUMP=841954240000000001020A03360208000000040000000000
+04-12 20:44:09.256874  1342  1802 I AT      : SEND MSGID=0309 [INTERNAL_UNREGISTER_IND_REQ], TXID=0238 [RFXSender_0], DUMP=84195424000000000100090338020800000102000D420000
+04-12 20:44:09.257482  2665  2971 I RILJ    : [0239]< SET_UNSOLICITED_RESPONSE_FILTER  [PHONE0]
+04-12 20:44:09.258009  1526  1702 I mipc_lib: RECV MSGID=030a [INTERNAL_UNREGISTER_IND_CNF], TXID=0012, DUMP=841954240000000020020A03120008000000040000000000
+04-12 20:44:09.258143  1526  1536 D TranRadioExt: mipc_msg_unregister_ind_api MIPC_SYS_AT_IND, slotid:1,return:0
+04-12 20:44:09.258169  1526  1536 I mipc_lib: SEND MSGID=0309 [INTERNAL_UNREGISTER_IND_REQ], TXID=0013 [binder:1526_3], DUMP=841954240000000020000903130008000001020017420000
+04-12 20:44:09.259037  1342  1740 I AT      : RECV MSGID=030a [INTERNAL_UNREGISTER_IND_CNF], TXID=0238, DUMP=841954240000000001020A03380208000000040000000000
+04-12 20:44:09.259100  1342  1740 I AT      : RECV MSGID=049c [NW_SET_SIGNAL_REPORT_CRITERIA_CNF], TXID=0237, DUMP=841954240000000001029C04370208000000040000000000
+04-12 20:44:09.259176  1342  1824 I AT      : SEND MSGID=049b [NW_SET_SIGNAL_REPORT_CRITERIA_REQ], TXID=0239 [RFXSender_1], DUMP=841954240000000001009B043902580000010100000000000101010003000000020101000500000003010400B80B00000401040002000000050129000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+04-12 20:44:09.259256  1526  1702 I mipc_lib: RECV MSGID=030a [INTERNAL_UNREGISTER_IND_CNF], TXID=0013, DUMP=841954240000000020020A03130008000000040000000000
+04-12 20:44:09.259307  1526  1536 D TranRadioExt: mipc_msg_unregister_ind_api MIPC_DATA_URSP_UE_POLICY_CHG_IND, slotid:1,return:0
+04-12 20:44:09.259322  1526  1536 I mipc_lib: SEND MSGID=0309 [INTERNAL_UNREGISTER_IND_REQ], TXID=0014 [binder:1526_3], DUMP=841954240000000020000903140008000001020013420000
+04-12 20:44:09.260635  1526  1702 I mipc_lib: RECV MSGID=030a [INTERNAL_UNREGISTER_IND_CNF], TXID=0014, DUMP=841954240000000020020A03140008000000040000000000
+04-12 20:44:09.260787  1526  1536 D TranRadioExt: mipc_msg_unregister_ind_api MIPC_DATA_DSDA_STATE_IND, slotid:1,return:0
+04-12 20:44:09.260919  1342  1740 I AT      : RECV MSGID=049c [NW_SET_SIGNAL_REPORT_CRITERIA_CNF], TXID=0239, DUMP=841954240000000001029C04390208000000040000000000
+04-12 20:44:09.261055  1342  1824 I AT      : SEND MSGID=049b [NW_SET_SIGNAL_REPORT_CRITERIA_REQ], TXID=023a [RFXSender_1], DUMP=841954240000000001009B043A02580000010100000000000101010005000000020101000600000003010400B80B00000401040002000000050129000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+04-12 20:44:09.263700  1342  1740 I AT      : RECV MSGID=049c [NW_SET_SIGNAL_REPORT_CRITERIA_CNF], TXID=023a, DUMP=841954240000000001029C043A0208000000040000000000
+04-12 20:44:09.263800  1342  1824 I AT      : SEND MSGID=049b [NW_SET_SIGNAL_REPORT_CRITERIA_REQ], TXID=023b [RFXSender_1], DUMP=841954240000000001009B043B02580000010100000000000101010005000000020101000700000003010400B80B00000401040002000000050129000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+04-12 20:44:09.273702  1342  1740 I AT      : RECV MSGID=049c [NW_SET_SIGNAL_REPORT_CRITERIA_CNF], TXID=023b, DUMP=841954240000000001029C043B0208000000040000000000
+04-12 20:44:09.273821  1342  1824 I AT      : SEND MSGID=049b [NW_SET_SIGNAL_REPORT_CRITERIA_REQ], TXID=023c [RFXSender_1], DUMP=841954240000000001009B043C02580000010100000000000101010005000000020101000800000003010400B80B00000401040002000000050129000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+04-12 20:44:09.282747  1342  1740 I AT      : RECV MSGID=049c [NW_SET_SIGNAL_REPORT_CRITERIA_CNF], TXID=023c, DUMP=841954240000000001029C043C0208000000040000000000
+04-12 20:44:09.282841  1342  1824 I AT      : SEND MSGID=049b [NW_SET_SIGNAL_REPORT_CRITERIA_REQ], TXID=023d [RFXSender_1], DUMP=841954240000000001009B043D02580000010100000000000101010002000000020101000900000003010400B80B00000401040002000000050129000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+04-12 20:44:09.284741  1342  1740 I AT      : RECV MSGID=049c [NW_SET_SIGNAL_REPORT_CRITERIA_CNF], TXID=023d, DUMP=841954240000000001029C043D0208000000040000000000
+04-12 20:44:09.285047  2665  2971 I RILJ    : [0241]< SET_SIGNAL_STRENGTH_REPORTING_CRITERIA  [PHONE0]
+04-12 20:44:09.418180  1342  1826 I AT      : SEND MSGID=cb01 [WFC_EPDG_SCREEN_STATE_NTF], TXID=ffff [RFXSender_3], DUMP=8419542400000000010001CBFFFF08000001010001000000
+04-12 20:44:09.576255  1744  4460 D FeatureConnector: [LPPeService, 0] imsFeatureCreated: FeatureContainer{imsFeature=android.os.BinderProxy@8bfa07e, imsConfig=android.telephony.ims.aidl.IImsConfig$Stub$Proxy@bf1e9df, imsRegistration=android.telephony.ims.aidl.IImsRegistration$Stub$Proxy@cbcb62c, sipTransport=null, state=READY, capabilities = capabilities={ EMERGENCY_OVER_MMTEL SIMULTANEOUS_CALLING }}, subId: -1
+04-12 20:44:09.576391  1744  4460 D FeatureConnector: [LPPeService, 0] imsStatusChanged: status=READY
+04-12 20:44:09.576909  1744  4460 D FeatureConnector: [LPPeService, 1] imsFeatureCreated: FeatureContainer{imsFeature=android.os.BinderProxy@a550918, imsConfig=android.telephony.ims.aidl.IImsConfig$Stub$Proxy@f8a5f71, imsRegistration=android.telephony.ims.aidl.IImsRegistration$Stub$Proxy@9654156, sipTransport=null, state=READY, capabilities = capabilities={ EMERGENCY_OVER_MMTEL SIMULTANEOUS_CALLING }}, subId: -1
+04-12 20:44:09.576955  1744  4460 D FeatureConnector: [LPPeService, 1] imsStatusChanged: status=READY
+04-12 20:44:09.657198  1135  1152 I mipc_lib: SEND MSGID=1409 [MIPC_LOC_LBS_SYNC_LOCATION_EM_CONFIG_REQ], TXID=0014 [binder:1135_2], DUMP=8419542400000000010009141400100000010400010000000101040000000000
+04-12 20:44:09.662650  1135  1889 I mipc_lib: RECV MSGID=140a [MIPC_LOC_LBS_SYNC_LOCATION_EM_CONFIG_CNF], TXID=0014, DUMP=841954240000000001020A1414000800000004006A000000
+04-12 20:44:09.744089  2665  2971 E SMSVC   : getActiveSubscriptionInfoList: com.transsnet.store does not have enough permission. Returning empty list here.
+04-12 20:44:10.663276  1135  1152 I mipc_lib: SEND MSGID=1409 [MIPC_LOC_LBS_SYNC_LOCATION_EM_CONFIG_REQ], TXID=0015 [binder:1135_2], DUMP=8419542400000000010009141500100000010400010000000101040000000000
+04-12 20:44:10.668626  1135  1889 I mipc_lib: RECV MSGID=140a [MIPC_LOC_LBS_SYNC_LOCATION_EM_CONFIG_CNF], TXID=0015, DUMP=841954240000000001020A1415000800000004006A000000
+04-12 20:44:11.199110  1744  2535 D TelephonyRegistry: listen oscl: mHasNotifySubscriptionInfoChangedOccurred==false no callback
+04-12 20:44:11.548194  2665  3004 E SMSVC   : getActiveSubscriptionInfoList: com.transsion.deskclock does not have enough permission. Returning empty list here.
+04-12 20:44:12.035531  2685  3014 I ImsLocationHandler: proxyAppLocationGranted: false
+04-12 20:44:12.037437  2685  3014 I ImsLocationHandler: isEccInProgress: false, redialECC: false
+04-12 20:44:12.037498  2685  3014 E ImsLocationHandler: isGetLocationAlways: SIM not ready, use default carrier config
+04-12 20:44:12.037647  2685  3014 I ImsLocationHandler: isGetLocationAlways: false
+04-12 20:44:12.038662  2685  3014 W ImsLocationHandler: requestLocationFromNetworkLocation failed: is NOT in ECC & non-framework location proxy app is NOT granted
+04-12 20:44:13.972989  1744  2021 D TelephonyRegistry: listen oscl: mHasNotifySubscriptionInfoChangedOccurred==false no callback
+04-12 20:44:14.640478  1744  3733 W TelephonyRegistry: Pid 1744 has exceeded half the number of permissible registered listeners. Now at 51
+04-12 20:44:14.640491  1744  3733 D TelephonyRegistry: listen oscl: mHasNotifySubscriptionInfoChangedOccurred==false no callback
+04-12 20:44:15.041023  2685  3014 I ImsLocationHandler: proxyAppLocationGranted: false
+04-12 20:44:15.043106  2685  3014 I ImsLocationHandler: isEccInProgress: false, redialECC: false
+04-12 20:44:15.043177  2685  3014 E ImsLocationHandler: isGetLocationAlways: SIM not ready, use default carrier config
+04-12 20:44:15.043217  2685  3014 I ImsLocationHandler: isGetLocationAlways: false
+04-12 20:44:15.046335  2685  3014 W ImsLocationHandler: requestLocationFromNetworkLocation failed: is NOT in ECC & non-framework location proxy app is NOT granted
+04-12 20:44:18.050557  2685  3014 I ImsLocationHandler: proxyAppLocationGranted: false
+04-12 20:44:18.051404  2685  3014 I ImsLocationHandler: isEccInProgress: false, redialECC: false
+04-12 20:44:18.051535  2685  3014 E ImsLocationHandler: isGetLocationAlways: SIM not ready, use default carrier config
+04-12 20:44:18.051562  2685  3014 I ImsLocationHandler: isGetLocationAlways: false
+04-12 20:44:18.052194  2685  3014 W ImsLocationHandler: requestLocationFromNetworkLocation failed: is NOT in ECC & non-framework location proxy app is NOT granted
+04-12 20:44:20.785029  2665  2928 E SMSVC   : getActiveSubscriptionInfoList: com.transsion.globalsearch does not have enough permission. Returning empty list here.
+04-12 20:44:20.785245  2665  2679 E SMSVC   : getActiveSubscriptionInfoList: com.gallery20 does not have enough permission. Returning empty list here.
+04-12 20:44:21.056503  2685  3014 I ImsLocationHandler: proxyAppLocationGranted: false
+04-12 20:44:21.056994  2685  3014 I ImsLocationHandler: isEccInProgress: false, redialECC: false
+04-12 20:44:21.057044  2685  3014 E ImsLocationHandler: isGetLocationAlways: SIM not ready, use default carrier config
+04-12 20:44:21.057061  2685  3014 I ImsLocationHandler: isGetLocationAlways: false
+04-12 20:44:21.057760  2685  3014 W ImsLocationHandler: requestLocationFromNetworkLocation failed: is NOT in ECC & non-framework location proxy app is NOT granted
+04-12 20:44:22.399328  2665  3380 D MtkRILJ : [0242]> OEM_HOOK_STRINGS strings = AT+ESBP=5,"SBP_DR_SEARCH",1 +ESBP  [PHONE0]
+04-12 20:44:22.400739  1342  1805 D RpOemCtlr: [0] onHandleOemHookString, data[0] = AT+ESBP=5,"SBP_DR_SEARCH",1
+04-12 20:44:22.401000  1342  1824 I AT      : [0] AT> AT+ESBP=5,"SBP_DR_SEARCH",1 (RIL_CMD_READER_1 tid:528047672256)
+04-12 20:44:22.401040  1342  1824 I AT      : SEND MSGID=0003 [SYS_AT_REQ], TXID=023e [RFXSender_1], DUMP=8419542400000000010003003E02200000811C002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A
+04-12 20:44:22.401472  2665  3380 D MtkRILJ : [0243]> OEM_HOOK_STRINGS strings = AT+ESBP=5,"SBP_DR_SEARCH",1 +ESBP  [PHONE1]
+04-12 20:44:22.401763  1342  1805 D RpOemCtlr: [1] onHandleOemHookString, data[0] = AT+ESBP=5,"SBP_DR_SEARCH",1
+04-12 20:44:22.402468  1342  1837 I AT      : [1] AT> AT+ESBP=5,"SBP_DR_SEARCH",1 (RIL_CMD2_READER_1 tid:527661591488)
+04-12 20:44:22.402493  1342  1837 I AT      : SEND MSGID=0003 [SYS_AT_REQ], TXID=023f [RFXSender_13], DUMP=8419542400000000020003003F02200000811C002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A
+04-12 20:44:22.411755  1342  1740 I AT      : RECV MSGID=0004 [SYS_AT_CNF], TXID=023e, DUMP=8419542400000000010204003E0218000000040000000000008107002A2A2A2A2A2A2A0000000000
+04-12 20:44:22.411901  1342  1824 I AT      : [0] AT< OK (RIL_CMD_READER_1, tid:528047672256)
+04-12 20:44:22.412509  2665  2679 I RILJ    : [0242]< OEM_HOOK_STRINGS {} [PHONE0]
+04-12 20:44:22.415774  1342  1740 I AT      : RECV MSGID=0004 [SYS_AT_CNF], TXID=023f, DUMP=8419542400000000020204003F0218000000040000000000008107002A2A2A2A2A2A2A0000000000
+04-12 20:44:22.415844  1342  1837 I AT      : [1] AT< OK (RIL_CMD2_READER_1, tid:527661591488)
+04-12 20:44:22.417216  2665  2679 I RILJ    : [0243]< OEM_HOOK_STRINGS {} [PHONE1]
+04-12 20:44:24.064672  2685  3014 I ImsLocationHandler: proxyAppLocationGranted: false
+04-12 20:44:24.065659  2685  3014 I ImsLocationHandler: isEccInProgress: false, redialECC: false
+04-12 20:44:24.065720  2685  3014 E ImsLocationHandler: isGetLocationAlways: SIM not ready, use default carrier config
+04-12 20:44:24.065735  2685  3014 I ImsLocationHandler: isGetLocationAlways: false
+04-12 20:44:24.066157  2685  3014 W ImsLocationHandler: requestLocationFromNetworkLocation failed: is NOT in ECC & non-framework location proxy app is NOT granted
+04-12 20:44:27.072380  2685  3014 I ImsLocationHandler: proxyAppLocationGranted: false
+04-12 20:44:27.073211  2685  3014 I ImsLocationHandler: isEccInProgress: false, redialECC: false
+04-12 20:44:27.073269  2685  3014 E ImsLocationHandler: isGetLocationAlways: SIM not ready, use default carrier config
+04-12 20:44:27.073313  2685  3014 I ImsLocationHandler: isGetLocationAlways: false
+04-12 20:44:27.074285  2685  3014 W ImsLocationHandler: requestLocationFromNetworkLocation failed: is NOT in ECC & non-framework location proxy app is NOT granted
+04-12 20:44:28.354010  2665  3589 D MtkRILJ : [0244]> OEM_HOOK_STRINGS strings = AT+EDMFAPP=21001,0,0 +EDMFAPP  [PHONE0]
+04-12 20:44:28.354355  2665  3718 D MtkRILJ : [0245]> OEM_HOOK_STRINGS strings = AT+ESBP=7,"SBP_LTE_NBR_CELL_CA_PREFER" +ESBP  [PHONE0]
+04-12 20:44:28.354576  1342  1805 D RpOemCtlr: [0] onHandleOemHookString, data[0] = AT+EDMFAPP=21001,0,0
+04-12 20:44:28.355438  1342  1805 D RpOemCtlr: [0] onHandleOemHookString, data[0] = AT+ESBP=7,"SBP_LTE_NBR_CELL_CA_PREFER"
+04-12 20:44:28.355939  1342  1824 I AT      : [0] AT> AT+EDMFAPP=21001,0,0 (RIL_CMD_READER_1 tid:528047672256)
+04-12 20:44:28.355989  1342  1824 I AT      : SEND MSGID=0003 [SYS_AT_REQ], TXID=0240 [RFXSender_1], DUMP=84195424000000000100030040022000008115002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A00000000000000
+04-12 20:44:28.356415  2665  3717 D MtkRILJ : [0246]> OEM_HOOK_STRINGS strings = AT+ERFPD=20,20 +EDMFAPP  [PHONE0]
+04-12 20:44:28.356898  2665  3882 D MtkRILJ : [0247]> OEM_HOOK_STRINGS strings = AT+ERFPD=20,20 +EDMFAPP  [PHONE1]
+04-12 20:44:28.357209  2665  4269 D MtkRILJ : [0248]> OEM_HOOK_STRINGS strings = AT+EDMFAPP=21001,0,0 +EDMFAPP  [PHONE0]
+04-12 20:44:28.357233  1342  1805 D RpOemCtlr: [0] onHandleOemHookString, data[0] = AT+ERFPD=20,20
+04-12 20:44:28.357243  2665  3882 D MtkRILJ : [0250]> OEM_HOOK_STRINGS strings = AT+ERFPD=20,20 +EDMFAPP  [PHONE1]
+04-12 20:44:28.357493  2665  5286 D MtkRILJ : [0249]> OEM_HOOK_STRINGS strings = AT+ERFPD=20,20 +EDMFAPP  [PHONE0]
+04-12 20:44:28.357682  1342  1805 D RpOemCtlr: [1] onHandleOemHookString, data[0] = AT+ERFPD=20,20
+04-12 20:44:28.357711  2665  5752 D MtkRILJ : [0251]> OEM_HOOK_STRINGS strings = AT+ESBP=7,"SBP_LTE_NBR_CELL_CA_PREFER" +ESBP  [PHONE0]
+04-12 20:44:28.357748  1342  1805 D RpOemCtlr: [0] onHandleOemHookString, data[0] = AT+EDMFAPP=21001,0,0
+04-12 20:44:28.357774  1342  1805 D RpOemCtlr: [1] onHandleOemHookString, data[0] = AT+ERFPD=20,20
+04-12 20:44:28.357912  1342  1837 I AT      : [1] AT> AT+ERFPD=20,20 (RIL_CMD2_READER_1 tid:527661591488)
+04-12 20:44:28.357936  1342  1837 I AT      : SEND MSGID=0003 [SYS_AT_REQ], TXID=0241 [RFXSender_13], DUMP=8419542400000000020003004102180000810F002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A0000000000
+04-12 20:44:28.358207  2665  3718 D MtkRILJ : [0253]> OEM_HOOK_STRINGS strings = AT+ESIMS? +ESIMS  [PHONE1]
+04-12 20:44:28.358317  2665  3589 D MtkRILJ : [0252]> OEM_HOOK_STRINGS strings = AT+ESIMS? +ESIMS  [PHONE0]
+04-12 20:44:28.358375  1342  1805 D RpOemCtlr: [0] onHandleOemHookString, data[0] = AT+ERFPD=20,20
+04-12 20:44:28.358448  1342  1805 D RpOemCtlr: [0] onHandleOemHookString, data[0] = AT+ESBP=7,"SBP_LTE_NBR_CELL_CA_PREFER"
+04-12 20:44:28.358583  2665  3717 D MtkRILJ : [0254]> OEM_HOOK_STRINGS strings = AT+EINFO=1082,1010,0 +EINFO  [PHONE0]
+04-12 20:44:28.358698  1342  1805 D RpOemCtlr: [1] onHandleOemHookString, data[0] = AT+ESIMS?
+04-12 20:44:28.358916  1342  1805 D RpOemCtlr: [0] onHandleOemHookString, data[0] = AT+ESIMS?
+04-12 20:44:28.359416  1342  1805 D RpOemCtlr: [0] onHandleOemHookString, data[0] = AT+EINFO=1082,1010,0
+04-12 20:44:28.362656  1342  1740 I AT      : RECV MSGID=0004 [SYS_AT_CNF], TXID=0241, DUMP=84195424000000000202040041021800000004000000000000810A002A2A2A2A2A2A2A2A2A2A0000
+04-12 20:44:28.362851  1342  1837 I AT      : [1] AT< ERROR (RIL_CMD2_READER_1, tid:527661591488)
+04-12 20:44:28.362881  1342  1837 E RmmOemHandler: [1] OEM_HOOK_STRINGS fail
+04-12 20:44:28.362981  1342  1837 I AT      : [1] AT> AT+ERFPD=20,20 (RIL_CMD2_READER_1 tid:527661591488)
+04-12 20:44:28.363002  1342  1837 I AT      : SEND MSGID=0003 [SYS_AT_REQ], TXID=0242 [RFXSender_13], DUMP=8419542400000000020003004202180000810F002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A0000000000
+04-12 20:44:28.363212  1342  1740 I AT      : RECV MSGID=0004 [SYS_AT_CNF], TXID=0240, DUMP=841954240000000001020400400218000000040000000000008107002A2A2A2A2A2A2A0000000000
+04-12 20:44:28.363863  1342  1824 I AT      : [0] AT< OK (RIL_CMD_READER_1, tid:528047672256)
+04-12 20:44:28.363917  2665  3004 I RILJ    : [0247]< OEM_HOOK_STRINGS error 2 [PHONE1]
+04-12 20:44:28.363970  2665  3004 D RilRequest: [0247]< OEM_HOOK_STRINGS error: com.android.internal.telephony.CommandException: GENERIC_FAILURE ret={} result={ when=-52s156ms what=14 arg1=1 target=com.transsion.phone.dmf.DmfController$MyHandler }
+04-12 20:44:28.363973  1342  1824 I AT      : [0] AT> AT+ESBP=7,"SBP_LTE_NBR_CELL_CA_PREFER" (RIL_CMD_READER_1 tid:528047672256)
+04-12 20:44:28.363990  1342  1824 I AT      : SEND MSGID=0003 [SYS_AT_REQ], TXID=0243 [RFXSender_1], DUMP=84195424000000000100030043023000008127002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A0000000000
+04-12 20:44:28.364179  2665  3004 I RILJ    : [0244]< OEM_HOOK_STRINGS {} [PHONE0]
+04-12 20:44:28.364780  1342  1740 I AT      : RECV MSGID=0004 [SYS_AT_CNF], TXID=0242, DUMP=84195424000000000202040042021800000004000000000000810A002A2A2A2A2A2A2A2A2A2A0000
+04-12 20:44:28.364954  1342  1837 I AT      : [1] AT< ERROR (RIL_CMD2_READER_1, tid:527661591488)
+04-12 20:44:28.365074  1342  1837 E RmmOemHandler: [1] OEM_HOOK_STRINGS fail
+04-12 20:44:28.365172  1342  1837 I AT      : [1] AT> AT+ESIMS? (RIL_CMD2_READER_1 tid:527661591488)
+04-12 20:44:28.365188  1342  1837 I AT      : SEND MSGID=0003 [SYS_AT_REQ], TXID=0244 [RFXSender_13], DUMP=8419542400000000020003004402100000810A002A2A2A2A2A2A2A2A2A2A0000
+04-12 20:44:28.365920  2665  3004 I RILJ    : [0250]< OEM_HOOK_STRINGS error 2 [PHONE1]
+04-12 20:44:28.366008  2665  3004 D RilRequest: [0250]< OEM_HOOK_STRINGS error: com.android.internal.telephony.CommandException: GENERIC_FAILURE ret={} result={ when=-52s158ms what=14 arg1=1 target=com.transsion.phone.dmf.DmfController$MyHandler }
+04-12 20:44:28.367034  1342  1740 I AT      : RECV MSGID=0004 [SYS_AT_CNF], TXID=0243, DUMP=841954240000000001020400430220000000040000000000008113002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A00
+04-12 20:44:28.367130  1342  1824 I AT      : [0] AT< +ESBP: 1 (RIL_CMD_READER_1, tid:528047672256)
+04-12 20:44:28.367149  1342  1824 I AT      : [0] AT< OK (RIL_CMD_READER_1, tid:528047672256)
+04-12 20:44:28.367241  1342  1824 I AT      : [0] AT> AT+ERFPD=20,20 (RIL_CMD_READER_1 tid:528047672256)
+04-12 20:44:28.367257  1342  1824 I AT      : SEND MSGID=0003 [SYS_AT_REQ], TXID=0245 [RFXSender_1], DUMP=8419542400000000010003004502180000810F002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A0000000000
+04-12 20:44:28.367783  2665  3004 I RILJ    : [0245]< OEM_HOOK_STRINGS {+ESBP: 1} [PHONE0]
+04-12 20:44:28.367956  1342  1740 I AT      : RECV MSGID=0004 [SYS_AT_CNF], TXID=0244, DUMP=841954240000000002020400440220000000040000000000008114002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A
+04-12 20:44:28.368252  1342  1837 I AT      : [1] AT< +ESIMS: 0 (RIL_CMD2_READER_1, tid:527661591488)
+04-12 20:44:28.368425  2665  6956 D MtkRILJ : [0255]> OEM_HOOK_STRINGS strings = AT+EDMFAPP=21001,31,1 +EDMFAPP  [PHONE0]
+04-12 20:44:28.368515  1342  1740 I AT      : RECV MSGID=0004 [SYS_AT_CNF], TXID=0245, DUMP=84195424000000000102040045021800000004000000000000810A002A2A2A2A2A2A2A2A2A2A0000
+04-12 20:44:28.368576  1342  1837 I AT      : [1] AT< OK (RIL_CMD2_READER_1, tid:527661591488)
+04-12 20:44:28.368607  1342  1824 I AT      : [0] AT< ERROR (RIL_CMD_READER_1, tid:528047672256)
+04-12 20:44:28.368631  1342  1824 E RmmOemHandler: [0] OEM_HOOK_STRINGS fail
+04-12 20:44:28.368855  1342  1824 I AT      : [0] AT> AT+EDMFAPP=21001,0,0 (RIL_CMD_READER_1 tid:528047672256)
+04-12 20:44:28.368977  1342  1805 D RpOemCtlr: [0] onHandleOemHookString, data[0] = AT+EDMFAPP=21001,31,1
+04-12 20:44:28.369027  1342  1824 I AT      : SEND MSGID=0003 [SYS_AT_REQ], TXID=0246 [RFXSender_1], DUMP=84195424000000000100030046022000008115002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A00000000000000
+04-12 20:44:28.369043  2665  3004 I RILJ    : [0253]< OEM_HOOK_STRINGS {+ESIMS: 0} [PHONE1]
+04-12 20:44:28.369126  2665  2971 I RILJ    : [0246]< OEM_HOOK_STRINGS error 2 [PHONE0]
+04-12 20:44:28.369155  2665  2971 D RilRequest: [0246]< OEM_HOOK_STRINGS error: com.android.internal.telephony.CommandException: GENERIC_FAILURE ret={} result={ when=-52s161ms what=14 target=com.transsion.phone.dmf.DmfController$MyHandler }
+04-12 20:44:28.378032  1342  1740 I AT      : RECV MSGID=0004 [SYS_AT_CNF], TXID=0246, DUMP=841954240000000001020400460218000000040000000000008107002A2A2A2A2A2A2A0000000000
+04-12 20:44:28.378257  1342  1824 I AT      : [0] AT< OK (RIL_CMD_READER_1, tid:528047672256)
+04-12 20:44:28.378364  1342  1824 I AT      : [0] AT> AT+ERFPD=20,20 (RIL_CMD_READER_1 tid:528047672256)
+04-12 20:44:28.378404  1342  1824 I AT      : SEND MSGID=0003 [SYS_AT_REQ], TXID=0247 [RFXSender_1], DUMP=8419542400000000010003004702180000810F002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A0000000000
+04-12 20:44:28.378966  2665  3004 I RILJ    : [0248]< OEM_HOOK_STRINGS {} [PHONE0]
+04-12 20:44:28.380254  1342  1740 I AT      : RECV MSGID=0004 [SYS_AT_CNF], TXID=0247, DUMP=84195424000000000102040047021800000004000000000000810A002A2A2A2A2A2A2A2A2A2A0000
+04-12 20:44:28.380451  1342  1824 I AT      : [0] AT< ERROR (RIL_CMD_READER_1, tid:528047672256)
+04-12 20:44:28.380504  1342  1824 E RmmOemHandler: [0] OEM_HOOK_STRINGS fail
+04-12 20:44:28.380661  1342  1824 I AT      : [0] AT> AT+ESBP=7,"SBP_LTE_NBR_CELL_CA_PREFER" (RIL_CMD_READER_1 tid:528047672256)
+04-12 20:44:28.380682  1342  1824 I AT      : SEND MSGID=0003 [SYS_AT_REQ], TXID=0248 [RFXSender_1], DUMP=84195424000000000100030048023000008127002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A0000000000
+04-12 20:44:28.381008  2665  3004 I RILJ    : [0249]< OEM_HOOK_STRINGS error 2 [PHONE0]
+04-12 20:44:28.381070  2665  3004 D RilRequest: [0249]< OEM_HOOK_STRINGS error: com.android.internal.telephony.CommandException: GENERIC_FAILURE ret={} result={ when=-52s173ms what=14 target=com.transsion.phone.dmf.DmfController$MyHandler }
+04-12 20:44:28.383917  1342  1740 I AT      : RECV MSGID=0004 [SYS_AT_CNF], TXID=0248, DUMP=841954240000000001020400480220000000040000000000008113002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A00
+04-12 20:44:28.384005  1342  1824 I AT      : [0] AT< +ESBP: 1 (RIL_CMD_READER_1, tid:528047672256)
+04-12 20:44:28.384021  1342  1824 I AT      : [0] AT< OK (RIL_CMD_READER_1, tid:528047672256)
+04-12 20:44:28.384175  1342  1824 I AT      : [0] AT> AT+ESIMS? (RIL_CMD_READER_1 tid:528047672256)
+04-12 20:44:28.384216  1342  1824 I AT      : SEND MSGID=0003 [SYS_AT_REQ], TXID=0249 [RFXSender_1], DUMP=8419542400000000010003004902100000810A002A2A2A2A2A2A2A2A2A2A0000
+04-12 20:44:28.384918  2665  3004 I RILJ    : [0251]< OEM_HOOK_STRINGS {+ESBP: 1} [PHONE0]
+04-12 20:44:28.385631  2665  4269 D MtkRILJ : [0256]> OEM_HOOK_STRINGS strings = AT+EDMFAPP=21001,31,1 +EDMFAPP  [PHONE0]
+04-12 20:44:28.386164  1342  1805 D RpOemCtlr: [0] onHandleOemHookString, data[0] = AT+EDMFAPP=21001,31,1
+04-12 20:44:28.386705  1342  1740 I AT      : RECV MSGID=0004 [SYS_AT_CNF], TXID=0249, DUMP=841954240000000001020400490220000000040000000000008114002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A
+04-12 20:44:28.386943  1342  1824 I AT      : [0] AT< +ESIMS: 0 (RIL_CMD_READER_1, tid:528047672256)
+04-12 20:44:28.386989  1342  1824 I AT      : [0] AT< OK (RIL_CMD_READER_1, tid:528047672256)
+04-12 20:44:28.387079  1342  1824 I AT      : [0] AT> AT+EINFO=1082,1010,0 (RIL_CMD_READER_1 tid:528047672256)
+04-12 20:44:28.387120  1342  1824 I AT      : SEND MSGID=0003 [SYS_AT_REQ], TXID=024a [RFXSender_1], DUMP=8419542400000000010003004A022000008115002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A00000000000000
+04-12 20:44:28.387269  2665  3004 I RILJ    : [0252]< OEM_HOOK_STRINGS {+ESIMS: 0} [PHONE0]
+04-12 20:44:28.390167  1342  1740 I AT      : RECV MSGID=0004 [SYS_AT_CNF], TXID=024a, DUMP=8419542400000000010204004A0218000000040000000000008107002A2A2A2A2A2A2A0000000000
+04-12 20:44:28.390394  1342  1824 I AT      : [0] AT< OK (RIL_CMD_READER_1, tid:528047672256)
+04-12 20:44:28.390499  1342  1824 I AT      : [0] AT> AT+EDMFAPP=21001,31,1 (RIL_CMD_READER_1 tid:528047672256)
+04-12 20:44:28.390515  1342  1824 I AT      : SEND MSGID=0003 [SYS_AT_REQ], TXID=024b [RFXSender_1], DUMP=8419542400000000010003004B022000008116002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A000000000000
+04-12 20:44:28.391315  2665  3004 I RILJ    : [0254]< OEM_HOOK_STRINGS {} [PHONE0]
+04-12 20:44:28.392053  1342  1740 I AT      : RECV MSGID=4001 [SYS_AT_IND], TXID=ffff, DUMP=841954240000000001030140FFFF2000008116002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A000000000000
+04-12 20:44:28.392179  1342  1740 I AT      : RECV MSGID=0004 [SYS_AT_CNF], TXID=024b, DUMP=8419542400000000010204004B0218000000040000000000008107002A2A2A2A2A2A2A0000000000
+04-12 20:44:28.392401  1342  1824 I AT      : [0] AT< OK (RIL_CMD_READER_1, tid:528047672256)
+04-12 20:44:28.392599  1342  1824 I AT      : [0] AT> AT+EDMFAPP=21001,31,1 (RIL_CMD_READER_1 tid:528047672256)
+04-12 20:44:28.392636  1342  1824 I AT      : SEND MSGID=0003 [SYS_AT_REQ], TXID=024c [RFXSender_1], DUMP=8419542400000000010003004C022000008116002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A000000000000
+04-12 20:44:28.393290  2665  3004 I RILJ    : [0255]< OEM_HOOK_STRINGS {} [PHONE0]
+04-12 20:44:28.394707  1342  1740 I AT      : RECV MSGID=0004 [SYS_AT_CNF], TXID=024c, DUMP=8419542400000000010204004C0218000000040000000000008107002A2A2A2A2A2A2A0000000000
+04-12 20:44:28.394804  1342  1824 I AT      : [0] AT< OK (RIL_CMD_READER_1, tid:528047672256)
+04-12 20:44:28.395295  2665  3004 I RILJ    : [0256]< OEM_HOOK_STRINGS {} [PHONE0]
+04-12 20:44:30.080582  2685  3014 I ImsLocationHandler: proxyAppLocationGranted: false
+04-12 20:44:30.081271  2685  3014 I ImsLocationHandler: isEccInProgress: false, redialECC: false
+04-12 20:44:30.081311  2685  3014 E ImsLocationHandler: isGetLocationAlways: SIM not ready, use default carrier config
+04-12 20:44:30.081319  2685  3014 I ImsLocationHandler: isGetLocationAlways: false
+04-12 20:44:30.081662  2685  3014 W ImsLocationHandler: requestLocationFromNetworkLocation failed: is NOT in ECC & non-framework location proxy app is NOT granted
+04-12 20:44:33.084807  2685  3014 I ImsLocationHandler: proxyAppLocationGranted: false
+04-12 20:44:33.086760  2685  3014 I ImsLocationHandler: isEccInProgress: false, redialECC: false
+04-12 20:44:33.086789  2685  3014 E ImsLocationHandler: isGetLocationAlways: SIM not ready, use default carrier config
+04-12 20:44:33.086852  2685  3014 I ImsLocationHandler: isGetLocationAlways: false
+04-12 20:44:33.088445  2685  3014 W ImsLocationHandler: requestLocationFromNetworkLocation failed: is NOT in ECC & non-framework location proxy app is NOT granted
+04-12 20:44:33.366339  2665  3882 D MtkRILJ : [0257]> OEM_HOOK_STRINGS strings = AT+EINFO=1082,1010,1 +EINFO  [PHONE0]
+04-12 20:44:33.368736  1342  1805 D RpOemCtlr: [0] onHandleOemHookString, data[0] = AT+EINFO=1082,1010,1
+04-12 20:44:33.370167  1342  1824 I AT      : [0] AT> AT+EINFO=1082,1010,1 (RIL_CMD_READER_1 tid:528047672256)
+04-12 20:44:33.370321  1342  1824 I AT      : SEND MSGID=0003 [SYS_AT_REQ], TXID=024d [RFXSender_1], DUMP=8419542400000000010003004D022000008115002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A2A00000000000000
+04-12 20:44:33.376882  1342  1740 I AT      : RECV MSGID=0004 [SYS_AT_CNF], TXID=024d, DUMP=8419542400000000010204004D0218000000040000000000008107002A2A2A2A2A2A2A0000000000
+04-12 20:44:33.377703  1342  1824 I AT      : [0] AT< OK (RIL_CMD_READER_1, tid:528047672256)
+04-12 20:44:33.378638  2665  2928 I RILJ    : [0257]< OEM_HOOK_STRINGS {} [PHONE0]
+04-12 20:44:34.028587  1340  1356 I mipc_lib: SEND MSGID=0065 [SYS_GET_ALL_THERMAL_INFO_REQ], TXID=000a [thermal_core], DUMP=8419542400000000010065000A000000
+04-12 20:44:34.032234  1340  2117 I mipc_lib: RECV MSGID=0066 [SYS_GET_ALL_THERMAL_INFO_CNF], TXID=000a, DUMP=8419542400000000010266000A00180500000400000000000101010001000000020100000000000000000000FC7F0400FC7F080000000000B201000000000000FD7F0800010000009501000000000000FE7F0800020000008801000000000000FF7F0800030000008501000000000000030100000000000000000000E87F1400E87F3400010000000800000000000000554C205468726F74746C650000000000000000000000000000000000000000000000000000000000E97F3400020000001500000000000000545820504F5745522034470000000000000000000000000000000000000000000000000000000000EA7F340003000000FF000000FFFFFF00434320436F6E74726F6C000000000000000000000000000000000000000000000000000000000000EB7F340004000000000000000000000048656164737769746368000000000000000000000000000000000000000000000000000000000000EC7F340005000000000000000000000052415300000000000000000000000000000000000000000000000000000000000000000000000000ED7F3400060000000000000000000000545820504F5745522035472000000000000000000000000000000000000000000000000000000000EE7F340007000000010000000000000
+04-12 20:44:34.722611  2665  3584 D CallManager: registerForMmiComplete
+04-12 20:44:34.731618  2665  2665 I TranCAT : StkAthenaUploader: [reUploadCacheEvent] enable: true
+04-12 20:44:36.091259  2685  3014 I ImsLocationHandler: proxyAppLocationGranted: false
+04-12 20:44:36.092240  2685  3014 I ImsLocationHandler: isEccInProgress: false, redialECC: false
+04-12 20:44:36.092271  2685  3014 E ImsLocationHandler: isGetLocationAlways: SIM not ready, use default carrier config
+04-12 20:44:36.092310  2685  3014 I ImsLocationHandler: isGetLocationAlways: false
+04-12 20:44:36.094142  2685  3014 W ImsLocationHandler: requestLocationFromNetworkLocation failed: is NOT in ECC & non-framework location proxy app is NOT granted
+04-12 20:44:38.372011  2665  5752 D MtkRILJ : [0259]> OEM_HOOK_STRINGS strings = AT+ERFPD=20,20 +EDMFAPP  [PHONE1]
+04-12 20:44:38.372513  2665  5286 D MtkRILJ : [0258]> OEM_HOOK_STRINGS strings = AT+ERFPD=20,20 +EDMFAPP  [PHONE0]
+04-12 20:44:38.373831  1342  1805 D RpOemCtlr: [1] onHandleOemHookString, data[0] = AT+ERFPD=20,20
+04-12 20:44:38.374205  1342  1805 D RpOemCtlr: [0] onHandleOemHookString, data[0] = AT+ERFPD=20,20
+04-12 20:44:38.375221  1342  1837 I AT      : [1] AT> AT+ERFPD=20,20 (RIL_CMD2_READER_1 tid:527661591488)
+04-12 20:44:38.375218  1342  1824 I AT      : [0] AT> AT+ERFPD=20,20 (RIL_CMD_READER_1 tid:528047672256)
+04-12 20:44:38.375341  1342  1837 I AT      : SEND MSGID=0003 [SYS_AT_REQ], TXID=024f [RFXSender_13], DUMP=8419542400000000020003004F02180000810F002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A0000000000
+04-12 20:44:38.375346  1342  1824 I AT      : SEND MSGID=0003 [SYS_AT_REQ], TXID=024e [RFXSender_1], DUMP=8419542400000000010003004E02180000810F002A2A2A2A2A2A2A2A2A2A2A2A2A2A2A0000000000
+04-12 20:44:38.381152  1342  1740 I AT      : RECV MSGID=0004 [SYS_AT_CNF], TXID=024f, DUMP=8419542400000000020204004F021800000004000000000000810A002A2A2A2A2A2A2A2A2A2A0000
+04-12 20:44:38.382292  1342  1837 I AT      : [1] AT< ERROR (RIL_CMD2_READER_1, tid:527661591488)
+04-12 20:44:38.382307  1342  1740 I AT      : RECV MSGID=0004 [SYS_AT_CNF], TXID=024e, DUMP=8419542400000000010204004E021800000004000000000000810A002A2A2A2A2A2A2A2A2A2A0000
+04-12 20:44:38.382826  1342  1837 E RmmOemHandler: [1] OEM_HOOK_STRINGS fail
+04-12 20:44:38.382945  1342  1824 I AT      : [0] AT< ERROR (RIL_CMD_READER_1, tid:528047672256)
+04-12 20:44:38.383035  1342  1824 E RmmOemHandler: [0] OEM_HOOK_STRINGS fail
+04-12 20:44:38.384573  2665  3802 I RILJ    : [0258]< OEM_HOOK_STRINGS error 2 [PHONE0]
+04-12 20:44:38.384853  2665  3802 D RilRequest: [0258]< OEM_HOOK_STRINGS error: com.android.internal.telephony.CommandException: GENERIC_FAILURE ret={} result=null
+04-12 20:44:38.385339  2665  2679 I RILJ    : [0259]< OEM_HOOK_STRINGS error 2 [PHONE1]
+04-12 20:44:38.385537  2665  2679 D RilRequest: [0259]< OEM_HOOK_STRINGS error: com.android.internal.telephony.CommandException: GENERIC_FAILURE ret={} result=null
+04-12 20:44:39.098172  2685  3014 I ImsLocationHandler: proxyAppLocationGranted: false
+04-12 20:44:39.098768  2685  3014 I ImsLocationHandler: isEccInProgress: false, redialECC: false
+04-12 20:44:39.098821  2685  3014 E ImsLocationHandler: isGetLocationAlways: SIM not ready, use default carrier config
+04-12 20:44:39.098839  2685  3014 I ImsLocationHandler: isGetLocationAlways: false
+04-12 20:44:39.100024  2685  3014 W ImsLocationHandler: requestLocationFromNetworkLocation failed: is NOT in ECC & non-framework location proxy app is NOT granted
+04-12 20:44:42.107147  2685  3014 I ImsLocationHandler: proxyAppLocationGranted: false
+04-12 20:44:42.109669  2685  3014 I ImsLocationHandler: isEccInProgress: false, redialECC: false
+04-12 20:44:42.109930  2685  3014 E ImsLocationHandler: isGetLocationAlways: SIM not ready, use default carrier config
+04-12 20:44:42.109988  2685  3014 I ImsLocationHandler: isGetLocationAlways: false
+04-12 20:44:42.112532  2685  3014 W ImsLocationHandler: requestLocationFromNetworkLocation failed: is NOT in ECC & non-framework location proxy app is NOT granted
+04-12 20:44:45.120300  2685  3014 I ImsLocationHandler: proxyAppLocationGranted: false
+04-12 20:44:45.123517  2685  3014 I ImsLocationHandler: isEccInProgress: false, redialECC: false
+04-12 20:44:45.123744  2685  3014 E ImsLocationHandler: isGetLocationAlways: SIM not ready, use default carrier config
+04-12 20:44:45.123800  2685  3014 I ImsLocationHandler: isGetLocationAlways: false
+04-12 20:44:45.127900  2685  3014 W ImsLocationHandler: requestLocationFromNetworkLocation failed: is NOT in ECC & non-framework location proxy app is NOT granted
+04-12 20:44:48.133553  2685  3014 I ImsLocationHandler: proxyAppLocationGranted: false
+04-12 20:44:48.135842  2685  3014 I ImsLocationHandler: isEccInProgress: false, redialECC: false
+04-12 20:44:48.135990  2685  3014 E ImsLocationHandler: isGetLocationAlways: SIM not ready, use default carrier config
+04-12 20:44:48.136115  2685  3014 I ImsLocationHandler: isGetLocationAlways: false
+04-12 20:44:48.137561  2685  3014 W ImsLocationHandler: requestLocationFromNetworkLocation failed: is NOT in ECC & non-framework location proxy app is NOT granted

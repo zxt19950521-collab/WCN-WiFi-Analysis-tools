@@ -1,0 +1,34 @@
+----- timezone:Asia/Shanghai
+NOTICE:  (0)[0.195706]BL31: v2.10.0	(release):7e8fde996
+NOTICE:  (0)[0.196308]BL31: Built : 10:58:25, Apr  8 2026
+NOTICE:  (0)[0.199492]mmap mrdump_cblock: 0x48082000
+NOTICE:  (0)[0.200060]mmap ram_console: 0x48081000
+NOTICE:  (0)[0.200695]gpueb: INIT: end
+NOTICE:  (0)[0.201113]gpueb: MFG0_PWR_CON = 0xe2f1224d
+NOTICE:  (0)[0.201716]gpueb: MFG_RPC_AO_CLK_CFG(0x13f91034) = 0x41
+ERROR:   (0)[0.233525][MPU_HAL][mpu_svc]origin=0x2 invalid zone size=0x0
+ERROR:   (0)[1.040070][SEC][KDF] EKcst is not enabled.
+ERROR:   (0)[1.096033][SEC][KDF] EKcst is not enabled.
+ERROR:   (0)[1.146856][SEC][KDF] EKcst is not enabled.
+ERROR:   (0)[1.183032][SEC][KDF] EKcst is not enabled.
+ERROR:   (0)[1.192504][SCP RECOVERY]: scp_smc_scp_dram_subregion invalid param dram id:20 off:0x866b00 sz:8000
+ERROR:   (0)[1.210348][SEC][KDF] EKcst is not enabled.
+ERROR:   (0)[1.266548][SEC][KDF] EKcst is not enabled.
+NOTICE:  (0)[1.949587]Software version: common_2.6.1(6899-1.5)
+NOTICE:  (0)[1.950279]Change ID: 6077162(11020542)
+NOTICE:  (0)[1.950843]Build time: Jun 8 2022(Aug 7 20:08:00 UTC 2025)
+ERROR:   (0)[1.988473][SEC][KDF] EKcst is not enabled.
+ERROR:   (0)[2.056721][SEC][KDF] EKcst is not enabled.
+ERROR:   (0)[2.093992][SEC][KDF] EKcst is not enabled.
+ERROR:   (0)[2.107952][SEC][KDF] EKcst is not enabled.
+ERROR:   (0)[2.122719][SEC][KDF] EKcst is not enabled.
+ERROR:   (0)[2.137266][SEC][KDF] EKcst is not enabled.
+ERROR:   (0)[2.196779][SEC][KDF] EKcst is not enabled.
+ERROR:   (0)[2.322388][SEC][KDF] EKcst is not enabled.
+ERROR:   (0)[2.348664][SEC][KDF] EKcst is not enabled.
+ERROR:   (0)[2.411295][SEC][KDF] EKcst is not enabled.
+ERROR:   (0)[2.458019][SEC][KDF] EKcst is not enabled.
+ERROR:   (0)[3.004835][DEVAPC_MMINFRA] check_module_apc: Incorrect permission setting, module:0x1e, domain_id:0x6, perm:0x3, ret:0x0
+ERROR:   (5)[10.765343][AUDIO]: audio_smc_handler, Wrong request_ops, request_ops = 7, init_done = 0
+ERROR:   (5)[10.766553][AUDIO]: audio_smc_handler, Wrong request_ops, request_ops = 3, init_done = 0
+ERROR:   (7)[10.776978][AUDIO]: audio_smc_handler, Wrong request_ops, request_ops = 4, init_done = 0
