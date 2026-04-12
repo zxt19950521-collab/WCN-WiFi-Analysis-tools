@@ -1,0 +1,20 @@
+04-12 10:00:00.000 WifiService: setWifiEnabled package=com.android.settings
+04-12 10:00:01.000 wpa_supplicant: Starting AIDL supplicant
+04-12 10:00:02.000 wpa_supplicant: Successfully initialized wpa_supplicant
+04-12 10:00:03.000 wpa_supplicant: Initializing interface 'wlan0'
+04-12 10:00:04.000 WifiService: startScan
+04-12 10:00:05.000 wpa_supplicant: wlan0: Scan completed
+04-12 10:00:06.000 WifiService: connect uid=1000 SSID="TestWiFi" BSSID=12:34:56:78:90:ab
+04-12 10:00:07.000 wpa_supplicant: wlan0: Trying to associate with 12:34:56:78:90:ab
+04-12 10:00:08.000 wpa_supplicant: wlan0: Associated with 12:34:56:78:90:ab
+04-12 10:00:09.000 wpa_supplicant: wlan0: WPA: Key negotiation completed
+04-12 10:00:10.000 wpa_supplicant: wlan0: CTRL-EVENT-CONNECTED
+04-12 10:00:11.000 DhcpClient: Discover (xid=0x12345678)
+04-12 10:00:12.000 DhcpClient: Offer received: 192.168.1.100
+04-12 10:00:13.000 DhcpClient: Request
+04-12 10:00:14.000 DhcpClient: Received packet: DHCPACK
+04-12 10:00:15.000 DhcpClient: Bound to 192.168.1.100
+04-12 10:00:16.000 wpa_supplicant: wlan0: CTRL-EVENT-SIGNAL-CHANGE signal=-60 txrate=1000
+04-12 10:00:17.000 wpa_supplicant: wlan0: CTRL-EVENT-SIGNAL-CHANGE signal=-55 txrate=2000
+04-12 10:00:18.000 wpa_supplicant: wlan0: CTRL-EVENT-SIGNAL-CHANGE signal=-50 txrate=3000
+04-12 10:00:19.000 wpa_supplicant: wlan0: CTRL-EVENT-DISCONNECTED reason=0

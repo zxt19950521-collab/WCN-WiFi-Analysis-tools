@@ -1,0 +1,5 @@
+[12345.000000] wlan_hdd_cfg80211_get_station: RSSI: -65 Rate: 1500
+[12345.500000] wlan_hdd_cfg80211_get_station: RSSI: -60 Rate: 2000
+[12346.000000] wlan_hdd_cfg80211_get_station: RSSI: -55 Rate: 2500
+[12346.500000] wlan_hdd_cfg80211_get_station: RSSI: -50 Rate: 3000
+[12347.000000] wlan_hdd_cfg80211_get_station: RSSI: -45 Rate: 3500
